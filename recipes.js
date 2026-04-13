@@ -1906,5 +1906,1401 @@ const recipes = [
     },
     instructions: ["Combine dry ingredients in a bowl: all-purpose flour, cocoa powder, baking powder, baking soda, cornstarch, and salt.", "In a stand mixer, add softened butter and both sugars and cream together on high speed for 3-5 minutes until well combined and creamy.", "Add room-temperature egg and vanilla essence into butter mixture and whisk until well combined with no liquid remaining.", "With mixer on slow, add dry ingredients into batter and mix on low speed until everything is well incorporated with no flour streaks remaining.", "Add milk and whisk until completely incorporated.", "Add chocolate chips to dough and mix on high speed briefly to incorporate without overmixing.", "Wrap prepared cookie dough tightly in cling film and chill in refrigerator for 2-3 hours, or ideally overnight.", "Heat saucepan and add butter. Once melted, add Kunafa dough and mix. Continue cooking on medium heat, mixing every few minutes, until dough turns golden brown and crispy. Place on paper towel to remove excess butter.", "Mix dried dough with pistachio paste and tahini and chill for at least 1 hour until set.", "Once filling is set, portion in teaspoon sizes and roll to form balls.", "Preheat oven to 170 degrees Celsius.", "Portion chilled cookie dough into 55 gram balls, flatten each with back of spoon creating deep indent in center. Place filling portions in center and shape dough around it to form cookie balls, ensuring filling is properly covered.", "Place cookie dough balls on baking tray lined with baking paper with enough space for spreading. Dough balls can be frozen in ziplock bag for up to 1 month.", "Bake for 10-12 minutes until sides are set but center is still soft; cookies continue cooking after removal.", "As soon as cookies come out of oven, carefully top with few chocolate chips and shape with round cookie cutter if required.", "Let them chill for at least 20 minutes before enjoying."],
     tips: ["Chill the cookie dough for 2-3 hours, or ideally overnight, for best results.", "Cook the Kunafa dough until golden brown and crispy, then place on paper towel to remove excess butter.", "Chill the pistachio kunafa filling for at least 1 hour until set before portioning.", "Bake until sides are set but center is still soft - cookies continue cooking after removal.", "Dough balls can be frozen in a ziplock bag for up to 1 month."]
+  },
+  {
+    id: "nutella-donuts",
+    name: "Nutella Donuts",
+    description: "Soft, fluffy, and light tangzhong-based donuts generously filled with Nutella and coated in sugar. A no-fuss approach that yields remarkably tender donuts.",
+    category: "Doughnuts",
+    prepTime: "2 hours",
+    cookTime: "30 minutes",
+    totalTime: "2 hours 30 minutes",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1551106652-a5bcf4b29ab6?w=600&h=400&fit=crop",
+    ingredients: {
+      "Tangzhong": ["4 tbsp milk (50g)", "1 tbsp flour (10g)"],
+      "Dough": ["3/4 cup milk (180g)", "1.5 tsp yeast", "3 cups all purpose flour (400g)", "2 tbsp milk powder (15g)", "1/4 cup sugar (50g)", "1 large egg, room temperature", "5 tbsp softened butter, divided into 2 parts (70g)", "1/2 tsp salt"],
+      "Coating & Filling": ["1 cup granulated sugar for coating (200g)", "250-300g Nutella mixed with 1-2 tbsp oil"]
+    },
+    instructions: ["Make the tangzhong by stirring the flour and milk in a nonstick pan over medium heat until they form a thick paste.", "Mix the tangzhong with cold milk and yeast in the bowl of your standing mixer and let sit for 5 minutes. The heat of the tangzhong will bring the overall temperature to lukewarm, ideal for the yeast.", "Add all the other ingredients for the dough, leaving out half of the butter. Knead at medium-high speed using a dough hook for 5 minutes until the dough starts to come together.", "Add the remaining butter and knead again for 5-8 minutes until a smooth and stretchy dough has formed. It should pull away from the edges of the bowl.", "Cover and let the dough rise for about 1 hour until it doubles in size (or overnight in the fridge, but don't rise at room temperature and then leave the dough in the fridge).", "Roll the dough into a 1/2 inch thick sheet. Cut out 4\" circles. Repeat until all the dough is used up.", "Place the circle donuts onto small pieces of parchment paper, and transfer them to a tray. Rest for about 30-45 minutes at room temperature.", "Heat 2-3 inches of oil in a wok over medium heat. Once it has reached 350F, carefully drop in a test donut, removing the parchment paper, and fry for about 2 minutes per side. Test for doneness and adjust timing as needed. Fry all donuts, and keep the raw donuts in a cool place as you fry so they don't overproof.", "While warm, dip the donuts in the sugar and coat them generously.", "Microwave the Nutella for 5-10 seconds and add the oil to make it a bit runnier. Transfer to a piping bag fit with a Bismarck tip.", "Fill your donuts with 20-25g of Nutella each.", "Serve and enjoy! These are best eaten fresh but stay really good for a day."],
+    tips: ["These donuts are best consumed fresh but remain good quality for one day.", "The tangzhong method creates exceptionally soft, fluffy donuts.", "Proper proofing temperature control is essential; don't refrigerate after room temperature rising."]
+  },
+  {
+    id: "creme-brulee-donuts",
+    name: "Creme Brulee Donuts",
+    description: "Soft, fluffy and light donuts filled with a silky smooth creme patisserie filling and topped with a thin, crispy caramel coating. A delicious combination of two beloved desserts.",
+    category: "Doughnuts",
+    prepTime: "3 hours",
+    cookTime: "30 minutes",
+    totalTime: "3 hours 30 minutes",
+    servings: 12,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1533910534207-90f31029a78e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Tangzhong": ["4 tbsp milk (50g)", "1 tbsp flour (10g)"],
+      "Dough": ["3/4 cup milk (180g)", "1.5 tsp yeast", "3 cups all purpose flour (400g)", "2 tbsp milk powder (15g)", "1/4 cup sugar (50g)", "1 large egg, room temperature", "5 tbsp softened butter, in 2 parts (70g)", "1/2 tsp salt"],
+      "Creme Patisserie Filling": ["2 eggs", "1/2 cup sugar (110g)", "2 tbsp corn starch (20g)", "2 cups milk (460g)", "1/2 tsp salt", "1 tsp vanilla", "2 tbsp unsalted butter"],
+      "Caramel Coating": ["1 cup sugar", "4 tbsp water", "Pinch of salt"]
+    },
+    instructions: ["Make the tangzhong by stirring the flour and milk in a nonstick pan over medium heat until they form a thick paste.", "Mix the tangzhong with cold milk and yeast in the bowl of your standing mixer and let sit for 5 minutes. The heat of the tangzhong will bring the overall temperature to lukewarm, ideal for the yeast.", "Add all the other ingredients for the dough, leaving out half of the butter. Knead at medium-high speed using a dough hook for 5 minutes until the dough starts to come together.", "Add the remaining butter and knead again for 5-8 minutes until a smooth and stretchy dough has formed. It should pull away from the edges of the bowl.", "Cover and let the dough rise for about 1 hour until it doubles in size (or overnight in the fridge, but don't rise at room temperature and then leave the dough in the fridge).", "Roll the dough into a 1/2 inch thick sheet. Cut out 4\" circles. Repeat until all the dough is used up.", "Place the circle donuts onto small pieces of parchment paper, and transfer them to a tray. Rest for about 30-45 minutes at room temperature.", "Heat 2-3 inches of oil in a wok over medium heat. Once it has reached 350F, carefully drop in a test donut, removing the parchment paper, and fry for about 2 minutes per side. Test for doneness and adjust timing as needed. Fry all donuts, and keep the raw donuts in a cool place as you fry so they don't overproof.", "Let the donuts cool down on a wire rack at room temperature while you make the creme patisserie.", "For the creme patisserie, whisk the eggs, corn starch, salt and sugar in a bowl.", "Place the milk and vanilla in a nonstick pan and bring to a boil.", "Carefully pour the milk mixture into the egg mixture while whisking continuously, then pour back the whole mixture into the pan.", "Cook on low heat while stirring constantly until you get a custard-like consistency. Add the butter and mix it in.", "Remove from heat and pass through a strainer to make sure there are no lumps. If the cream feels lumpy, blend it for 30 seconds to make it smooth.", "Place in the fridge for at least 15 minutes to cool down.", "Transfer the creme patisserie into a piping bag with a Bismarck tip. Carefully puncture the donuts and fill them with the custard until they feel heavy.", "For the caramel, mix the sugar, salt and water in a nonstick pan and place on low heat. This will take some time; try not to stir.", "Slowly the sugar will dissolve and start to caramelize. Once your caramel reaches a deep golden color, take it off the heat.", "While the caramel is still hot, carefully dip your donuts on one side so they get a thin caramel coating. If the caramel starts to harden, reheat it until it becomes runny again.", "The donuts should form a crispy coating once they cool.", "Serve and enjoy!"],
+    tips: ["Careful temperature control during caramel dipping is important to prevent the coating from becoming too thick or hard.", "The tangzhong method creates extra-soft donuts.", "If the caramel starts to harden, reheat it until it becomes runny again before continuing to dip."]
+  },
+  {
+    id: "burnt-basque-cheesecake",
+    name: "Burnt Basque Cheesecake",
+    description: "A crustless cheesecake featuring a caramelized, slightly burnt exterior with a creamy, custard-like interior. Simple to make with just a handful of ingredients.",
+    category: "Cheesecakes",
+    prepTime: "20 minutes",
+    cookTime: "55 minutes",
+    totalTime: "1 hour 20 minutes",
+    servings: 8,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1524351199678-941a58a3df50?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cheesecake": ["32 oz Philadelphia cream cheese (4 8-oz blocks / 905g)", "6 large eggs", "1 1/3 cups granulated sugar (290g)", "2 1/2 tbsp cornstarch (22g)", "1 1/2 cups heavy cream (360g)", "1/2 tsp salt", "1 tsp vanilla bean paste"],
+      "Optional Chocolate Ganache": ["20g milk or semi-sweet chocolate", "20g heavy cream"]
+    },
+    instructions: ["Bring all ingredients to room temperature by removing from fridge at least one hour before starting.", "Pre-heat oven to 410°F (conventional, bottom heating).", "Prepare an 8x3\" cake pan: butter the bottom, then line with at least 2 large parchment sheets in opposite directions, with parchment rising above pan edges.", "Add cream cheese to stand mixer bowl and cream for 2-3 minutes with paddle attachment until creamy. Scrape edges and bottom thoroughly.", "Add sugar and mix for 2-3 minutes until dissolved. Scrape bowl and mix for additional 30 seconds.", "Break eggs into separate bowl. Add eggs one at a time while mixing at medium speed until incorporated. Do not overmix.", "Add heavy cream, vanilla, and salt and mix for 30 seconds.", "Sift in cornstarch and mix for 30-60 seconds until all ingredients are incorporated.", "Pour batter into prepared pan. Tap on counter several times to ensure batter flows into all creases.", "Place pan on middle oven rack and bake for approximately 55 minutes (checking around 50 minutes). In final 3-4 minutes, turn on broiler to develop deep golden crust. For fully set cheesecake, bake 60 minutes total.", "Remove from oven - cheesecake will be quite wobbly. Rest at room temperature for 5 minutes, then transfer to fridge immediately.", "Allow cheesecake to cool overnight in fridge. Serve cold directly from fridge.", "Optional: Prepare chocolate ganache by pouring hot cream over chopped chocolate, waiting 5 minutes, mixing until shiny. Pour over cheesecake slice while warm."],
+    tips: ["Cannot substitute eggs in this recipe.", "Store covered with cling wrap or in airtight container; keeps 4-5 days refrigerated.", "Cheesecake can be made ahead and stored in fridge for 4-5 days."]
+  },
+  {
+    id: "mango-lassi-tres-leches-cake",
+    name: "Mango Lassi Tres Leches Cake",
+    description: "A delectable Tres Leches cake made with a mango lassi three milk mixture and a mango lassi whipped cream, inspired by the South Asian drink. Perfect for summer.",
+    category: "Cakes",
+    prepTime: "1 hour",
+    cookTime: "30 minutes",
+    totalTime: "1 hour 30 minutes",
+    servings: 10,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop",
+    ingredients: {
+      "Biscuit Sponge Cake": ["4 eggs, room temperature, separated", "1/2 cup sugar", "1/4 cup sugar", "1/2 tsp vanilla", "1/4 tsp salt", "1/4 cup milk", "3/4 cup all-purpose flour", "2 tbsp cornstarch", "1.5 tsp baking powder", "1/4 tsp cream of tartar"],
+      "Mango Lassi": ["1.5 cups chopped mango (frozen or fresh)", "1/2 cup plain yogurt", "3/4 cup milk", "2-4 tbsp sugar as needed", "Pinch of cardamom powder"],
+      "Mango Three Milk Mixture": ["6 oz sweetened condensed milk", "6 oz evaporated milk (3/4 cup)", "1/2 cup milk", "Half of the mango lassi"],
+      "Mango Lassi Whipped Cream": ["1.5 cups heavy whipping cream, chilled", "Half of mango lassi", "Additional whipped cream for decoration", "Fresh mango for decoration"]
+    },
+    instructions: ["Preheat oven to 350°F (conventional) and line a 9x13\" tray with parchment paper.", "To egg yolks, add 1/2 cup sugar, salt, and vanilla; whisk for 1-2 minutes until light and fluffy.", "Whisk in milk, then sift flour, cornstarch, and baking powder; whisk to combine without overmixing.", "Separately, add cream of tartar to egg whites and whisk on medium speed; once frothy, gradually add remaining 1/4 cup sugar while whisking until stiff, glossy meringue forms.", "Fold one-third of meringue into egg yolk mixture gently; add remaining meringue and fold in carefully.", "Transfer batter to pan and bake approximately 15 minutes until done.", "Let cake cool.", "Blend all mango lassi ingredients until smooth, then strain through fine mesh sieve; adjust taste if needed.", "Whisk all three milk mixture ingredients until combined; adjust sweetness if needed and ensure mixture is quite liquid (add more milk if too thick).", "Use skewer to poke holes throughout cake in pan; pour one-fourth of three milk mixture over and wait until absorbed. Continue adding remaining liquid in 2-3 steps, waiting between additions. Refrigerate several hours until fully absorbed.", "If milk mixture takes over an hour to soak in, dilute remaining mixture with more milk.", "Using balloon whisk attachment, whip heavy cream until thick; gradually add remaining mango lassi while whisking and tasting. Stop when firm peaks form.", "Spread thick layer of mango lassi whipped cream evenly on cake; decorate with additional whipped cream and fresh chopped mango.", "Serve cold."],
+    tips: ["Cake can be prepared 1-2 days in advance and refrigerated; save decoration for before serving.", "Cream of tartar substitute: skip if unavailable; use white vinegar on bowl instead (wipe with paper towel), then add egg whites. Acidity helps stabilize egg whites.", "If three milk mixture doesn't absorb within 20 minutes after first addition, dilute with more milk."]
+  },
+  {
+    id: "palestinian-knafeh",
+    name: "Palestinian Knafeh",
+    description: "A delicious Middle Eastern dessert made with crispy shredded phyllo pastry and sweet cheese soaked in sugar syrup. Golden, buttered kataifi layers surround a melted cheese filling.",
+    category: "Middle Eastern",
+    prepTime: "20 minutes",
+    cookTime: "25 minutes",
+    totalTime: "45 minutes",
+    servings: 15,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb Kataifi (shredded phyllo dough) - usually 1 pack", "3/4 cups ghee or butter + more to brush inside pan", "1 tsp Knafeh food color", "1 lb sweet cheese (or Queso Fresco or ricotta)", "1 lb fresh mozzarella, pressed dry", "1 1/2 cups sugar", "1 1/2 cups water", "Rosewater extract to taste", "Chopped pistachios for decoration"]
+    },
+    instructions: ["Prepare the cheeses. If using salted alternatives, soak in water for 2 hours first. Slice into 1/4\" pieces and press between paper towels to dry (skip drying step if using ricotta).", "Pre-heat oven to 450F and brush butter inside baking pan(s).", "In a large bowl, shred the kataifi into 1-3\" long strands.", "Mix ghee with food color and add to kataifi, rubbing thoroughly with hands to coat all strands.", "Add 3/4 of the kataifi to baking pan(s) and press down firmly, pushing some up the edges to create a tart-like casing.", "Add a layer of sweet cheese (crumbled by hand), then a layer of mozzarella (torn into large chunks). Press down both layers.", "Add remaining kataifi on top and press down.", "Bake for 20-25 minutes until golden and crispy on edges and bottom, becoming loose from the pan.", "Meanwhile, prepare syrup by mixing sugar, water, and rosewater extract in a saucepan. Bring to boil and simmer 1-2 minutes until sugar dissolves. Cool completely.", "Once baked, carefully turn Knafeh onto serving dish. Gently drench thoroughly with syrup using a large spoon.", "Decorate with chopped pistachios, slice, and serve immediately while warm or hot."],
+    tips: ["The Knafeh is best enjoyed very warm or hot.", "Don't use salted butter or it will taste overly salty.", "All ingredients are typically available at local Arabic stores."]
+  },
+  {
+    id: "easy-biscoff-tiramisu",
+    name: "Easy Biscoff Tiramisu",
+    description: "A delicious Biscoff dessert with layers of coffee-soaked Biscoff cookies and Biscoff mascarpone cream. Requires only 6 ingredients and 10 minutes of active work.",
+    category: "Desserts",
+    prepTime: "10 minutes",
+    cookTime: "0 minutes",
+    totalTime: "4 hours 10 minutes",
+    servings: 8,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop",
+    ingredients: {
+      "Biscoff Mascarpone Cream": ["8 ounces good quality mascarpone cheese (226g)", "1/2 cup Biscoff cookie butter (140g)", "2 tbsp granulated sugar", "1/2 tsp vanilla (optional)", "Pinch of salt (optional)", "2 cups heavy whipping cream, chilled (480g)"],
+      "Assembly": ["50-60 Biscoff cookies", "1 1/2 cups strong coffee or espresso"]
+    },
+    instructions: ["In a clean bowl, add the mascarpone cheese, Biscoff cookie butter, sugar, salt and vanilla. Whisk for 30-60 seconds until creamy. Avoid overmixing.", "Add cold heavy cream to the same bowl and whisk on medium speed for 1-2 minutes until stiff peaks form and mixture becomes pipeable.", "Dip Biscoff cookies in coffee for 1-2 seconds and add 2 layers to the bottom of serving dish/cups. Fill gaps with cut cookie pieces.", "Cover with half the Biscoff mascarpone cream, spreading evenly.", "Repeat with another 2 layers of soaked cookies and remaining cream mixture. Optional: reserve some cream to pipe on top.", "Refrigerate overnight or at least 4 hours until fully set.", "Decorate with crushed Biscoff cookies and drizzles of warmed cookie butter before serving."],
+    tips: ["This dessert chills very well and can be prepared ahead of time.", "Store in refrigerator for 5-7 days.", "Can be made in an 8x8\" square pan or 8-9\" round dish instead of individual cups.", "Mascarpone can curdle if overmixed or if using low-quality brands."]
+  },
+  {
+    id: "sticky-toffee-pudding-for-two",
+    name: "Sticky Toffee Pudding for Two",
+    description: "Soft and moist date cakes drenched in a sticky toffee sauce and served with whipped cream. A sweet, spicy, and indulgent fall dessert perfect for two.",
+    category: "Desserts",
+    prepTime: "30 minutes",
+    cookTime: "25 minutes",
+    totalTime: "1 hour",
+    servings: 2,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cake": ["2 oz medjool dates (3-4 dates)", "1/4 cup boiling water", "1/4 tsp baking soda", "2 tbsp unsalted butter, softened", "1-2 tbsp brown sugar (14-28g)", "1/2 tsp vanilla", "1 egg yolk", "1/3 cup flour (43g)", "1/4 tsp baking powder", "1/8 to 1/4 tsp cinnamon", "1/8 tsp salt"],
+      "Toffee Sauce": ["2 tbsp unsalted butter", "1/4 cup brown sugar", "1/2 cup cream", "Vanilla", "Salt"],
+      "Serving": ["Plain whipped cream or ice cream"]
+    },
+    instructions: ["Pour boiling water over dates in a small bowl and add baking soda. Cover and soak for 20 minutes.", "Preheat oven to 350°F and coat 2 ramekins generously with butter.", "Blend the dates and water into a paste.", "In a separate bowl, whisk the butter with sugar and vanilla for 2-3 minutes until light, creamy, and fluffy.", "Add the egg yolk and whisk to combine.", "Fold in the date paste.", "Sift in the flour, baking powder, cinnamon, and salt. Gently fold to combine.", "Divide the batter equally between the 2 ramekins and spread evenly.", "Bake for approximately 25 minutes or until a toothpick inserted in the middle comes out with moist crumbs attached.", "While the cakes bake, add all sauce ingredients to a saucepan on the lowest heat setting. Stir and cook for about 10 minutes until the sauce thickens and coats the back of a spoon.", "Once the cakes are baked, remove from the oven and poke holes in them using the back of a toothpick.", "Pour about 2 tbsp of toffee sauce on each cake and let it soak.", "Turn out the cakes onto plates and serve with additional sauce and plain whipped cream (unsweetened).", "Enjoy!"],
+    tips: ["Keep at room temperature in an airtight container for 1-2 days, or refrigerate for up to 5 days.", "Store sauce separately and pour on right before serving.", "Store cakes and sauce separately in airtight containers in the fridge for up to 5 days. When ready to eat, warm both in the microwave in 20-second bursts, pour sauce over cakes, and serve with cream."]
+  },
+  {
+    id: "red-velvet-molten-lava-cakes",
+    name: "Red Velvet Molten Lava Cakes",
+    description: "Delectable and chocolatey red velvet cakes with a molten interior. Requires just 20 minutes and 8 ingredients to prepare for two.",
+    category: "Cakes",
+    prepTime: "10 minutes",
+    cookTime: "10 minutes",
+    totalTime: "20 minutes",
+    servings: 2,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=400&fit=crop",
+    ingredients: {
+      "Lava Cakes": ["1/4 cup butter (56g)", "100g semi-sweet chocolate, chopped", "1 large egg", "1-2 tbsp granulated sugar", "Pinch of salt", "1/4 tsp vanilla", "2 tbsp all-purpose flour", "1-2 tsp red gel food color", "Butter to coat the ramekins"]
+    },
+    instructions: ["Pre-heat oven to 450°F (conventional) and prepare 2 6oz ramekins by generously brushing butter inside them.", "Add chocolate and butter to a heat-safe bowl, and microwave in 20 second increments until both have melted. Stir to combine.", "In a separate bowl, add the egg, sugar, salt and vanilla. Use an electric hand mixer to whisk for 2-3 minutes until the mixture is light, frothy and almost triple in volume.", "Pour the chocolate mixture into the egg mixture and whisk until just combined.", "Sift in the flour, and use a rubber spatula to gently fold until the flour is mixed in. Take care to be gentle and not to overmix.", "Add the red food color and gently fold. You can adjust the quantity based on how strong you want the color to be.", "Divide the batter between the two ramekins. Bake for approximately 10-11 minutes until the edges are done but the center is still molten.", "Let the cakes cool inside the ramekins for 1-2 minutes, then carefully turn them out onto your dessert plates. Dust with powdered sugar, and serve!"],
+    tips: ["The molten center requires careful timing - the edges should be set while the center remains soft and oozing.", "Do not overmix the batter to maintain a light texture."]
+  },
+  {
+    id: "no-bake-chai-tres-leches-cake",
+    name: "No Bake Chai Tres Leches Cake",
+    description: "A delightfully soft and moist no-bake Tres Leches cake with a delicate chai flavor. Takes only 7 ingredients and 15 minutes of active work with a ladyfinger base.",
+    category: "Cakes",
+    prepTime: "15 minutes",
+    cookTime: "0 minutes",
+    totalTime: "2 hours 15 minutes",
+    servings: 8,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Chai Milk Mixture": ["240g milk (1 cup)", "2-4 tbsp chai (loose tea) depending on strength preference", "1/4 tsp cardamom powder", "300g sweetened condensed milk (roughly 3/4 of 14 oz can)", "400g evaporated milk (1 14 oz can)"],
+      "Cake Structure": ["35-40 ladyfingers (about 1.5 packs with 24 ladyfingers each)"],
+      "Topping": ["360g (1 1/2 cup) heavy cream for decoration", "Optional: freeze-dried strawberries and pistachios for decoration"]
+    },
+    instructions: ["Add milk, chai, and cardamom to saucepan and simmer on medium-low heat for 3-5 minutes to infuse the chai flavor.", "Prepare three-milk mixture by whisking together evaporated milk, sweetened condensed milk, and strained chai (squeeze out all milk). Taste and adjust flavor as desired.", "In a 7x11\" dish, stack ladyfingers tightly to create one layer, filling gaps by trimming ladyfingers as needed.", "Using a 1/4 cup measure, drench the ladyfingers, ensuring each one is soaked. Use half of the chai mixture for this layer.", "Wait 10-20 minutes for ladyfingers to absorb most of the chai mixture.", "Repeat with a second layer of ladyfingers and remaining chai mixture.", "Place the dish in the refrigerator for approximately 2 hours.", "Whip heavy cream to stiff peaks.", "Spread half of the whipped cream on top of the ladyfingers using an offset spatula to even it out.", "Pipe remaining cream in dollops using a French star tip.", "Decorate with crushed freeze-dried strawberries and chopped pistachios.", "Serve and enjoy."],
+    tips: ["Tres Leches is a Spanish term that translates to 'three milks' and refers to the three milk types used in the soak.", "This cake should be kept in the fridge and keeps for 3-4 days, although it may start to feel a bit more soggy with time.", "Teabags can substitute for loose chai tea; dip and press to drain thoroughly."]
+  },
+  {
+    id: "espresso-cake",
+    name: "Espresso Cake",
+    description: "An easy to make, moist and delicious coffee-flavored three-layer espresso cake with a luscious espresso cream cheese frosting. A coffee lover's dream dessert.",
+    category: "Cakes",
+    prepTime: "30 minutes",
+    cookTime: "20 minutes",
+    totalTime: "2 hours 30 minutes",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=600&h=400&fit=crop",
+    ingredients: {
+      "Espresso Cake": ["2 1/2 cups all-purpose flour (325g), sifted", "1.5 tsp baking powder", "1.5 tsp baking soda", "1 cup granulated sugar (200g)", "1/2 cup light brown sugar (100g)", "1 tsp salt", "3 large eggs", "2/3 cup vegetable oil (133g)", "1/3 cup buttermilk (80g); or mix 1/3 cup whole milk + 1 tsp vinegar", "1 cup sour cream (240g)", "1 tsp vanilla", "2-3 tbsp instant coffee", "3/4 cup boiling water (180g)"],
+      "Espresso Cream Cheese Frosting": ["1 1/4 cup unsalted butter, softened (2.5 sticks or 283g)", "20 oz cream cheese, room temperature (2.5 8-oz blocks or 570g)", "1 tsp vanilla", "1/2 tsp salt", "2 tbsp instant coffee + 1 tbsp hot water", "3-4 cups icing sugar, sifted (360-480g)"]
+    },
+    instructions: ["Pre-heat oven to 350°F (conventional, no fan) and line 3 8\" cake pans with parchment paper.", "Add flour, baking powder, baking soda, granulated sugar, brown sugar, and salt to a bowl and whisk until combined with no lumps remaining.", "Add eggs, oil, buttermilk, sour cream, and vanilla to the same bowl; use a hand whisk to gently stir until wet ingredients combine with dry and no lumps remain (do not overmix).", "Mix instant coffee with boiling water in a separate bowl/cup and pour into batter; very gently fold until a smooth espresso cake batter forms.", "Divide batter evenly between the three lined pans.", "Bake at 350°F for approximately 20 minutes until a toothpick inserted in the middle comes out with light, moist crumbs attached.", "Let cakes cool in pans for at least 20 minutes, then carefully turn them out; cover with cling wrap and chill in the fridge for 30-60 minutes before frosting.", "Ensure butter and cream cheese are fully softened at room temperature; add them to stand mixer bowl with paddle attachment.", "Add vanilla, salt, and instant coffee mixed with hot water; whisk on medium-low speed for 2-3 minutes until the mixture becomes smooth and creamy, scraping bowl 2-3 times.", "Keeping mixer on low speed, add sugar one cup at a time until frosting reaches desired consistency and sweetness (do not whisk too long as it will become runny).", "If frosting is too soft, refrigerate for 10-20 minutes so it firms up.", "Once cakes have cooled, carefully trim off domes and layer them with generous amounts of frosting between each layer.", "Cover with a thin layer of frosting on top and sides (crumb coat) and refrigerate for approximately 20 minutes so the coat sets; then cover with remaining frosting.", "Decorate the cake as desired with piped frosting, instant coffee powder and/or coffee beans.", "Slice, serve, and enjoy."],
+    tips: ["If your cake is dense or dry, you have most likely added too much flour. Use a weighing scale for accuracy; fluff flour before measuring if using cups.", "Since this cake is very moist and soft, handle carefully when hot. Cool for at least 20 minutes in pans, then chill 30-60 minutes more before frosting.", "Instant coffee is recommended for consistent results, but you may replace the instant coffee and hot water with 3/4 cup very strong, hot brewed coffee for the cake batter.", "Insert a toothpick in the middle to test doneness; it should come out with light, moist crumbs attached.", "You can divide batter into 2 8\" or 9\" pans instead of 3; however, cakes will bake longer and dome more.", "Divide all quantities by 2 and bake in 3 6\" pans to make a half-sized cake.", "This can be made as a 9x13\" sheet cake with frosting on top; adjust baking time based on toothpick test.", "Keep this espresso cake in an airtight container (or covered with cling wrap) in the fridge for 5-7 days."]
+  },
+  {
+    id: "no-bake-biscoff-salted-caramel-cheesecake",
+    name: "No Bake Biscoff Salted Caramel Cheesecake",
+    description: "A delectable, creamy and ultra easy no-bake Biscoff cheesecake with a Biscoff cookie crust and a layer of salted caramel sauce in the middle.",
+    category: "Cheesecakes",
+    prepTime: "30 minutes",
+    cookTime: "0 minutes",
+    totalTime: "Overnight",
+    servings: 10,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600&h=400&fit=crop",
+    ingredients: {
+      "Crust": ["200g Biscoff cookies (about 26 cookies)", "85g unsalted butter, melted (6 tbsp)"],
+      "Salted Caramel Filling": ["15 soft or chewy caramels", "1-2 tbsp cream", "1/3 tsp salt"],
+      "Cheesecake Filling": ["3 8oz packs cream cheese (680g), room temperature", "1/3 cup sugar (75g)", "1 tsp vanilla", "1 cup Biscoff cookie butter (240g)", "1 cup heavy cream (240g)"],
+      "Topping": ["1/2 cup Biscoff cookie butter, melted"]
+    },
+    instructions: ["Prep a 9\" springform pan by brushing it with butter.", "Grind the cookies with the melted butter in a food processor until they form a smooth crumb.", "Transfer the crumbs to the pan and press down tightly to create a crust; place in the fridge to set.", "To make the salted caramel, place the ingredients in a nonstick pan and cook on low heat until melted together; set aside.", "Whisk the cream cheese with the sugar and vanilla until creamy and the sugar feels dissolved (1-2 minutes).", "Add the Biscoff cookie butter and mix until combined.", "Separately, whip up the heavy cream until it reaches stiff peaks.", "Gently fold the whipped cream into the cheesecake batter using a rubber spatula until fully combined.", "Transfer half of the cheesecake batter into the pan with the crust, and spread out with a spatula.", "Pour over the salted caramel sauce (it should be pourable but not hot) and spread it out; leave 1\" empty around the edges so the caramel does not flow out.", "Place in the fridge for 10 minutes so the caramel firms up.", "Add the remaining cheesecake batter on top of the caramel, and spread out gently, avoiding disrupting the caramel layer.", "Smooth out the top with an offset spatula.", "Cover and refrigerate overnight until the cheesecake is set.", "Carefully remove the cheesecake from the springform pan and place on a serving stand.", "Warm up the Biscoff cookie butter in the microwave until it reaches a pourable consistency (just 10-20s) and pour on top; spread out and decorate with crushed Biscoff cookies.", "Serve and enjoy."],
+    tips: ["Can be made ahead of time and kept in the fridge for 5-7 days (add crushed cookies right before serving).", "Store in an airtight container in the fridge for 5-7 days.", "Can substitute any caramel sauce instead of homemade.", "Can skip the salted caramel entirely and make a plain Biscoff cheesecake."]
+  },
+  {
+    id: "strawberry-cheesecake-cookies",
+    name: "Strawberry Cheesecake Cookies",
+    description: "Better-than-Crumbl delicious graham cracker cookies filled with a luscious cheesecake filling and topped off with a strawberry glaze.",
+    category: "Cookies",
+    prepTime: "45 minutes",
+    cookTime: "12 minutes",
+    totalTime: "57 minutes",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Graham Cracker Cookies": ["12 tbsp unsalted butter, room temperature (170g)", "1/3 cup granulated sugar (67g)", "2/3 cup brown sugar, packed (133g)", "1 egg", "1 egg yolk", "1 1/2 tsp vanilla", "1/2 cup crushed graham crackers (50g)", "1 3/4 cups all purpose flour (227g)", "1/2 tsp baking powder", "1/4 tsp baking soda", "1/2 tsp salt"],
+      "Cheesecake Filling": ["8 oz cream cheese, room temperature (226g)", "2/3 cup heavy whipping cream, chilled (160g)", "1/4 cup sugar (50g)", "1/2 tsp vanilla", "Pinch of salt", "1-2 tbsp lemon juice (or to taste)"],
+      "Strawberry Glaze": ["3 tbsp strawberry jam", "2 tbsp water", "1/2 tbsp sugar", "1 tsp cornstarch"]
+    },
+    instructions: ["Bring the butter and eggs to room temperature if you haven't already.", "Add the butter, granulated sugar and brown sugar to a bowl. Whisk for 2-3 minutes until the mixture looks light in color, and fluffy and creamy in texture.", "Add the egg, egg yolk and vanilla, and whisk for another minute or so until the mixture looks smooth and creamy.", "Add the crushed graham crackers and whisk until combined.", "In a separate bowl, sift in the flour, baking powder, baking soda, and salt. Whisk to combine.", "Add the dry ingredients to the wet in 2-3 additions. Use a rubber spatula to fold them in, going around and pressing down gently. Stop folding as soon as the dry ingredients are combined and no streaks of flour can be seen.", "Use a 2\" cookie scoop to scoop the dough into 12 balls. Gently roll them out between your palms to smooth them, then keep in the fridge for 30 minutes.", "In the last 15 minutes of the chilling, pre-heat your oven to 375F (conventional) and prep 1-2 large cookie sheets with parchment paper.", "Once chilled, transfer the cookie dough balls to the baking sheets, keeping at least 3\" between them.", "Bake in the preheated oven at 375F for 12-13 minutes until the cookies feel set around the edges but still somewhat soft in the middle.", "As soon as the cookies come out of the oven, use the back of a tablespoon measure to press down on the middle and create little pockets/thumbprints. Then let the cookies fully cool down.", "Whisk the cream cheese, heavy cream, sugar, salt, vanilla and lemon juice on medium low speed until the mixture becomes creamy and starts to thicken up. Do not overmix.", "Transfer to a piping bag fit with a round piping tip. Keep chilled.", "Stir all ingredients for the glaze together in a small saucepan.", "Cook and stir over low heat until the mixture starts to thicken up.", "Remove from heat and let cool down slightly.", "Once the cookies have cooled down, pipe a generous swirl of the cheesecake filling onto each.", "Drizzle over the strawberry glaze.", "Serve and enjoy!"],
+    tips: ["You may skip chilling the cookie dough balls and bake straight away, though they will spread more and be less chewy.", "Prepare cookie dough balls and cheesecake filling separately in the fridge. Bake cookies when ready (add 1-2 minutes), then assemble and glaze before serving.", "Keep remaining cookies in an airtight container in the fridge for up to 3 days."]
+  },
+  {
+    id: "cheesecake-croissant-buns",
+    name: "Cheesecake Croissant Buns",
+    description: "Crispy, flakey croissant cups filled with a rich no-bake cheesecake filling and topped with a homemade raspberry glaze and crushed graham crackers. Inspired by Buns From Home London.",
+    category: "Pastries",
+    prepTime: "3 hours",
+    cookTime: "35 minutes",
+    totalTime: "6 hours",
+    servings: 9,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1509365390695-33aee754301f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Croissant Dough": ["70g milk", "5g yeast (1.5 tsp)", "50g water", "125g all purpose flour", "125g bread flour", "7g salt (1 tsp)", "25g granulated sugar", "1 tsp honey (7g)", "50g butter, softened", "130g butter for lamination (high quality, 82%+ butter fat)"],
+      "Shaping": ["1 egg + 1 tbsp milk for egg wash"],
+      "Cheesecake Filling": ["350g cream cheese (12oz), room temperature", "100g sugar", "1 tsp vanilla", "1/4 tsp salt", "2-3 tbsp lemon juice", "130g sour cream", "130g heavy cream, chilled & whipped to medium peaks"],
+      "Raspberry Glaze": ["4 tbsp raspberry jam", "2 tbsp water", "1 tbsp sugar", "2-3 graham crackers for topping"]
+    },
+    instructions: ["Combine all dough ingredients except 50g butter and 130g butter; knead with hook attachment for 5-7 minutes on medium-high speed.", "Add 50g softened butter and knead for 5 minutes until incorporated.", "Cover dough and let rise for about 1 hour at room temperature.", "Roll into 5.5\"x11\" rectangle, wrap in cling wrap, freeze 5 minutes, then refrigerate 30 minutes.", "Place 130g butter between parchment paper folded to 5x5\" square; beat with rolling pin to flatten evenly into a square block.", "Refrigerate butter for 15 minutes.", "Encase butter square into dough rectangle and fold dough to seal butter on all edges neatly.", "Roll out gently into large rectangle about 1cm thick. Fold top to middle, then bottom (single turn), keeping short edge toward you.", "Refrigerate 10-15 minutes. Roll out to about 7mm thick and perform double turn: fold both short edges to middle until they meet, then fold in half (4 layers).", "Refrigerate 30-60 minutes, then roll into 9x16\" rectangle.", "Brush butter on upside-down muffin pan.", "Remove 3\"x16\" of croissant sheet and place in fridge.", "Divide remaining 6\"x16\" into 9 strips along length.", "Gently stretch each strip and roll around each muffin cup from bottom upward, pressing gently to hold shape.", "Cut remaining 3x16\" sheet into two 3\"x8\" sheets; roll each into log along length like cinnamon roll, then divide into 9-10 equal circular pieces.", "Working one piece at a time, flatten circle on cold surface and roll until slightly larger than cup base; place on cup and stretch to seal with earlier strips (keep remaining pieces in fridge).", "Proof cups at room temperature (75F) for about 2 hours until puffed.", "Preheat oven to 350F in last 15 minutes.", "Brush cups generously with egg wash; bake 20 minutes, then place weight on cups to flatten; bake another 10-15 minutes with weight.", "Whisk cream cheese and sugar together until fully combined.", "Add sour cream, lemon juice, vanilla, and salt; whisk until combined.", "Whisk heavy cream until stiff peaks form.", "Fold whipped cream into cream cheese mixture until combined.", "Heat raspberry jam with water and sugar on low heat until thick glaze forms; cool 5-10 minutes.", "Transfer cheesecake mixture to piping bag with large opening; fill croissant cups evenly.", "Drizzle 1-2 tablespoons glaze on top and cover with crushed graham crackers.", "Refrigerate 2-3 hours before serving."],
+    tips: ["Use high-quality butter with at least 82% butter fat for lamination (Kerrygold recommended).", "Keep remaining dough/pastry pieces refrigerated while working to prevent warming.", "Weight on cups during final baking helps flatten them evenly.", "Must refrigerate filled buns for 2-3 hours before serving."]
+  },
+  {
+    id: "no-bake-dubai-chocolate-cheesecake",
+    name: "No Bake Dubai Chocolate Cheesecake",
+    description: "A delicious, easy and creamy no-bake pistachio cheesecake with a chocolate cookie crust, crispy pistachio knafeh layer and chocolate ganache. An elegant multi-layered dessert.",
+    category: "Cheesecakes",
+    prepTime: "45 minutes",
+    cookTime: "0 minutes",
+    totalTime: "Overnight",
+    servings: 10,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1508737027454-e6454ef45adb?w=600&h=400&fit=crop",
+    ingredients: {
+      "Crust": ["25 chocolate creme cookies (285g)", "5 tbsp unsalted butter, melted (70g)"],
+      "Pistachio Knafeh": ["3 cups shredded kataifi (100g)", "4 tbsp unsalted butter (56g)", "1/2 to 2/3 cup pistachio cream (140-185g)", "Pinch of salt", "1 cup heavy cream (240g)"],
+      "Chocolate Ganache": ["200g dark or semi-sweet chocolate", "1 cup heavy cream (240g)"],
+      "Pistachio Cheesecake": ["24 oz cream cheese, room temperature (680g)", "1/2 cup granulated sugar (100g)", "1 tsp vanilla", "1/2 tsp salt", "1/2 to 2/3 cup pistachio cream (140-185g)", "1 cup heavy whipping cream, chilled (240g)"]
+    },
+    instructions: ["Line a 9\" springform pan with parchment paper.", "Grind chocolate cookies and melted butter in food processor until fine crumb forms.", "Press crumb tightly and evenly into pan bottom; freeze 10 minutes.", "Toast shredded kataifi in unsalted butter over medium-low heat for approximately 10 minutes until golden and crispy, breaking clumps and preventing burning.", "Mix in pistachio cream and salt to taste.", "Spread mixture over crust evenly; freeze 10 minutes.", "Microwave cream and chocolate together in 20-second increments, stirring between, until smooth ganache forms.", "Pour half the ganache over knafeh layer; tilt pan to spread evenly; freeze until firm; reserve remaining ganache.", "Beat cream cheese, sugar, salt, and vanilla with paddle attachment for 3-5 minutes on medium speed until creamy.", "Add pistachio cream; whisk on low speed until combined, being careful not to overmix.", "In separate bowl, whisk heavy cream until stiff peaks form; do not overmix.", "Gently fold whipped cream into cheesecake batter slowly and carefully with rubber spatula to preserve air.", "Spread cheesecake batter over ganache layer; even with offset spatula.", "Refrigerate overnight (minimum 6 hours).", "Carefully remove from pan; transfer to serving stand.", "Warm remaining ganache; pour over cheesecake; spread, letting some drip down edges.", "Optional: drizzle melted white chocolate and pistachio cream; add chopped pistachios.", "Serve and enjoy."],
+    tips: ["Use Pisti pistachio cream for the best results. Homemade pistachio cream takes a lot of work and often doesn't have the same flavor or texture.", "This cheesecake stays good in the fridge for 3-5 days, though it is best served within 1-2 days of preparing."]
+  },
+  {
+    id: "kanafeh-cheesecake",
+    name: "Kanafeh Cheesecake",
+    description: "A Middle Eastern fusion dessert combining crispy, golden kanafeh pastry with rich New York-style cheesecake, topped with Arabic cream and a cinnamon-cardamom sugar syrup.",
+    category: "Cheesecakes",
+    prepTime: "40 minutes",
+    cookTime: "1 hour 30 minutes",
+    totalTime: "14 hours 10 minutes",
+    servings: 1,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1567171466295-4afa63d45416?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cheesecake Layer": ["2 pounds cream cheese, softened", "1¼ cups granulated sugar", "½ cup sour cream", "1 teaspoon lemon juice (optional)", "1½ teaspoons vanilla extract", "4 large eggs", "Boiling water for water bath"],
+      "Sugar Syrup": ["2 cups granulated sugar", "1 cup water", "Squeeze of lemon", "1 cinnamon stick", "2 cardamom pods, cracked"],
+      "Kanafeh Topping": ["⅓ cup plus 1 teaspoon butter/ghee", "½ cup granulated sugar", "170g kunafa pastry"],
+      "Kanafeh Bottom Crust": ["⅓ cup plus 1 teaspoon butter/ghee", "50g granulated sugar", "170g kunafa pastry"],
+      "Topping & Garnish": ["1 cup keshta/clotted cream", "¼ cup chopped pistachios", "Edible pearls or sprinkles (optional)"]
+    },
+    instructions: ["Preheat oven to 325°F. Prepare springform pan with parchment and foil seal for water bath.", "Beat softened cream cheese until smooth; add sugar and mix well.", "Incorporate sour cream, lemon juice, and vanilla until combined.", "Add eggs one at a time, mixing carefully to avoid overmixing; strain if lumpy.", "Pour batter into prepared pan; place in roasting pan filled with boiling water halfway up sides.", "Bake 55-70 minutes until outer edges set but center jiggles slightly; internal temp should reach 165°F.", "Cool gradually in turned-off oven with door cracked for one hour.", "Transfer to wire rack, run knife around edges, cool completely.", "Wrap and freeze at least 6 hours or overnight.", "For syrup: combine sugar, water, lemon, cinnamon, and cardamom; boil then simmer 10 minutes. Cool completely.", "Crumble semi-frozen kanafeh into small pieces; toast with butter and sugar over medium heat, stirring constantly for 10 minutes until golden and crunchy.", "Remove frozen cheesecake from pan; set aside covered in freezer.", "For bottom crust: shred kanafeh, coat with butter and sugar, press firmly into pan.", "Bake crust 20 minutes until golden; immediately drizzle with ¼ cup syrup while hot. Cool completely.", "Slide kanafeh crust onto serving platter.", "Place frozen cheesecake on top of crust.", "Spread keshta/clotted cream over cheesecake layer.", "Pile toasted kanafeh shreds on top in mountain fashion.", "Garnish with pistachios and edible pearls.", "Allow 4 hours to defrost at cool room temperature before serving.", "Drizzle extra syrup on individual slices; serve same day for optimal crunch."],
+    tips: ["Cheesecake can be made several days ahead and frozen.", "Best enjoyed the day assembled to maintain kanafeh crunchiness.", "Leftovers keep refrigerated several days but lose some crunch.", "Omit sugar from bottom crust if it becomes too hard after baking.", "Can halve cheesecake recipe for thinner layer; reduce bake time to ~45 minutes."]
+  },
+  {
+    id: "triple-pistachio-kunafa-ice-cream-cake",
+    name: "Triple Pistachio Kunafa Ice Cream Cake",
+    description: "A Middle Eastern-inspired frozen dessert featuring scented eshta no-churn ice cream with caramelized pistachio pieces, swirled pistachio butter, and a vibrant green pistachio kunafa topping.",
+    category: "Ice Cream",
+    prepTime: "50 minutes",
+    cookTime: "10 minutes",
+    totalTime: "7 hours",
+    servings: 9,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Caramelized Pistachios": ["1/4 cup (50g) granulated sugar", "1 tablespoon (15ml) water", "1/2 cup (57g) shelled pistachios", "Pinch of ground cinnamon"],
+      "Scented Eshta Ice Cream": ["1 cup (227g) fresh eshta/ashta (Arabic clotted cream)", "1 (397g) can sweetened condensed milk", "1 tablespoon orange blossom water", "1 teaspoon rose water", "2 cups (473ml) heavy whipping cream, very cold", "1/3 cup (85g) pistachio butter"],
+      "Pistachio Kunafa Topping": ["125g kunafa (kadaif/kataifi) dough, frozen or fresh", "1/4 cup plus 1 teaspoon (62g) unsalted butter", "5 tablespoons (72g) powdered sugar", "1/3 cup (70g) pistachios, finely ground", "3 tablespoons pistachios, sliced or chopped"],
+      "Garnish (Optional)": ["2 tablespoons pink-tinted sugar syrup", "Sugared rose petals"]
+    },
+    instructions: ["Combine sugar and water in a light-colored saucepan without stirring; simmer over medium-high heat while swirling pan to dissolve sugar. Cover briefly to prevent crystallization, then continue cooking until amber colored.", "Remove from heat and immediately stir in pistachios and cinnamon until evenly coated.", "Transfer caramelized pistachios to parchment paper, spread evenly, and cool completely.", "Once cooled, break into chunks with hands or chop coarsely.", "Line a 9x5 inch loaf pan with parchment paper or plastic wrap, covering all surfaces including corners.", "Whisk together eshta, sweetened condensed milk, rose water, and orange blossom water in a large bowl until smooth and well combined.", "In a chilled bowl, beat heavy whipping cream with an electric mixer until stiff peaks form; avoid overbeating.", "Gently fold whipped cream into the eshta mixture using a rubber spatula until color is even and no streaks remain.", "Fold in cooled caramelized nuts. Using a piping bag, pipe approximately one-quarter of the pistachio butter in random lines over the mixture surface without mixing.", "Pour one-third of ice cream mixture into prepared pan. Drizzle half the remaining pistachio butter over surface and swirl with a skewer. Layer remaining ice cream and pistachio butter with swirling, finishing with final ice cream layer. Smooth top and cover with plastic wrap directly on surface.", "Freeze until firm, at least 6 hours or preferably overnight. Pour any leftover mixture into ice cream bar molds.", "While ice cream freezes, crumble frozen kunafa into small pieces between hands (kunafa shreds easiest when frozen).", "Heat butter in large skillet over medium-high heat until melted. Add shredded kunafa and stir well until evenly coated. Continue stirring constantly for approximately 5 minutes until lightly golden and very crunchy, avoiding dark burn marks.", "Stir in powdered sugar until dissolved.", "Remove from heat and add ground and sliced pistachios, stirring until homogenous and well combined. Transfer to bowl and cool completely before use. Store in freezer-safe bag for up to one month.", "Remove frozen ice cream from freezer and invert onto serving platter. Peel away parchment or plastic lining.", "Drizzle with pink sugar syrup if desired. Top with pistachio kunafa and garnish with sugared rose petals.", "Slice and serve immediately. Store leftovers in freezer for about one month."],
+    tips: ["Eshta (ashta) may be substituted with mascarpone cheese.", "Ready-made pistachio butter is available commercially, or prepare at home by processing toasted pistachios.", "The sugar syrup adds visual appeal but increases sweetness; consider omitting for personal preference.", "For simplified preparation, freeze mixture in a bowl and serve directly without unmolding.", "The vivid green color comes entirely from premium pistachios typically found in Turkey, Iran, and Arabian Gulf regions -- no artificial coloring used.", "All measurements are by weight for accuracy; kitchen scale recommended for best results."]
+  },
+  {
+    id: "ricotta-cheese-kunafa",
+    name: "Ricotta Cheese Kunafa",
+    description: "The easiest, quickest and most versatile kunafa with a sweet and tangy creamy ricotta cheese filling, signature crunchy crust and lightly scented sugar syrup.",
+    category: "Middle Eastern",
+    prepTime: "20 minutes",
+    cookTime: "45 minutes",
+    totalTime: "1 hour 20 minutes",
+    servings: 12,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1509365390695-33aee754301f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Scented Sugar Syrup": ["2 cups (400g) granulated sugar", "1 cup water", "Squeeze of fresh lemon juice (about 1 teaspoon)", "1/2 cinnamon stick (optional)", "2 cardamom pods, smashed open (optional)"],
+      "Cheese Filling": ["500g good quality, creamy ricotta cheese", "1/4 cup (60g) Arabic-style clotted cream (eshta/ashta)", "1 tablespoon (13g) granulated sugar (optional)", "1/2 teaspoon vanilla extract"],
+      "Kunafa Crust": ["1 lb/500g kunafa or kataifi/kadaifi pastry", "1 cup (8oz/227g) ghee or butter, melted"],
+      "Garnish": ["Pistachios (optional)", "Dried rose petals (optional)"]
+    },
+    instructions: ["Combine sugar, water, and lemon juice in a saucepan over high heat; avoid stirring to prevent crystallization until boiling.", "Reduce heat to medium-low, add cinnamon and cardamom, and simmer gently for 10 minutes until syrup thickens.", "Remove from heat and cool to room temperature; remove spices if preferring subtle flavor.", "Mix ricotta cheese, sugar (if using), cream, and vanilla in a medium bowl.", "Preheat oven to 200°C/390°F with rack in lower-middle position.", "Generously grease a 12-inch round cake pan with ghee or butter.", "Shred kunafa dough into 1-inch pieces; freeze fresh kunafa for one hour before cutting.", "Pour melted ghee over kunafa and mix evenly by hand until all strands are well-coated.", "Transfer two-thirds kunafa to prepared pan, spread on bottom and sides, creating walls; compress tightly with cup bottom.", "Spoon cheese filling over kunafa and spread evenly.", "Scatter remaining kunafa over cheese filling and lightly press to level.", "Bake 40-45 minutes until top and sides are deep golden brown.", "Immediately pour cooled syrup over hot kunafa in circular motion from edges to center.", "Rest 5-10 minutes for syrup to soak in, then flip onto serving platter.", "Garnish with pistachios and rose petals if desired; serve hot or at warm room temperature."],
+    tips: ["Quality ricotta is essential; use creamy varieties with soft curds, avoiding gritty or mealy textures.", "Ghee yields crunchier crust than butter; clarified butter works as alternative.", "Can assemble earlier and refrigerate covered before baking.", "Freeze assembled kunafa unbaked with plastic wrap and foil for later preparation.", "Can use larger pans or split across multiple smaller pans; adjust baking time accordingly."]
+  },
+  {
+    id: "toasted-milk-basbousa-with-cream",
+    name: "Toasted Milk Basbousa with Cream",
+    description: "A uniquely delicious basbousa cake featuring toffee and caramel notes from toasted milk powder, filled with a creamy center and soaked with sweetened condensed milk for an elevated dessert experience.",
+    category: "Middle Eastern",
+    prepTime: "30 minutes",
+    cookTime: "30 minutes",
+    totalTime: "2 hours",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&h=400&fit=crop",
+    ingredients: {
+      "Basbousa Base": ["1 1/2 cups (150g) powdered milk, divided", "1 cup (166g) semolina, medium grind", "3/4 cup (167g) melted ghee (or oil or half oil, half ghee)", "1/2 cup (100g) granulated sugar", "1 (160g) can cream (eshta/ashta)", "1/2 cup (155g) sweetened condensed milk", "3 tablespoons milk (plus 3 more tablespoons for thinning top batter)", "2 teaspoons baking powder", "1/4 teaspoon salt"],
+      "Cream Filling": ["1 cup whole milk", "1 cup whipping cream", "1 tablespoon (12g) granulated sugar", "3 tablespoons (21g) cornstarch"],
+      "Topping": ["3/4 cup condensed milk (remaining from 14oz/397g can)", "1/2 cup (50g) toasted milk powder", "Pistachios (optional)"]
+    },
+    instructions: ["Preheat oven to 180°C/350°F with rack in middle position.", "Toast full amount (150g) of powdered milk in medium skillet over medium heat, stirring constantly, until deep golden brown; approximately 10 minutes.", "Remove 1/2 cup (50g) of toasted milk powder for later use; set aside.", "Combine semolina and melted ghee in large bowl until well blended; allow to rest.", "Place remaining 1 cup (100g) toasted milk powder in medium bowl with sugar, canned cream, sweetened condensed milk, 3 tablespoons milk, baking powder, and salt; whisk until well combined.", "Pour toasted milk mixture over semolina/ghee mixture and stir until fully integrated.", "Transfer half of batter (445g) to greased 13x9 inch baking dish and spread evenly; set aside.", "Add 3 tablespoons milk to remaining batter and thin to pourable consistency; transfer to piping bag with 1 cm opening.", "Bake base layer for 10-12 minutes until set but not fully baked.", "Prepare cream filling: whisk together milk, whipping cream, sugar, and cornstarch off heat until cornstarch dissolves completely.", "Heat cream mixture over medium-high heat, whisking constantly until boiling; continue cooking 30 seconds until thickened.", "Pour cream filling over baked base layer and spread evenly; refrigerate 5 minutes to set slightly while remaining warm.", "Pipe thinned batter in lines across cream surface to cover completely; smooth carefully.", "Bake again for 20-25 minutes until surface feels set to touch.", "Remove from oven and immediately pour remaining condensed milk over surface; spread evenly and allow to absorb (~20 minutes).", "Cool to room temperature, then sift reserved toasted milk powder evenly over surface; draw diagonal lines with small spoon and garnish with pistachios if desired.", "Serve at room temperature or slightly warm; store covered in refrigerator for up to two days."],
+    tips: ["Use weight measurements for maximum accuracy with a kitchen scale.", "Do not rush the milk powder toasting process or use high heat to prevent scorching.", "Clarified butter may be substituted for ghee if preferred.", "Sour cream or clotted cream may work as alternatives to canned eshta cream (untested).", "Best enjoyed the same day; reheat slightly before serving leftovers.", "This represents an Arabian Gulf-style basbousa variation, distinct from traditional Egyptian versions."]
+  },
+  {
+    id: "pistachio-baklava",
+    name: "Pistachio Baklava",
+    description: "Thirty crisp layers of buttery phyllo and heaps of fragrant pistachios combine to make an utterly delicious, light yet rich baklava that delivers authentic Turkish bakery quality at home.",
+    category: "Middle Eastern",
+    prepTime: "45 minutes",
+    cookTime: "1 hour 30 minutes",
+    totalTime: "10 hours 15 minutes",
+    servings: 40,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=600&h=400&fit=crop",
+    ingredients: {
+      "Sugar Syrup": ["1¾ cups (350g) granulated sugar", "¾ cup water", "1½ tablespoons (28g) glucose syrup (optional)", "A squeeze of lemon", "⅛ teaspoon table salt", "1 tablespoon orange blossom water"],
+      "Nut Filling": ["3 cups (340g) shelled, raw unsalted pistachios, plus extra for garnish"],
+      "Pastry": ["2 packages (500g each) phyllo dough (30 sheets total, thawed)", "1⅛ cup (255g) melted ghee or clarified butter"]
+    },
+    instructions: ["Combine sugar, water, glucose syrup, lemon, and salt in saucepan; bring to boil over medium-high heat, stirring occasionally until sugar dissolves. Remove from heat and stir in orange blossom water. Transfer to measuring cup and cool completely.", "Cool syrup can be refrigerated in airtight container up to 4 days; bring to room temperature before using.", "Adjust oven rack to lower-middle position and heat to 150°C/300°F.", "Pulse pistachios in food processor until very finely chopped (about fifteen 1-second pulses); transfer to bowl.", "Brush 13x9-inch baking pan with ghee. Unwrap and unfold phyllo on cutting board, smooth with hands, and trim to fit pan using it as guide. Cover phyllo with plastic wrap topped with damp kitchen towel.", "Place 1 phyllo sheet in prepared pan and brush completely with ghee. Layer 7 more sheets, brushing each with ghee (total 8 layers). Top with 1 cup ground pistachios, spread evenly.", "Layer 6 more phyllo sheets with ghee between each, then top with 1 cup pistachios. Repeat with 6 more sheets, ghee, and remaining cup of pistachios.", "Layer remaining 10 phyllo sheets (using nicest, most intact sheets), brushing each layer except final layer with ghee. From center outward, compress layers with palms to release air pockets. Cut baklava into diamonds (5 vertical cuts, about 8 diagonal cuts). Brush remaining ghee over surface.", "Bake until golden and crisp, approximately 1½ to 1¾ hours, rotating pan halfway through baking.", "Immediately after removing from oven, pour cooled syrup over cut lines until about 2 tablespoons remain; drizzle remaining syrup over surface. Garnish center of each piece with pinch of ground pistachios.", "Cool to room temperature on wire rack (about 3 hours), then cover with foil and let stand at least 8 hours before serving. Baklava can be wrapped tightly in foil and kept at room temperature up to 10 days."],
+    tips: ["Thaw phyllo fully before using (refrigerate overnight or countertop 4-5 hours; do NOT microwave).", "Always keep unused phyllo covered with plastic wrap and damp towel.", "Use nicest, intact sheets for bottom and top layers; save torn sheets for middle layers.", "Baklava tastes best after sitting 8 hours; flavor and texture improve with standing time.", "Glucose syrup reduces crystallization for longer shelf life.", "Orange blossom water complements pistachios but can be reduced or omitted.", "To clarify butter: melt 1½ cups butter slowly over medium-low heat until milk solids separate. Remove from heat, settle 10 minutes, skim foam, pour clear butterfat into bowl. Yields approximately 1⅛ cup."]
+  },
+  {
+    id: "cinnamon-baklava-rolls",
+    name: "Cinnamon Baklava Rolls",
+    description: "Bite-sized baklava rolls made with scrunched layers of phyllo, a three nut mixture, cinnamon, spice and everything nice. These addictive pastries are crispy, nutty, and soaked in spiced syrup.",
+    category: "Middle Eastern",
+    prepTime: "40 minutes",
+    cookTime: "1 hour 10 minutes",
+    totalTime: "2 hours 20 minutes",
+    servings: 68,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Sugar Syrup": ["250g (1¼ cup) granulated sugar", "150g (⅔ cup) water", "28g (1½ tablespoons) glucose syrup (optional)", "1 cinnamon stick", "4 whole cloves", "Small squeeze of lemon juice"],
+      "Baklava Rolls": ["200g melted ghee or clarified butter", "50g walnuts", "50g blanched almonds", "50g pistachios", "¾ teaspoon ground cinnamon", "1 (500g/1 lb) package phyllo dough", "Ground pistachio for garnish (optional)"]
+    },
+    instructions: ["Prepare syrup by combining sugar, water, glucose syrup, cinnamon stick, cloves, and lemon juice; bring to boil, then cool completely.", "Preheat oven to 150°C/300°F on lower middle rack.", "Pulse walnuts, almonds, pistachios, and cinnamon until finely chopped (not powdery).", "Cut phyllo stack in half to create smaller sheets; cover with plastic wrap and damp towel.", "Layer two phyllo rectangles, brushing each with ghee.", "Sprinkle 2+ teaspoons nut mixture over phyllo; roll tightly around a dowel or stick.", "Scrunch both ends toward center; slide onto greased baking pan.", "Cut scrunched rolls into quarters; trim shaggy ends.", "Brush remaining ghee over rolls and bake 70-90 minutes until deep golden brown.", "Immediately pour cooled syrup over hot rolls; let soak 30 minutes.", "Garnish with ground pistachio and serve; store covered with foil for up to one week."],
+    tips: ["Custom dowel: 50cm long, 5mm thick (or use cake dowel/taped chopsticks).", "Al Sonbola phyllo recommended; avoid inferior brands that crack.", "To clarify butter: melt slowly, separate milk solids, skim foam, pour clear butterfat into bowl (yields ~200g from 250g butter).", "Weight measurements recommended for best results."]
+  },
+  {
+    id: "s-mores-kunafa-pie",
+    name: "S'mores Kunafa Pie",
+    description: "A Middle Eastern twist on the classic campfire treat, featuring a crunchy caramelized kunafa crust, creamy milk chocolate filling, and toasted marshmallow topping.",
+    category: "Middle Eastern",
+    prepTime: "30 minutes",
+    cookTime: "25 minutes",
+    totalTime: "2 hours 30 minutes",
+    servings: 10,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop",
+    ingredients: {
+      "Sugar Syrup": ["1/4 cup (50g) granulated sugar", "2 tablespoons water", "A few drops of lemon juice"],
+      "Kunafa Crust": ["1/2 cup (114g) unsalted butter, clarified", "150g kunafa/kataifi pastry", "3 tablespoons (37g) granulated sugar", "1/8 teaspoon ground cinnamon"],
+      "Chocolate Filling": ["4 (90g each) Cadbury Dairy Milk chocolate bars", "2/3 cup heavy whipping cream", "Pinch of salt", "2 tablespoons unsalted butter, softened"],
+      "Topping": ["15-25 large marshmallows, halved", "1 (11g) Cadbury Dairy Milk, melted (optional)"]
+    },
+    instructions: ["Combine sugar, water, and lemon juice in a small saucepan over high heat. Avoid stirring to prevent crystallization.", "Once boiling, reduce heat to low and simmer 5 minutes until syrup thickens slightly. Cool completely before using.", "Preheat oven to 200°C/390°F with rack in middle position.", "Grease a 9-inch pie dish with butter, line bottom with parchment paper, and grease the parchment.", "Clarify butter: melt slowly over medium-low heat until milk solids separate; let settle 10 minutes, skim foam, pour clear butterfat into bowl (measure 75g/1/3 cup for use).", "Shred kunafa dough into small pieces in a medium bowl (freeze for 1 hour if using fresh dough for easier cutting).", "Pour clarified butter, sugar, and cinnamon over kunafa; mix with hands until evenly coated.", "Transfer mixture to pie dish, spread evenly on bottom and sides. Press firmly using flat bottom of measuring cup to create compact layer.", "Bake 20-25 minutes until deep golden brown (cover sides with foil if browning too fast). Brush cooled crust immediately with sugar syrup. Cool completely.", "Cut chocolate into chunks in microwave-safe bowl. Add heavy whipping cream and salt.", "Microwave until cream boils (approximately 1.5 minutes). Whisk until chocolate melts completely and mixture becomes smooth.", "Add softened butter and whisk until combined.", "Pour chocolate mixture over cooled crust in even layer. Cover lightly with foil (not touching chocolate) and refrigerate 1-2 hours until set.", "Remove from fridge 1 hour before serving to reach room temperature.", "Turn on oven broiler to high. Arrange halved marshmallows over chocolate layer, sticky side down.", "Broil about 5 minutes until marshmallows toast to dark golden brown (watch closely as they burn quickly). Optionally drizzle melted chocolate over marshmallows.", "Serve immediately or within several hours. Store leftovers in airtight container for up to 1 day."],
+    tips: ["Clarified butter is essential; straight butter contains milk solids that prevent kunafa from crisping fully.", "Adding sugar to kunafa is unorthodox but necessary; it acts like a glue fusing strands together and creates caramelized flavor.", "A tiny bit of cinnamon in the crust gives it an unmistakable cracker feel without actually tasting like cinnamon.", "Freeze kunafa for about an hour before cutting for easiest shredding.", "Keep a close eye when broiling marshmallows as they can turn from blonde to charcoal in seconds.", "Weight measurements are highly encouraged for best results."]
+  },
+  {
+    id: "chocolate-kunafa-cookies",
+    name: "Chocolate Kunafa Cookies",
+    description: "No-bake cookies made from crunchy, buttery kunafa crumbs and glorious melted chocolate, offering a unique twist on traditional kunafa in cookie form.",
+    category: "Cookies",
+    prepTime: "30 minutes",
+    cookTime: "15 minutes",
+    totalTime: "1 hour 30 minutes",
+    servings: 16,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cookie Base": ["250g konafa or kataifi/kadaifi pastry (fresh or frozen)", "1/2 cup plus 1 tablespoon (125g) unsalted butter", "4 bars (90g each) Cadbury Dairy Milk chocolate, plain"],
+      "Garnish (Optional)": ["2 bars (24g each) Cadbury Dairy Milk chocolate, plain, melted", "Pistachios, finely chopped"],
+      "Candied Nuts (Optional)": ["1/4 cup (50g) granulated sugar", "1 tablespoon water", "1/4 cup (30g) pistachios, sliced or chopped", "1/4 cup (30g) almonds, sliced or chopped"]
+    },
+    instructions: ["Prepare candied nuts if desired: combine sugar and water in saucepan, cook until amber, stir in nuts, spread on parchment to cool.", "Break semi-frozen konafa into small crumbs.", "Melt butter in large pan, add konafa, and sauté for 10 minutes until golden and crunchy.", "Cool konafa completely.", "Temper chocolate by melting 3/4 of it, then stirring in grated remaining 1/4.", "Mix melted chocolate with cooled konafa and candied nuts.", "Scoop 16 equal portions onto parchment paper.", "Flatten with cup bottom.", "Drizzle melted chocolate over top and sprinkle pistachios.", "Refrigerate 30-45 minutes until set."],
+    tips: ["Room temperature storage keeps cookies for 4 days.", "Refrigerated storage keeps cookies for about one week in an airtight container."]
+  },
+  {
+    id: "the-perfect-ghorayeba",
+    name: "The Perfect Ghorayeba",
+    description: "Perfected recipe for Egyptian, bakery-style Ghorayeba cookies that are delicate, fine-textured, smooth and melt in the mouth. A Middle Eastern shortbread-like cookie with a distinctive melting texture and rich ghee flavor.",
+    category: "Cookies",
+    prepTime: "30 minutes",
+    cookTime: "17 minutes",
+    totalTime: "1 hour 47 minutes",
+    servings: 85,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Dough": ["4 cups (500g) all purpose flour", "1⅓ to 1½ cups (150-175g) powdered sugar, sifted", "1⅓ cup plus 1 tablespoon (300g) ghee, room temperature or cold"],
+      "Garnish (Optional)": ["Pistachios (whole, halves or slices), or any nut of choice"]
+    },
+    instructions: ["Preheat oven to 120°C/248°F with rack in middle position. Line baking sheets with parchment paper.", "Whisk together flour and powdered sugar in stand mixer bowl with paddle attachment.", "Add ghee and mix on low speed 5 minutes until crumbly mixture forms and softens.", "Increase to medium-high speed for 5 minutes, then return to low for 5 more minutes (15 minutes total) until very smooth, lump-free, thick cake batter consistency resembling hummus.", "Pipe 3.5-4cm rounds using piping bag with large round tip, spacing 2cm apart. Refrigerate 5-10 minutes until no longer sticky.", "Flatten peaks with floured finger and press pistachio into center of each round.", "Bake 17 minutes until set, off-white color, with soft texture leaving dough residue on touch.", "Cool completely on baking sheets; cookies continue baking as they cool.", "Leave cookies out 2+ hours or overnight before storing to allow surface film to set.", "Store in regular non-airtight container for 2-3 weeks at room temperature."],
+    tips: ["Use a kitchen scale for accurate measurements; measuring cups often over-pack flour and sugar.", "Ghee cannot be substituted with butter due to moisture content creating gluten.", "Total mixing time of 15 minutes is critical; dough should reach smooth hummus-like consistency.", "Do not over-bake; cookies should appear set but not hard.", "Texture improves after second day of baking.", "Piping method recommended over rolling due to dough stickiness.", "Halving or quartering the recipe works well; doubling is not recommended for standard home mixers."]
+  },
+  {
+    id: "nutella-dream-cake",
+    name: "Nutella Dream Cake",
+    description: "An ultra-decadent layer cake featuring more than 3½ cups of Nutella distributed across a crunchy feuilletine base, creamy frosting, and a sauce-filled center. This impossibly moist chocolate cake is designed for Nutella enthusiasts.",
+    category: "Cakes",
+    prepTime: "1 hour",
+    cookTime: "25 minutes",
+    totalTime: "2 hours 25 minutes",
+    servings: 6,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1535141192574-5d4897c12571?w=600&h=400&fit=crop",
+    ingredients: {
+      "Nutella Crunch Layer": ["½ cup semisweet chocolate chips", "1 tablespoon butter", "½ cup plus 1 tablespoon Nutella", "2½ cups Feuilletine"],
+      "Cake": ["1 box chocolate cake mix", "1 cup all-purpose flour", "1 cup granulated sugar", "¼ cup plus 2 tablespoons cocoa powder", "¾ teaspoon salt", "3 large eggs", "1½ teaspoons vanilla extract", "½ cup vegetable oil", "1⅓ cups water", "1 cup sour cream"],
+      "Very Nutella Frosting": ["1 cup unsalted butter", "½ cup cream cheese", "1½ cups Nutella", "½ cup plus 1 tablespoon semisweet chocolate chips", "½ cup plus 1 tablespoon milk chocolate chips"],
+      "Nutella Sauce Filling": ["1⅓ cups plus 1 tablespoon Nutella", "¼ cup plus 3 tablespoons whole milk"],
+      "Spun Sugar Garnish (Optional)": ["1 cup granulated sugar", "2 tablespoons light corn syrup", "2 tablespoons water"]
+    },
+    instructions: ["Line an 8 or 9-inch cake pan with parchment and cooking spray for the crunch layer.", "Melt chocolate chips and butter together, then stir in Nutella until combined.", "Add Feuilletine to the Nutella mixture and coat evenly.", "Transfer to prepared pan, smooth, and press into an even layer; freeze 30+ minutes.", "Preheat oven to 350°F and prepare three 8 or 9-inch cake pans with parchment and spray.", "Whisk together cake mix, flour, sugar, cocoa powder, and salt.", "Add eggs, vanilla, oil, water, and sour cream; beat on low until combined, then 1 minute longer.", "Divide batter equally among three pans and bake 20-25 minutes until toothpick test passes.", "Cool in pans 15-20 minutes, then invert onto wire racks to cool completely.", "Melt both chocolate chip types over double boiler or microwave.", "Beat softened butter until creamy, add cream cheese, beat until smooth.", "Add Nutella to butter mixture and incorporate fully.", "Mix in melted chocolate until well combined; set aside in cool place.", "Whisk Nutella and milk together until smooth for filling sauce.", "Remove crunch layer from freezer and invert onto cake board.", "Frost crunch layer with ⅓ cup frosting and set aside.", "Using serrated knife, slice each cake layer horizontally to create 6 thin layers.", "Layer cake pieces with frosting and sauce: place bottom half of first layer on crunch base, add ½ cup sauce, top with second half, frost with ⅔ cup frosting.", "Repeat layering process with second set of cake slices.", "Use final two thin layers to complete stack, ending with sauce and final cake layer.", "Insert bamboo skewer through center if cake feels unstable.", "Apply crumb coat with thin frosting layer; freeze until firm.", "Apply final frosting layer, creating desired texture; top with garnishes as desired.", "Serve immediately or refrigerate overnight under cake dome; bring to room temperature before serving.", "For spun sugar: boil sugar, corn syrup, and water until dissolved; cover 2 minutes then cook uncovered until deep amber; cool 5 minutes.", "Dip fork tines in caramel and swing back-and-forth over spoon handle in long arcs to create strands.", "Gather strands into halo shape; place atop cake before serving."],
+    tips: ["Recipe developed with kitchen scale; weight measurements recommended for best results.", "Entire cake may be prepared one day ahead and refrigerated overnight.", "Allow up to 5 hours for refrigerated cake to reach room temperature before serving.", "Feuilletine may be difficult to source; crispy rice cereal works as substitute (texture differs).", "Crunch layer is optional but recommended for texture contrast.", "If lacking multiple cake pans, prepare crunch layer day before; bake cake layers sequentially.", "Spun sugar best avoided on humid days.", "Cake mix base recommended to showcase Nutella flavor; from-scratch versions mask the taste."]
+  },
+  {
+    id: "tres-leches-cake-with-toasted-marshmallow-frosting",
+    name: "Tres Leches Cake with Toasted Marshmallow Frosting",
+    description: "A light and airy sponge cake soaked in a delicious combination of three milks delivering a creamy, pudding-like texture, topped with a billowy toasted marshmallow frosting.",
+    category: "Cakes",
+    prepTime: "40 minutes",
+    cookTime: "45 minutes",
+    totalTime: "9 hours 25 minutes",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cake": ["6 large eggs, room temperature", "1 cup (200g) granulated sugar", "2 tablespoons pure vanilla extract", "1/8 teaspoon salt", "1/4 cup (28g) cornstarch", "1 1/2 cups (170g) all-purpose flour"],
+      "Milk Mixture": ["2 1/2 cups (605g) evaporated milk", "1 cup plus 3 tablespoons (400g) sweetened condensed milk", "1 cup heavy cream"],
+      "Marshmallow Frosting": ["4 egg whites (120g)", "1 cup (200g) granulated sugar", "1/4 teaspoon cream of tartar", "Pinch of salt"]
+    },
+    instructions: ["Preheat oven to 350°F/180°C with rack in lower third. Prepare a 13x9-inch pan with non-stick spray and parchment paper.", "Sift cornstarch and flour together; set aside.", "Combine eggs, sugar, vanilla, and salt in mixer bowl over simmering water bath, stirring until warm. Transfer to stand mixer and beat on high for 5 minutes until quadrupled in volume and pale.", "Sift half the flour mixture onto beaten eggs; fold gently. Repeat with remaining flour until incorporated.", "Pour batter into prepared pan; bake 25-35 minutes until golden and toothpick comes out clean.", "Immediately unmold while hot onto wire rack. Cool completely, then remove golden crust to expose holes.", "Whisk evaporated milk, condensed milk, and heavy cream together. Slowly pour over cake until absorbed. Cover and refrigerate 8 hours or overnight.", "For frosting: Combine egg whites, sugar, cream of tartar, and salt in mixer bowl over simmering water bath, stirring until warm and sugar dissolves. Transfer to mixer and beat on high until thick, white, and glossy.", "Spread frosting over chilled cake, creating swirls. Toast with kitchen torch until golden brown (alternatively, use oven broiler).", "Cut into squares and serve at room temperature or chilled. Best consumed same day."],
+    tips: ["Make cake 1 day ahead; frost just before serving.", "For less saturation, reduce evaporated milk by half.", "Recipe halves beautifully for 8x8-inch pan.", "Heating egg whites ensures safety and stability."]
+  },
+  {
+    id: "the-most-amazing-russian-honey-cake",
+    name: "The Most Amazing Russian Honey Cake",
+    description: "Ten layers of soft, caramelized honey cakes that taste like the fine marriage of Lotus biscuits, honey graham crackers and gingerbread cookies, sandwiched between a cloud-like burnt honey and dulce de leche whipped cream.",
+    category: "Cakes",
+    prepTime: "1 hour 30 minutes",
+    cookTime: "1 hour 30 minutes",
+    totalTime: "12 hours",
+    servings: 16,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Burnt Honey": ["3/4 cup (9 oz/255g) honey", "1/4 cup (2 oz/57g) water"],
+      "Cake Layers": ["1/4 cup Burnt Honey", "3/4 cup (9 oz/255g) honey", "1 cup plus 2 tablespoons (8 oz/227g) granulated sugar", "14 tablespoons (7 oz/199g) unsalted butter, cut into 1/2-inch pieces", "6 large eggs (300g without shells)", "2 1/2 teaspoons baking soda", "3/4 teaspoon fine salt", "1 teaspoon ground cinnamon", "3 3/4 cups (16 oz/454g) all-purpose flour"],
+      "Frosting": ["1/2 cup Burnt Honey", "1 1/4 cups (13.4 oz/380g can) dulce de leche", "1/2 teaspoon fine salt", "4 3/4 cups (1.12 liters) heavy whipping cream, very cold, divided"]
+    },
+    instructions: ["Preheat oven to 180°C/375°F with rack in middle position.", "Line baking sheets with silicon mats or parchment paper; trace 9-inch circles on paper.", "Place 3/4 cup honey in saucepan over high heat. Simmer, then reduce to medium. Cook until color darkens from pale yellow to dark amber (about 3 minutes). Remove from heat and carefully whisk in 1/4 cup water. Transfer to measuring cup.", "Fill medium saucepan with 2 inches water and bring to simmer. Combine 1/4 cup burnt honey, 3/4 cup honey, sugar, and butter in heat-proof bowl over water bath (not touching water).", "Crack eggs into small bowl. Mix baking soda, salt, and cinnamon in separate small bowl.", "Stir honey-butter mixture until butter melts, then whisk well. When warm, whisk in eggs. When mixture returns to same temperature, add cinnamon mixture and whisk 30 seconds. Remove from heat and cool until warm.", "Sift flour over batter in three batches, whisking thoroughly after each addition until smooth. Keep batter warm over water bath.", "Spoon heaping 1/3 cup batter onto traced circle and spread evenly with offset spatula to circle edges.", "Bake layers 6-7 minutes until deep caramel color, springs back when touched, and toothpick comes out clean. Remove from oven immediately.", "When cool enough to handle, trim any edges that spread beyond circles. Allow to cool completely on wire racks.", "Reduce oven to 120°C/250°F. Toast least attractive layer and trimmings until deep reddish brown and dry (about 15 minutes). Cool, then grind into fine crumbs in food processor.", "Combine 1/2 cup burnt honey, dulce de leche, and 1/2 teaspoon salt in medium bowl. Whisk until combined, then slowly pour in 3/4 cup cream. Mix until homogeneous and chill 30 minutes.", "Pour 4 cups heavy cream into chilled stand mixer bowl with whisk attachment. Whip at medium speed to soft peaks (about 6 minutes). Slowly add chilled honey mixture and whip to medium stiff peaks.", "Assemble cake on 10-inch cardboard circle or serving plate. Place first cake layer, then spoon heaping cup frosting on center. Spread evenly with offset spatula, leaving 1/4-inch ring around edge. Alternate layers and frosting, ending with frosting. Use remaining frosting on sides.", "Press reserved toasted cake crumbs onto sides (and top, if desired) of frosted cake.", "Chill in refrigerator overnight to allow frosting to meld with cake layers and soften them. Slice into thin wedges and serve cold or at cool room temperature."],
+    tips: ["This is a multi-step, highly involved cake requiring advance planning.", "Original recipe calls for wildflower honey, but regular mainstream honey works well.", "Dulce de leche can be made from sweetened condensed milk if unavailable (takes 4 hours to cook, so prepare up to a month ahead).", "Cake layers can be baked and frozen for several weeks; thaw completely before using.", "Finished frosted cake can be made 2 days in advance.", "The batter will emit a curious odor when baking soda is added -- this is normal.", "Keep batter warm for easier spreading.", "Do not overbake layers.", "All recipe measurements developed using weight; kitchen scale recommended for best results.", "Cake needs overnight refrigeration before serving to achieve proper texture."]
+  },
+  {
+    id: "no-bake-lotus-biscoff-cheesecake",
+    name: "No-Bake Lotus Biscoff Cheesecake",
+    description: "A creamy cheesecake with an airy, mousse-like texture featuring Lotus Biscoff in every element -- crushed cookies in the crust, spread in the filling, and melted topping with crumb garnish.",
+    category: "Cheesecakes",
+    prepTime: "30 minutes",
+    cookTime: "8 minutes",
+    totalTime: "6 hours 38 minutes",
+    servings: 12,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1524351199678-941a58a3df50?w=600&h=400&fit=crop",
+    ingredients: {
+      "Crust": ["30 Lotus Biscoff cookies (235g)", "6 tablespoons unsalted butter, melted (85g)"],
+      "Filling": ["1 cup heavy whipping cream, very cold (237ml)", "12.3 oz cream cheese, cool room temperature (350g)", "1 cup Lotus Biscoff spread (260g)", "2/3 cups powdered sugar (75g)", "1/8 teaspoon salt"],
+      "Topping": ["Remaining Lotus Biscoff spread from jar (140g)"]
+    },
+    instructions: ["Preheat oven to 325°F/160°C and line 9-10 inch springform pan bottom with parchment.", "Pulse Lotus cookies into fine crumbs using food processor or crush in bag with rolling pin.", "Mix melted butter into crumbs; reserve 1/4 cup (50g) for garnish; press remainder into pan bottom.", "Bake crust 8-9 minutes until fragrant and deepened in color; cool completely (optional step).", "Beat cold heavy whipping cream on medium speed until stiff peaks form; transfer to separate bowl.", "In same mixer bowl, beat cream cheese, Lotus spread, powdered sugar, and salt until smooth.", "Gently fold whipped cream into cream cheese mixture until uniform with no white streaks.", "Spread filling evenly over cooled crust and smooth surface.", "Cover with plastic wrap and refrigerate 5-6 hours or overnight until set.", "Loosen cheesecake from pan rim with sharp knife, remove rim, then transfer to serving platter.", "Microwave remaining Lotus spread about 40 seconds until very fluid and melted.", "Use piping bag or small plastic bag with end cut off to drizzle melted spread around edges; pour remaining spread over surface and smooth quickly.", "Refrigerate 10+ minutes to set topping; sprinkle reserved crumbs around rim; place 2 whole cookies on top.", "Serve cold from refrigerator. For neat slices, dip knife in hot water, wipe dry between cuts."],
+    tips: ["Whip cream properly: ensure it is very cold and stop beating at soft peaks; finish by hand to prevent curdling.", "Fold gently to preserve air bubbles that create the airy texture.", "Use full-fat cream cheese only; lower-fat versions won't deliver desired results.", "Freeze briefly (30 minutes) before topping to prevent the warm spread from softening the cake.", "For Philadelphia brand, use brick-style, not tub variety.", "Crust baking is optional but recommended for better texture and flavor.", "Leftovers keep refrigerated up to 5 days; freezes well for up to one month.", "The recipe uses one full 400g jar of Lotus spread total."]
+  },
+  {
+    id: "best-ever-pastry-shop-style-basbousa",
+    name: "Best Ever Pastry Shop-Style Basbousa",
+    description: "An authentic Egyptian-style semolina pastry that is super soft, dense, never cake-y, and melt-in-the-mouth delicious, rivaling commercial pastry shop versions.",
+    category: "Middle Eastern",
+    prepTime: "20 minutes",
+    cookTime: "30 minutes",
+    totalTime: "1 hour 35 minutes",
+    servings: 16,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600&h=400&fit=crop",
+    ingredients: {
+      "Light Soaking Syrup": ["250g granulated sugar", "350g water", "Small squeeze of lemon juice"],
+      "Basbousa Base": ["500g medium grind white semolina", "150g melted ghee", "50g unsweetened shredded coconut (optional)", "150g whole milk", "100g heavy sugar syrup", "250g granulated sugar", "2 tablespoons ghee (for brushing)", "150g raw nuts like hazelnuts (optional)", "Fresh eshta for serving (optional)"],
+      "Heavy Sugar Syrup": ["70g granulated sugar", "40g water", "1 drop lemon juice"]
+    },
+    instructions: ["Prepare light soaking syrup by combining sugar, water, and lemon juice; heat until dissolved, bring to boil, then cool completely.", "Preheat oven to 210°C/410°F and grease a 34cm round pan with ghee.", "Mix semolina with melted ghee using a spatula until every grain is well coated.", "Process coconut finely and stir into semolina mixture if using.", "Combine milk, heavy sugar syrup, and sugar in microwave-safe cup; heat until warm and whisk until sugar dissolves completely.", "Pour warm mixture over semolina and fold gently until no dry pockets remain; avoid overmixing.", "Pour batter into prepared pan and tap to smooth the surface.", "Refrigerate for 15-20 minutes until batter thickens and is no longer jiggly.", "Sprinkle nuts over surface if desired, pressing to adhere, then refrigerate again.", "Bake for 22-27 minutes until surface is deep golden brown.", "Immediately pour cooled light soaking syrup over hot basbousa and allow to soak.", "Cool in pan for at least 30 minutes before cutting into squares.", "Serve warm or at room temperature with eshta if desired."],
+    tips: ["Weight measurements using a kitchen scale are highly recommended for accuracy, especially for semolina.", "Use medium-grain semolina specifically; avoid fine or basbousa mixes.", "Ghee cannot be substituted with butter; clarified butter may work as alternative.", "Coconut taste is subtle; it adds flavor dimension without being detectable.", "Pour room-temperature (not hot) syrup to prevent basbousa from seizing and hardening.", "Store in airtight container for up to 1 week at room temperature.", "Half recipe can be made in a 24cm pan with same baking time."]
+  },
+  {
+    id: "pistachio-kunafa-chocolate-cookies",
+    name: "Pistachio Kunafa Chocolate Cookies",
+    description: "The viral Dubai Chocolate in cookie form, these Pistachio Kunafa Cookies are unbelievably rich and decadent with a crunchy kunafa pistachio filling wrapped in brownie-like chocolate cookie dough.",
+    category: "Cookies",
+    prepTime: "25 minutes",
+    cookTime: "10 minutes",
+    totalTime: "45 minutes",
+    servings: 10,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=600&h=400&fit=crop",
+    ingredients: {
+      "Pistachio Kunafa Filling": ["1 cup (90g) kunafa pastry", "1 Tbsp butter or ghee, for roasting kunafa dough", "3/4 cup (200g) pistachio spread", "2 Tbsp tahini (optional)"],
+      "Cookie Dough": ["114g unsalted butter", "1 tsp espresso/instant coffee powder", "1 cup brown sugar, packed", "2 tsp vanilla extract", "1 egg, room temperature", "1/3 cup cocoa powder", "1 cup all purpose flour", "1/2 tsp baking soda", "1/2 tsp salt", "1/2 cup milk or semi-sweet chocolate chunks"]
+    },
+    instructions: ["Shred kunafa pastry and roast with butter until golden brown; cool and mix with pistachio spread and tahini.", "Refrigerate filling 10 minutes, then form into 10-12 equal balls and freeze 15 minutes.", "Brown butter over medium heat until light golden; cool 10 minutes.", "Whisk browned butter with espresso powder, brown sugar, vanilla, and egg.", "Sift and fold in cocoa powder, flour, baking soda, and salt.", "Cover frozen filling balls with cookie dough; top with chocolate chunks.", "Bake at 180°C (350°F) for 10 minutes on lower-middle rack.", "Cool completely 20-25 minutes before serving."],
+    tips: ["Keeps at room temperature for 3 days or refrigerated for one week.", "Both baked and unbaked cookies freeze well in airtight containers."]
+  },
+  {
+    id: "pistachio-kunafa-brownies",
+    name: "Pistachio Kunafa Brownies",
+    description: "A soft, decadent brownie layered with sweet and crunchy pistachio kunafa spread and a smooth, creamy chocolate ganache on top.",
+    category: "Brownies",
+    prepTime: "30 minutes",
+    cookTime: "20 minutes",
+    totalTime: "50 minutes",
+    servings: 9,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1515037893149-de7f840978e2?w=600&h=400&fit=crop",
+    ingredients: {
+      "Brownie": ["1/2 cup (120g) softened unsalted butter", "1 cup (180g) light brown sugar", "2 large eggs", "1 tsp vanilla extract", "1/3 cup (40g) cocoa powder", "1/2 tsp (2g) baking powder", "1/2 cup (60g) all-purpose flour", "1/8 tsp (pinch) salt"],
+      "Pistachio Kunafa and Chocolate Layer": ["3/4 cup (200g) pistachio spread", "1 cup (90g) kunafa pastry", "1 Tbsp butter or ghee (for roasting)", "1 cup (180g) semi-sweet or dark chocolate"]
+    },
+    instructions: ["Preheat to 180°C/350°F; prepare 7-inch square pan.", "Cream butter and sugar until pale; add eggs and vanilla.", "Sift and fold in dry ingredients.", "Pour batter; bake 20-25 minutes until toothpick test passes.", "Shred kunafa; roast in melted butter until golden-brown.", "Mix roasted kunafa with slightly melted pistachio spread.", "Melt chocolate in microwave (15-30 second intervals).", "Layer kunafa mixture on cooled brownie, then chocolate layer.", "Garnish with slivered pistachios; refrigerate 5-10 minutes before serving."],
+    tips: ["Store in refrigerator for up to 10 days in an airtight container.", "Freeze individual pieces for several months."]
+  },
+  {
+    id: "the-easiest-almond-croissants",
+    name: "The Easiest Almond Croissants",
+    description: "Flaky almond croissants filled and topped with a creamy frangipane, almond slices, and a generous dusting of icing sugar.",
+    category: "Pastries",
+    prepTime: "15 minutes",
+    cookTime: "15 minutes",
+    totalTime: "30 minutes",
+    servings: 6,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&h=400&fit=crop",
+    ingredients: {
+      "Base Components": ["6-8 medium/large croissants (preferably stale, a day-old)", "1 cup sliced almonds", "Powdered icing sugar (for dusting)"],
+      "Syrup": ["2 Tbsp granulated sugar", "1 cup water", "1 tsp almond extract"],
+      "Almond Cream/Frangipane": ["1/2 cup granulated or caster sugar", "1 cup almond meal/almond flour", "1/4 tsp salt", "1/2 cup (100g) unsalted butter, room temperature", "2 large eggs, room temperature", "1 tsp vanilla extract", "1/4 tsp almond extract"]
+    },
+    instructions: ["Prepare simple syrup by heating sugar and water to a boil; remove from heat, add almond extract, and cool.", "Create almond cream using a mixer: combine sugar, almond flour, and salt; beat in butter until creamy; add eggs individually; mix in vanilla and almond extracts.", "Slice croissants horizontally without cutting completely through; brush cut sides lightly with syrup; spread 2 Tbsp almond cream on bottom half; replace top and add 1 Tbsp cream on top; generously apply sliced almonds.", "Bake on lined tray at 180°C (350°F) for 15 minutes until cream turns golden brown; cool 5-10 minutes; dust with icing sugar."],
+    tips: ["Stale croissants (1-5 days old) work perfectly for this recipe.", "These freeze well for up to 2 months when completely prepped.", "Almond cream can be stored separately in the fridge for up to one month."]
+  },
+  {
+    id: "death-by-chocolate-cookies",
+    name: "Death by Chocolate Cookies",
+    description: "Soft, gooey, decadent double chocolate cookies with a brownie-like texture, loaded with chocolate chunks and chips.",
+    category: "Cookies",
+    prepTime: "15 minutes",
+    cookTime: "10 minutes",
+    totalTime: "25 minutes",
+    servings: 12,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1625876981260-1f9372725bae?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cookie Dough": ["114g unsalted butter", "1 tsp espresso powder/instant coffee", "1 cup packed brown sugar", "2 tsp vanilla extract", "1 egg (room temperature)", "1/3 cup cocoa powder", "1 cup all-purpose flour", "1/2 tsp baking soda", "1/2 tsp salt", "1 cup chocolate chips and chunks (mixed)"]
+    },
+    instructions: ["Brown butter in heavy saucepan over medium heat, stirring constantly until golden. Transfer to mixing bowl.", "Cool browned butter approximately 10 minutes, then add espresso powder, brown sugar, vanilla extract, and egg. Whisk thoroughly.", "Sift dry ingredients (cocoa powder, flour, baking soda, salt) into wet mixture. Fold until combined, then mix in chocolate.", "Divide dough into 12 portions using cookie scoop. Space 2 inches apart on lined baking sheet.", "Bake at 180°C (350°F) on lower-middle rack for 10-11 minutes until edges firm while centers remain gooey. Cool in pan 10 minutes."],
+    tips: ["For even better results, freeze your cookie dough balls for a few days to allow flavors to develop and achieve thicker cookies."]
+  },
+  {
+    id: "baked-mini-cheesecakes",
+    name: "Baked Mini Cheesecakes",
+    description: "New York style mini cheesecakes inspired by The Cheesecake Factory's classic cheesecakes, with lemon flavor and crisp biscuit base -- no water bath required.",
+    category: "Cheesecakes",
+    prepTime: "15 minutes",
+    cookTime: "20 minutes",
+    totalTime: "8 hours 35 minutes",
+    servings: 12,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600&h=400&fit=crop",
+    ingredients: {
+      "Biscuit Base": ["300g biscuits", "120g melted butter (1/2 cup)"],
+      "Cheesecake Filling": ["300g cream cheese, room temperature", "1/2 cup (100g) granulated sugar", "2 large eggs", "1 tsp vanilla extract", "Zest of one lemon", "1 1/2 tbsp all-purpose flour", "200g sour cream, room temperature"]
+    },
+    instructions: ["Pulse biscuits into fine crumbs; mix with melted butter.", "Press mixture into greased pan; pre-bake at 160°C for 5-10 minutes.", "Beat cream cheese until creamy; gradually add sugar, then eggs.", "Fold in vanilla, lemon zest, flour, and sour cream.", "Pour filling into pre-baked crust (3/4 full).", "Bake 15 minutes until slightly jiggly at center.", "Cool at room temperature 1+ hour; refrigerate overnight.", "Top as desired and serve chilled."],
+    tips: ["Use room-temperature ingredients for lump-free batter.", "Avoid over-beating to minimize cracks.", "Cracks will smooth as cheesecake cools.", "Chill minimum 8 hours for enhanced flavor.", "Works in muffin trays or silicone molds if specialized pan unavailable."]
+  },
+  {
+    id: "nutella-brownies",
+    name: "Nutella Brownies",
+    description: "The most decadent, fudgy brownies stuffed with a thick slab of Nutella, featuring two layers of soft, gooey brownie with a frozen Nutella layer sandwiched between them.",
+    category: "Brownies",
+    prepTime: "25 minutes",
+    cookTime: "35 minutes",
+    totalTime: "1 hour",
+    servings: 9,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&h=400&fit=crop",
+    ingredients: {
+      "Brownies": ["300g Nutella spread (~1 1/4 cup)", "200g unsalted butter", "200g semi-sweet chocolate chips", "1 cup dark brown sugar", "3 eggs (room temperature)", "1 tsp vanilla extract", "1/2 cup flour", "1/4 cup cocoa powder", "Pinch of salt"]
+    },
+    instructions: ["Create a frozen Nutella slab on parchment paper matching your pan's dimensions; freeze until solid.", "Prepare brownie batter by melting butter and chocolate chips, cool briefly, then whisk in sugar, eggs, and vanilla; sift in flour, cocoa, and salt.", "Layer half the batter in greased pan, add frozen Nutella slab, top with remaining batter; bake 35 minutes at 180°C/350°F.", "Cool in pan for 30 minutes, remove, cool another 40 minutes before slicing."],
+    tips: ["These taste better the next day once flavors meld, though warm brownies are equally enjoyable."]
+  },
+  {
+    id: "pumpkin-cinnamon-rolls",
+    name: "Pumpkin Cinnamon Rolls",
+    description: "All the fall flavors in one indulgent dessert -- soft pumpkin cinnamon rolls topped with a brown butter maple icing.",
+    category: "Pastries",
+    prepTime: "30 minutes",
+    cookTime: "30 minutes",
+    totalTime: "2 hours 30 minutes",
+    servings: 12,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Pumpkin Roll Dough": ["3.5 cups all-purpose flour", "1/4 cup light brown sugar", "2 1/4 tsp active dry yeast", "1 tsp pumpkin spice mix", "1/2 tsp cinnamon powder", "1 tsp salt", "3/4 cup lukewarm whole milk", "100g pumpkin puree", "2 eggs (room temperature)", "100g unsalted butter (softened)"],
+      "Cinnamon Sugar Filling": ["115g unsalted butter (softened)", "1 1/4 cup light brown sugar", "2 tbsp cinnamon powder", "1 tsp pumpkin spice mix", "1/4 tsp salt"],
+      "Brown Butter Maple Icing": ["5 tbsp salted butter", "160g cream cheese (room temperature)", "1/3 cup maple syrup", "1-2 cups powdered icing sugar", "1 tsp vanilla extract"]
+    },
+    instructions: ["Combine flour, brown sugar, yeast, pumpkin spice, cinnamon, and salt in stand mixer bowl; gently mix with spatula.", "Add lukewarm milk and pumpkin puree; mix on low speed with hook attachment.", "Add eggs and mix; gradually incorporate softened butter until smooth dough forms.", "Knead on medium-high for 3-5 minutes.", "Transfer to greased bowl; cover and let rise 1-2 hours until doubled.", "Mix filling ingredients (butter, sugar, spices) in separate bowl.", "Punch down dough; roll into rectangle on floured surface.", "Spread filling evenly; roll tightly from longest side.", "Slice into 12-15 equal rolls using serrated knife.", "Place rolls in greased pan with 1-inch spacing; cover and let rise 30 minutes.", "Bake at 180°C (350°F) for 25-30 minutes until golden brown.", "Brown butter in saucepan (3-5 minutes); cool completely.", "Whisk brown butter with cream cheese and maple syrup.", "Sift in icing sugar; mix in vanilla extract.", "Spread icing over cooled rolls."],
+    tips: ["Store covered at room temperature for 1-2 days or refrigerated for a week.", "Can be frozen for several months; defrost before microwaving or air-frying for 3-5 minutes.", "Overnight preparation possible: refrigerate after rolling, bake the next morning after additional rise time.", "Use high-quality all-purpose flour for best results.", "Ensure pumpkin puree is strained to avoid excess moisture."]
+  },
+  {
+    id: "oatmeal-chocolate-chip-pizookie",
+    name: "Oatmeal Chocolate Chip Pizookie",
+    description: "A one-pan pizza cookie that is easy to make and tastes phenomenally good -- a warm, cozy dessert best served with ice cream.",
+    category: "Desserts",
+    prepTime: "10 minutes",
+    cookTime: "20 minutes",
+    totalTime: "30 minutes",
+    servings: 4,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=600&h=400&fit=crop",
+    ingredients: {
+      "Pizookie": ["1 1/4 cup quick white oats or rolled oats", "1 cup all-purpose flour", "1/2 tsp baking soda", "1/2 tsp salt", "1/2 cup unsalted butter, melted", "1/2 cup dark brown sugar", "1/4 cup granulated sugar", "1 egg", "2 tsp vanilla extract", "1 cup chocolate chips (choice of variety)"]
+    },
+    instructions: ["Mix dry ingredients (oats, flour, baking soda, salt) in a bowl and set aside.", "Whisk together melted butter, brown sugar, and white sugar until sugars dissolve; add egg and vanilla extract.", "Fold dry mixture into wet mixture; stir in chocolate chips.", "Press dough evenly into a greased 8-inch round pan or iron skillet.", "Bake at 350°F (180°C) for 20-25 minutes until golden brown; serve warm with ice cream."],
+    tips: ["Can be sliced like pizza or eaten directly from the pan with spoons."]
+  },
+  {
+    id: "fig-and-honey-cheesecake",
+    name: "Fig and Honey Cheesecake",
+    description: "A silky, rich cheesecake naturally sweetened with honey and lightly perfumed with orange blossom water, with fig preserves swirled through and a cardamom-spiced crust.",
+    category: "Cheesecakes",
+    prepTime: "30 minutes",
+    cookTime: "60-70 minutes",
+    totalTime: "6+ hours (including chilling)",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1508737027454-e6454ef45adb?w=600&h=400&fit=crop",
+    ingredients: {
+      "Crust": ["2 cups graham cracker crumbs", "2 tablespoons granulated sugar", "1/2 teaspoon ground cardamom", "1/2 cup unsalted butter, melted"],
+      "Cheesecake Filling": ["2 pounds (four 8-ounce packages) full-fat cream cheese, at room temperature", "3/4 cup full-fat sour cream, at room temperature", "1 1/4 cups honey", "4 large eggs, at room temperature", "1 tablespoon orange blossom water", "1/2 cup fig preserves"],
+      "Topping": ["Fresh figs, halved or sliced", "Pistachios", "Honey"]
+    },
+    instructions: ["Preheat oven to 325°F; place water bath on lowest rack to prevent cracking.", "Mix crust ingredients; press into springform pan.", "Beat cream cheese and sour cream; slowly add honey, then eggs and orange blossom water.", "Pour three-fourths filling over crust; add fig preserves and swirl with toothpick.", "Pour remaining batter; bake 60-70 minutes until edges set but center jiggles.", "Cool gradually in turned-off oven with door ajar.", "Refrigerate several hours or overnight; garnish with fresh figs, pistachios, and honey."],
+    tips: ["Use room-temperature ingredients for smooth, lump-free batter.", "Water bath on lowest rack helps prevent cracking.", "Cool gradually in the oven with door ajar to prevent sudden temperature changes."]
+  },
+  {
+    id: "carrot-and-cardamom-bundt-cake",
+    name: "Carrot and Cardamom Bundt Cake",
+    description: "A fusion take on gajar ka halwa with all the warm, familiar flavors of sweet carrots and fragrant cardamom baked into a soft, tender bundt cake topped with cardamom cream cheese frosting.",
+    category: "Cakes",
+    prepTime: "20 minutes",
+    cookTime: "55-60 minutes",
+    totalTime: "1 hour 30 minutes",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1542826438-bd32f43d626f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cake": ["2 1/2 cups all-purpose flour", "2 teaspoons baking powder", "1 teaspoon baking soda", "1 1/2 teaspoons ground cardamom", "1/2 teaspoon salt", "4 large eggs (room temperature)", "1 1/2 cups light brown sugar", "1/2 cup granulated sugar", "1 cup neutral oil", "1/2 cup full-fat yogurt", "1 teaspoon vanilla extract", "1 pound carrots (peeled, trimmed, finely shredded)"],
+      "Cardamom Cream Cheese Frosting": ["4 ounces cream cheese (room temperature)", "1/4 cup unsalted butter (room temperature)", "1 cup powdered sugar", "2 tablespoons heavy whipping cream (cold)", "1/4 teaspoon ground cardamom", "Sliced or ground nuts for garnish"]
+    },
+    instructions: ["Preheat oven to 350°F; prepare greased 9.5-inch bundt pan.", "Whisk flour, baking powder, baking soda, cardamom, and salt; set aside.", "Combine eggs, sugars, oil, yogurt, and vanilla; fold in carrots and flour mixture carefully.", "Bake 55-60 minutes until toothpick inserted near center comes out clean (tent with foil if browning too quickly).", "Cool in pan 15 minutes, then transfer to wire rack to cool completely.", "Beat cream cheese and butter until fluffy (~3 minutes); add heavy cream, then powdered sugar.", "Frost cooled cake and garnish with nuts."],
+    tips: ["Cake can be made a day ahead.", "Perfect for Ramadan and Eid celebrations.", "Pairs well with chai.", "Tent with foil if browning too quickly during baking."]
+  },
+  {
+    id: "baklava",
+    name: "Baklava",
+    description: "A Middle Eastern version of baklava with a simplified approach using clarified butter poured over layered phyllo and ground nuts, then soaked in orange blossom syrup.",
+    category: "Middle Eastern",
+    prepTime: "30 minutes",
+    cookTime: "50-60 minutes",
+    totalTime: "1 hour 30 minutes (plus soaking time)",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1509365390695-33aee754301f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Clarified Butter": ["1 cup unsalted butter"],
+      "Syrup": ["1 1/2 cups granulated sugar", "3/4 cup water", "1 tablespoon lemon juice", "1 tablespoon orange blossom water"],
+      "Baklava Layers": ["1 pound phyllo dough (room temperature)", "3 cups walnuts or almonds (ground coarsely)"]
+    },
+    instructions: ["Melt butter over medium-low heat; stir occasionally until solids brown, then strain through paper towel into heat-proof jar.", "Combine sugar, water, and lemon juice; boil then simmer 10 minutes; add orange blossom water and refrigerate until completely cool.", "Preheat oven to 325°F.", "Brush 9\"x13\" pan with clarified butter.", "Layer: half phyllo dough, ground nuts spread evenly, remaining phyllo, brush top with butter.", "Cut into diamonds using six horizontal and nine diagonal cuts.", "Pour remaining butter over baklava; rest 5 minutes then bake 50-60 minutes at 325°F (rotate halfway).", "Immediately pour cooled syrup over hot baklava; soak several hours or overnight."],
+    tips: ["Syrup must be completely cool before pouring over hot baklava.", "Can be kept loosely covered at room temperature for two weeks.", "Rotate pan halfway through baking for even browning."]
+  },
+  {
+    id: "trilece",
+    name: "Trilece",
+    description: "A popular Turkish caramel milk cake featuring a light sponge soaked in a dual milk mixture and topped with silky caramel and whipped cream.",
+    category: "Cakes",
+    prepTime: "30 minutes",
+    cookTime: "20-25 minutes",
+    totalTime: "4+ hours (including chilling)",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&h=400&fit=crop",
+    ingredients: {
+      "Caramel Topping": ["1 cup granulated sugar", "1/4 cup water", "2 tablespoons unsalted butter", "1 cup heavy whipping cream"],
+      "Cake": ["4 large eggs, room temperature", "1 cup granulated sugar", "1/2 cup neutral oil", "1/4 cup whole milk", "1 tablespoon vanilla extract", "1 cup all-purpose flour", "2 teaspoons baking powder", "1/4 teaspoon salt"],
+      "Milk Soaking Mixture": ["2 cups whole milk", "1 cup heavy whipping cream", "1/4 cup granulated sugar"],
+      "Whipped Cream Topping": ["1 cup cold heavy whipping cream", "2 tablespoons granulated sugar", "1 tablespoon full-fat powdered milk (optional)"]
+    },
+    instructions: ["Prepare caramel by boiling sugar and water until golden brown (5-10 minutes), then whisk in butter and cream.", "Preheat oven to 350°F; line 9\"x13\" pan with parchment.", "Whisk eggs and sugar until tripled in volume and foamy (5-8 minutes).", "Gently fold in oil, milk, and vanilla sequentially.", "Sift and fold flour, baking powder, and salt carefully.", "Bake until golden and toothpick-clean (20-25 minutes); cool completely.", "Prepare milk mixture by heating milk, cream, and sugar until lukewarm.", "Prick cooled cake with fork; pour milk mixture evenly over surface; refrigerate.", "Whip cold cream with sugar and optional powdered milk to stiff peaks.", "Spread three-quarters of whipped cream over cake.", "Pour cooled caramel over cream layer.", "Pipe reserved cream in parallel lines; drag toothpick perpendicular to create signature pattern.", "Refrigerate until serving."],
+    tips: ["The optional powdered milk in the whipped cream topping helps stabilize the cream, preventing it from losing its shape or weeping.", "Best prepared ahead of time and refrigerated for several hours before serving."]
+  },
+  {
+    id: "khaliat-al-nahl",
+    name: "Khaliat al Nahl",
+    description: "Yemeni Honeycomb Bread -- golden rolls baked in a honeycomb pattern, filled with cream cheese and finished with a sweet honey glaze and sesame-nigella seed topping.",
+    category: "Middle Eastern",
+    prepTime: "20 minutes",
+    cookTime: "22-27 minutes",
+    totalTime: "2 hours (including rising time)",
+    servings: 8,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main Dough": ["3/4 cup full-fat milk, lukewarm", "2 tablespoons neutral flavored oil", "2 tablespoons granulated sugar", "2 teaspoons active dry or instant yeast", "2 cups all-purpose flour", "1 teaspoon baking powder", "1/2 teaspoon salt", "4 ounces cream cheese, cold"],
+      "Topping": ["1 large egg", "1 tablespoon whole or reduced-fat milk", "1/2 teaspoon sesame seeds", "1/4 teaspoon nigella seeds", "1/4 cup honey"]
+    },
+    instructions: ["Combine milk, oil, sugar, and yeast; let sit until foamy (5 minutes).", "Whisk flour, baking powder, and salt separately.", "Mix flour mixture into wet ingredients; knead until smooth (5 minutes).", "Let dough rise until doubled (1-1.5 hours).", "Preheat oven to 350°F; prepare 9-inch cake pan.", "Divide dough into 20-24 pieces; wrap each around cream cheese piece.", "Arrange in honeycomb pattern; let rise 30 minutes.", "Brush with egg wash; sprinkle seeds.", "Bake until golden (22-27 minutes); drizzle honey immediately."],
+    tips: ["Ensure milk is lukewarm (not hot) to properly activate the yeast.", "Use cold cream cheese so it holds its shape when wrapped in dough."]
+  },
+  {
+    id: "chai-spiced-pumpkin-snickerdoodles",
+    name: "Chai Spiced Pumpkin Snickerdoodles",
+    description: "A balanced autumn cookie featuring cozy chai spices -- cinnamon, cardamom, ginger, and cloves -- with pumpkin puree, rolled in chai-spiced sugar for a soft, chewy finish.",
+    category: "Cookies",
+    prepTime: "15 minutes",
+    cookTime: "10-12 minutes",
+    totalTime: "1 hour 30 minutes (including chilling)",
+    servings: 18,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Chai Spice Mixture": ["2 tbsp granulated sugar", "1/2 tsp ground cinnamon", "1/8 tsp ground cloves", "1/8 tsp ground ginger", "1/8 tsp ground cardamom"],
+      "Cookies": ["1 1/2 cups all-purpose flour", "1 tsp ground cinnamon", "3/4 tsp cream of tartar", "1/2 tsp salt", "1/4 tsp ground cloves", "1/4 tsp ground ginger", "1/4 tsp ground cardamom", "1/2 cup unsalted butter (room temperature)", "1/2 cup granulated sugar", "1/4 cup brown sugar (packed)", "1 large egg yolk", "1 tsp vanilla extract", "1/4 cup pumpkin puree"]
+    },
+    instructions: ["Mix chai spice ingredients together; set aside.", "Combine flour and spices in a bowl.", "Cream butter and sugars; add egg yolk, vanilla, and pumpkin puree; mix in flour mixture; refrigerate 1 hour.", "Preheat oven to 350°F.", "Shape dough into 2-inch balls; roll in chai spice mixture; space 2 inches apart on parchment-lined baking sheet.", "Bake 10-12 minutes until set; cool on baking sheets."],
+    tips: ["Refrigerate dough for at least 1 hour for easier shaping.", "Do not overbake -- cookies will continue to set as they cool on the baking sheet."]
+  },
+  {
+    id: "ricotta-kunafa-rolls",
+    name: "Ricotta Kunafa Rolls",
+    description: "Creamy ricotta cheese wrapped inside golden, crunchy strands of sticky sweet kunafa, sprinkled with vibrant pistachios for the finishing touch.",
+    category: "Middle Eastern",
+    prepTime: "1 hour",
+    cookTime: "40 minutes",
+    totalTime: "2 hours 40 minutes",
+    servings: 30,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=600&h=400&fit=crop",
+    ingredients: {
+      "Sugar Syrup": ["2 cups (14 oz/400g) granulated sugar", "1 cup (237 ml) water", "A squeeze of fresh lemon juice, about 1 teaspoon", "1 tsp orange blossom water (optional, may be substituted with your favorite flavoring like cinnamon or vanilla)"],
+      "Kunafa Rolls": ["1lb/500g FRESH kunafa sold in long organized strands (known as kunafa torah)", "14oz/400g ricotta cheese", "1 1/2 cups (12oz/340g) melted ghee (or 2 cups (1 lb/450g) unsalted butter, clarified, melted, and cooled slightly)", "Ground pistachios, for garnish (optional)"]
+    },
+    instructions: ["In a medium saucepan, combine sugar, water and lemon juice. Set on stovetop over high heat. Avoid stirring to prevent crystallization, but help if needed. Once it boils, stop stirring.", "Bring to a rolling boil, then reduce heat to low and simmer for 10 minutes. The syrup will thicken to a consistency similar to corn syrup.", "Remove from heat and stir in orange blossom water or flavoring of choice. Transfer to a measuring cup with spout and cool to room temperature.", "Unwrap kunafa and take out a thin layer. Rewrap rest with a damp towel to prevent drying. Using kitchen scissors, cut strands about 12cm long and 5cm wide.", "Working with one strand at a time, remove a 1cm wide strand from the side of the 5cm one. Place the 1cm strand horizontally over the upper side of the wider strand to form a lower case 't' shape.", "Place 2 teaspoons of ricotta cheese over the thin strand. Fold the sides of the thin strand over the cheese, ensuring it's sealed. Pat water on the wider kunafa strand, then roll ensuring cheese is cradled inside. Seal the end with water and place seam-side down in baking pan.", "Leave kunafa rolls uncovered at room temperature for about an hour until they dry out slightly. At this point, freeze for later or bake right away.", "Preheat oven to 200C/390F. Pour melted ghee over kunafa rolls to saturate. Bake for 35 to 40 minutes until deep golden brown, flipping once or twice during baking.", "Remove from oven and transfer rolls to kitchen towels to drain excess ghee. While still hot, return to a clean pan and pour cooled syrup over rolls. Allow syrup to soak in, then transfer to serving platter. Sprinkle with ground pistachios if desired."],
+    tips: ["Only FRESH kunafa that comes in long strands will work. Frozen kunafa tends to break and is too frizzy for rolling.", "Always keep kunafa covered to prevent it from drying out.", "Ricotta cheese is naturally sweet and neutral — no need to sweeten or flavor it.", "Do not use straight butter; use ghee or clarified butter to prevent charring.", "Kunafa rolls freeze well and can be frozen for up to a month before baking.", "Best served the same day they're made, within a few hours if possible.", "To clarify butter: Melt 2 cups (1 lb/450g) butter slowly over medium low heat until milk solids separate and collect at bottom. Remove from heat, let settle 10 minutes, then skim foam from surface. Slowly pour clear butterfat into a bowl, leaving milk solids behind."]
+  },
+  {
+    id: "mesh-om-ali-phyllo-milk-pie",
+    name: "Mesh Om Ali (Phyllo Milk Pie)",
+    description: "Pleated sheets of phyllo dough soaked and flavored with sweetened condensed milk and cream, crisp on the outside and creamy on the inside.",
+    category: "Middle Eastern",
+    prepTime: "10 minutes",
+    cookTime: "30 minutes",
+    totalTime: "50 minutes",
+    servings: 12,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 (500g) package phyllo sheets, thawed", "3/4 cup (170g) unsalted butter, melted", "1 (14oz/397g) can sweetened condensed milk", "2 cups (500ml) whipping cream (heavy cream)"],
+      "For Serving": ["Ground cinnamon, for dusting on top (optional but recommended)", "Nuts of your choice (optional)"]
+    },
+    instructions: ["Preheat oven to 200C/390F with rack in middle position.", "Brush melted butter over bottom and sides of an 11\"x15\" (28cmx38cm) baking dish.", "Gather one phyllo sheet at a time and scrunch into a loose fan-like strip. Arrange scrunched sheets side by side in the buttered dish.", "Brush remaining melted butter all over and between the scrunched phyllo, ensuring even coating throughout.", "Bake until phyllo turns deep golden brown, 20 to 25 minutes.", "Remove from oven and drizzle with sweetened condensed milk, followed by whipping cream.", "Return to oven and bake 5 to 10 minutes until edges bubble and phyllo has soaked in most of the mixture.", "Sprinkle with cinnamon and nuts if desired. Cool 10 minutes before serving warm or at room temperature."],
+    tips: ["Thaw phyllo overnight in refrigerator or 4-5 hours at room temperature, never microwave.", "Keep phyllo well covered until ready to use.", "Darker golden brown phyllo will be crunchier.", "Best served warm; microwave reheating causes cream to separate.", "Leftovers can be enjoyed at room temperature but taste different than when warm.", "Store covered tightly in plastic wrap or airtight container in refrigerator.", "For a lighter option, use 1 cup whipping cream and 1 cup milk instead of all cream.", "Melted butter may be substituted with clarified butter or ghee."]
+  },
+  {
+    id: "rose-mehalabya-milk-pudding",
+    name: "Rose Mehalabya (Milk Pudding)",
+    description: "Arabic-style milk pudding infused with rose and orange blossom waters, topped with rose syrup and garnished with caramelized pistachios.",
+    category: "Middle Eastern",
+    prepTime: "15 minutes",
+    cookTime: "30 minutes",
+    totalTime: "2 hours 45 minutes",
+    servings: 8,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop",
+    ingredients: {
+      "Mehalabya (Milk Pudding)": ["3 1/4 cups whole milk", "3/4 cup heavy whipping cream", "1/2 cup plus 2 tablespoons (125g) granulated sugar", "1/2 cup (56g) cornstarch", "2 teaspoons orange blossom water, more or less according to taste", "1 teaspoon rose water, more or less according to taste"],
+      "Rose Syrup Topping": ["2 tablespoons rose syrup concentrate (sharbat ward)", "1/4 cup plus 2 tablespoons water", "2 teaspoons (5g) cornstarch"],
+      "Pistachio Topping": ["2 teaspoons (10g) unsalted butter", "100g (about 1 cup) unsalted pistachios, finely chopped", "1 Tablespoon granulated sugar", "1/2 teaspoon orange blossom water"]
+    },
+    instructions: ["In a medium saucepan, off the heat, whisk together the milk, heavy whipping cream, sugar and cornstarch until well combined and the cornstarch has dissolved completely without any visible lumps.", "Set the saucepan over medium-high heat and bring to a full boil, whisking constantly. Continue to boil for a few more seconds until the mixture thickens and large bubbles form around the surface.", "Remove the saucepan from the heat and whisk in the orange blossom and rose waters.", "Pour into cups and refrigerate uncovered until the surface has begun to set; about 20 minutes. Meanwhile prepare the Rose Syrup Topping.", "In a very small saucepan, off the heat, whisk together the rose syrup concentrate, water and cornstarch until well combined.", "Set the saucepan over medium-high heat and bring to a full boil, whisking constantly, until the mixture thickens and large bubbles form around the surface.", "Remove the saucepan from the heat and spoon a thin layer of the rose topping over the surface of each mehalabya cup, tilting the cup to cover evenly.", "Refrigerate until set and cold; about 2 hours or up to overnight.", "In a medium skillet, over medium-high heat, melt the butter then add in the pistachios. Saute the pistachios in the butter, stirring frequently, until just beginning to toast. Add in the sugar and stir until melted and lightly caramelized around the pistachios. Off the heat, then add in the orange blossom water. Transfer to another bowl, and allow to cool completely.", "Spoon the pistachio topping evenly over the cooled mehalabya cups. Serve right away or keep refrigerated until ready to serve."],
+    tips: ["This mehalabya is a great all-purpose base that you can infuse with the flavoring of your liking. Omit the rose and orange blossom waters and add vanilla instead, for example.", "You can also leave out the rose syrup topping and add your favorite nut mix instead of pistachios.", "Feel free to serve the mehalabya family-style in one big bowl or dish instead of individual servings.", "This recipe can be doubled, tripled, quadrupled or even cut in half or quartered.", "Weighing ingredients using a kitchen scale is highly encouraged for best results."]
+  },
+  {
+    id: "banana-caramel-kunafa-sundae",
+    name: "Banana Caramel Kunafa Sundae",
+    description: "A Middle Eastern spin on ice cream sundae featuring vanilla ice cream layered with bananas, warm salted caramel sauce and caramelized cinnamon kunafa crumbs for crunch.",
+    category: "Middle Eastern",
+    prepTime: "30 minutes",
+    cookTime: "15 minutes",
+    totalTime: "45 minutes",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600&h=400&fit=crop",
+    ingredients: {
+      "Caramelized Cinnamon Kunafa Crumbs": ["1/3 cup plus 1 teaspoon (85g) unsalted butter", "170g kunafa, or kataifi/kadaifi pastry, fresh or frozen", "1/2 cup (100g) granulated sugar", "1/2 teaspoon ground cinnamon"],
+      "Salted Caramel Sauce": ["1 cup (200g) granulated sugar", "1/4 cup plus 2 tablespoons water", "1/4 cup (57g) salted butter, diced into 1 tablespoon pieces", "1/2 cup heavy whipping cream, warmed", "1/2 teaspoon fine salt"],
+      "Assembly": ["1 liter (2 pint) vanilla ice cream", "4 to 5 large bananas, sliced"]
+    },
+    instructions: ["Break kunafa into small pieces while semi-frozen.", "Melt butter in large pan over medium heat.", "Add shredded kunafa and stir until evenly coated.", "Cook kunafa, stirring constantly until golden; about 5 minutes.", "Add sugar and stir to coat; continue stirring until evenly golden brown, about 5 more minutes.", "Add cinnamon and stir to combine.", "Transfer kunafa crumbs to bowl and cool completely.", "Bring sugar and water to boil in heavy-bottomed saucepan; cover for 1 minute.", "Cook without stirring, swirling pan occasionally, until amber-colored.", "Remove from heat and whisk in butter until melted.", "Carefully pour in cream and whisk well.", "Return to heat and whisk until smooth.", "Stir in salt and transfer to serving vessel.", "In serving glasses, layer kunafa crumbs, banana slices, ice cream scoop, and caramel sauce.", "Repeat with second layer if desired.", "Serve immediately."],
+    tips: ["Sugar should be added after kunafa has been lightly toasted to prevent scorching.", "Kunafa shreds easiest when semi-frozen.", "Cooled caramelized kunafa keeps well, covered tightly, for about a week.", "Store-bought caramel sauce may be substituted.", "Use weight measurements for best results."]
+  },
+  {
+    id: "brown-butter-caramel-snickerdoodles",
+    name: "Brown Butter Caramel Snickerdoodles",
+    description: "Soft, thick and chewy snickerdoodles made with browned butter and stuffed with a gooey homemade caramel center, rolled in cinnamon sugar.",
+    category: "Cookies",
+    prepTime: "30 minutes",
+    cookTime: "9 to 11 minutes",
+    totalTime: "3 hours",
+    servings: 16,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cookie Dough": ["2 1/4 cups plus 2 tablespoons (10 5/8oz/300g) all purpose flour", "3/4 teaspoon cream of tartar", "1/2 teaspoon baking soda", "1/2 teaspoon baking powder", "2 teaspoons cornstarch", "1/2 teaspoon salt", "1/2 teaspoon ground cinnamon", "3/4 cup plus 2 tablespoons (7oz/198g) unsalted butter", "1 cup (7oz/200g) packed soft brown sugar, light or dark", "1/4 cup (1 3/4oz/50g) granulated sugar", "1 large egg", "1 large egg yolk", "1 teaspoon vanilla extract or 2 teaspoons imitation vanilla flavoring", "1 tablespoon (1oz/14g) sour cream"],
+      "Stuffing": ["1/4 batch homemade Microwave Soft Caramels"],
+      "Topping": ["3 tablespoons (1 1/3oz/38g) granulated sugar", "2 teaspoons ground cinnamon"]
+    },
+    instructions: ["Make and cool caramels according to recipe; cut 8 rectangles in half and shape into rounded 1-inch squares; freeze until ready to use.", "Line baking sheet with parchment paper or silicon mat.", "Whisk together flour, cream of tartar, baking soda, baking powder, cornstarch, salt and cinnamon; set aside.", "Heat butter in light-colored skillet over medium-high heat until melted, about 2 minutes; continue cooking, stirring and scraping until dark golden brown with nutty aroma, 1 to 3 minutes.", "Transfer browned butter to large heatproof bowl, scraping down brown bits.", "Add both sugars to butter and whisk to combine.", "Add egg, egg yolk and vanilla; whisk until smooth and emulsified; stir in sour cream.", "Stir in flour mixture until just combined; do not overmix.", "Using 3 tablespoon ice cream scoop, scoop dough onto lined baking sheet forming 16 equal balls; refrigerate about 1/2 hour if too soft.", "Make deep indentation in each dough ball with wooden spoon handle or thumb.", "Place frozen caramel piece in each indentation; gather dough up and over to completely cover; roll into smooth balls.", "Mix topping ingredients in small bowl; roll cookie dough balls in cinnamon-sugar and place on prepared baking sheet.", "Chill loosely covered for at least 2 hours up to 4 days, or freeze up to 1 month.", "Heat oven to 350F/180C fifteen minutes before baking; adjust rack to middle position.", "Line 2 baking sheets with parchment paper; place 8 cookie balls per sheet, spacing 2 inches apart.", "Bake until cookies flatten with slight dome, edges start to set yet centers are soft and puffy, 9 to 11 minutes; do not overbake.", "Cool cookies on baking sheet for at least 15 minutes before serving; or cool completely and store in airtight container."],
+    tips: ["Weighing ingredients is highly recommended for accuracy.", "If no cream of tartar is available, omit it and baking soda; use 1 1/2 teaspoons baking powder total instead.", "Use soft brown sugar that feels like damp sand; avoid hardened brown sugar.", "Use a light-colored skillet to brown butter; nonstick coating makes it difficult to see browning.", "Freezing caramels before stuffing makes the process less messy but is optional.", "Chill dough for thicker, less-spread cookies with better results.", "Cookies continue baking after removal from oven due to residual heat."]
+  },
+  {
+    id: "biscoff-explosion-cookies",
+    name: "Biscoff Explosion Cookies",
+    description: "Soft and chewy cookies made from Biscoff cookie crumbs with a creamy Biscoff spread filling that creates a lava-like center when eaten warm.",
+    category: "Cookies",
+    prepTime: "30 minutes",
+    cookTime: "10 minutes",
+    totalTime: "1 hour 55 minutes",
+    servings: 14,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cookie Dough": ["14 Biscoff/Lotus cookies, ground into fine crumbs (makes 1 cup, 4oz, 113g)", "1 1/4 cups (5 1/4oz, 148g) all-purpose flour", "1/2 teaspoon baking soda", "3/4 teaspoon salt", "1/2 teaspoon ground cinnamon", "1/2 cup (4oz, 113g) unsalted butter, softened at room temperature", "1/4 cup (2oz, 57g) creamy Biscoff cookie butter", "1/2 cup (3 1/2oz, 100g) packed light brown sugar", "1/3 cup (2 1/2oz, 73g) granulated sugar", "1 large egg, at room temperature", "1 teaspoon vanilla extract"],
+      "Biscoff Center": ["14 tablespoons creamy Biscoff cookie butter"],
+      "Garnish (optional)": ["4 Biscoff/Lotus cookies, broken into small chunks"]
+    },
+    instructions: ["Line a baking sheet with parchment paper and scoop 14 tablespoons of Biscoff cookie butter onto it. Freeze until solid, at least one hour or overnight.", "Preheat oven to 350F/180C and line 2 baking sheets with silicon mats or parchment paper.", "Whisk together Biscoff cookie crumbs, flour, baking soda, salt, and cinnamon; set aside.", "Beat butter and Biscoff cookie butter together until smooth and creamy, about 1 minute.", "Add both sugars and beat until lightened and fluffy, 3 to 5 minutes.", "Mix in egg and vanilla extract until well combined.", "Gradually add flour mixture on lowest speed until just incorporated. Do not overmix.", "Divide cookie dough into 14 equal balls and arrange 2 inches apart on prepared sheets.", "Make a deep indentation in each dough ball using a wooden spoon handle or thumb.", "Remove frozen Biscoff scoops from freezer and working quickly, place one in each indentation.", "Gather dough over Biscoff scoops to completely cover, then roll into balls.", "Press Biscoff cookie chunks onto top of each cookie for garnish.", "Optionally freeze cookies for 2 hours or up to 1 month for thicker cookies, or bake immediately.", "Bake one sheet at a time for 10 to 11 minutes until golden brown, flattened but puffy, with soft centers.", "Transfer to wire rack and cool on baking sheets for at least 15 minutes before eating."],
+    tips: ["Use soft, moist brown sugar like Dominos brand, not coarse granular types.", "The Biscoff center will ooze out like lava if eaten within an hour of baking.", "After cooling to room temperature, the center will set but remain soft.", "Store in an airtight container to maintain softness.", "Do not overbake or cookies will become hard instead of soft and chewy.", "Cookie dough balls can be chilled in refrigerator up to 3 days or frozen up to 1 month.", "When baking frozen dough, add an extra 2 minutes to baking time.", "Weighing ingredients with a kitchen scale is highly recommended for best results."]
+  },
+  {
+    id: "strawberry-cream-cake",
+    name: "Strawberry Cream Cake",
+    description: "Three layers of soft vanilla cake infused with strawberry juice, topped with glazed fresh strawberries and stabilized whipped cream that won't weep.",
+    category: "Cakes",
+    prepTime: "1 hour",
+    cookTime: "25 minutes",
+    totalTime: "2 hours 55 minutes",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cake": ["1 (15 1/4oz/432g) vanilla cake mix", "1 cup (125g) all purpose flour", "1 cup (200g) granulated sugar", "1/2 teaspoon salt", "1 cup (242g) sour cream", "1 cup (237ml) water", "3 large eggs", "1 teaspoon vanilla extract"],
+      "Strawberry Filling": ["1 1/2 lbs (680g) fresh strawberries, stemmed and diced into 1/2 inch pieces (4 cups)", "3 to 4 tablespoons (38g to 50g) granulated sugar", "1 1/2 teaspoons water or lemon juice", "1/2 teaspoon cornstarch", "About 16 large fresh strawberries, stemmed and sliced in half vertically (1lb/450g)"],
+      "Stabilized Whipped Cream": ["3 cups (700ml) very cold whipping cream, divided", "1/2 cup (57g) powdered sugar", "1 tablespoon (7g) cornstarch", "1 teaspoon vanilla extract"],
+      "Topping": ["8 whole fresh strawberries, with stems (8oz/227g)"]
+    },
+    instructions: ["Prepare cooked portion of stabilized whipped cream as it needs time to cool.", "Preheat oven to 350F/180C with rack in middle position.", "Spray 3 (9-inch) round pans with nonstick spray, line with parchment, and dust with flour.", "Whisk together cake mix, flour, sugar and salt.", "Add sour cream, water, eggs and vanilla; beat on medium speed until smooth.", "Evenly divide batter into prepared pans.", "Bake 18 to 22 minutes until toothpick comes out clean or with few moist crumbs.", "Cool in pans 10 minutes, then invert onto wire racks and cool completely.", "Toss diced strawberries with sugar, cover and set aside for 1 1/2 to 3 hours.", "Whisk powdered sugar and cornstarch, gradually stir in 3/4 cup cream.", "Heat mixture over medium-high, stirring constantly until thickened like pudding.", "Cool to room temperature, then add vanilla.", "Beat remaining cold cream until beater marks appear, add cooled mixture in steady stream, whip to stiff peaks.", "Drain strawberries, reserve juice; mix 2 tablespoons juice with cornstarch and microwave until thick.", "Stir thickened juice into diced strawberries to glaze.", "Level cake layers if domed.", "Place first cake layer on platter, brush with 1/3 strawberry juice.", "Arrange strawberry halves around perimeter, add half glazed berries in center, spread 1/3 whipped cream.", "Place second cake layer, repeat juice, berries, and cream.", "Top with final layer, brush with remaining juice, spread remaining cream, decorate with whole and halved strawberries."],
+    tips: ["Do not overbake; bake just until cake springs back when lightly touched.", "Ensure whipping cream is very cold and whip in chilled bowl.", "Cool cake layers completely before filling to prevent cream from melting.", "Assemble cake within 4 hours of serving for freshest taste.", "Stabilized whipped cream holds well in refrigerator for 24 hours on cake.", "Cake is best eaten the same day it's made due to fresh fruit.", "Use Betty Crocker French Vanilla or any white/vanilla cake mix.", "Greek yogurt can substitute for sour cream.", "Cake layers can be made days ahead and frozen."]
+  },
+  {
+    id: "creme-brulee-mille-crepe-cake",
+    name: "Creme Brulee Mille Crepe Cake",
+    description: "Twenty layers of delicate crepes smothered with vanilla bean whipped pastry cream, topped with a thin layer of crunchy caramelized sugar.",
+    category: "Cakes",
+    prepTime: "1 hour 30 minutes",
+    cookTime: "1 hour",
+    totalTime: "3 hours 30 minutes",
+    servings: 1,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop",
+    ingredients: {
+      "Crepes": ["1 1/2 cup (6 5/8 ounces/188 grams) all purpose flour", "6 tablespoons (2 5/8 ounces/75 grams) sugar", "1/2 teaspoon salt", "3 cups whole milk", "6 tablespoons (3 ounces/85 grams) unsalted butter, melted", "6 large eggs", "1 1/2 teaspoons vanilla extract"],
+      "Pastry Cream Filling": ["1 1/2 cups whole milk, divided", "1 vanilla bean or 1 tablespoon vanilla bean paste or 1 tablespoon vanilla extract", "4 1/2 tablespoons (2 ounces/56 grams) sugar", "3 tablespoons (7/8 ounce/24 grams) cornstarch", "1/4 teaspoon salt", "3 egg yolks", "1 1/2 tablespoons (3/4 ounce/21 grams) unsalted butter"],
+      "Whipped Cream (for folding into pastry cream)": ["3 cups heavy whipping cream", "3 tablespoons (1 1/3 ounce/37 grams) granulated sugar"],
+      "Bruleed Topping": ["2 to 4 tablespoons (25 to 50 grams) granulated sugar"]
+    },
+    instructions: ["Whisk together the flour, sugar, and salt in a large bowl.", "In another bowl, whisk together the milk, butter, eggs and vanilla until well combined. Pour the milk mixture over the flour mixture and whisk until well incorporated. Use an immersion blender to further mix until very smooth and lump-free.", "Cover with plastic wrap and refrigerate for at least 2 hours and up to 24 hours. Meanwhile, prepare the pastry cream.", "Whisk the batter before cooking to reincorporate. Place 1/2 teaspoon oil in a 12-inch nonstick skillet and heat over medium heat until shimmering. Wipe out skillet leaving a thin film of oil.", "Pour 1/4 cup batter into far side of pan and tilt and shake gently until batter evenly covers the bottom. Cook until surface is dry and crepe starts to brown at edges, about 1 minute. Loosen and gently flip; cook until second side is lightly spotted, about 30 seconds.", "Transfer crepe to parchment-lined baking sheet. Repeat with remaining batter, stacking crepes. Allow to cool completely.", "In a medium saucepan, pour 1 cup milk and the seeds and pod of a scraped vanilla bean or vanilla bean paste. Heat over medium heat until simmering.", "While milk heats, whisk together sugar, cornstarch and salt in a small bowl. Whisk in remaining 1/2 cup milk, followed by the yolks.", "When milk simmers, slowly pour hot milk into egg yolk mixture while whisking continuously. Return to saucepan and reheat over medium heat, whisking constantly, until thickened and glossy. Strain through fine-mesh sieve. Add butter and whisk until smooth.", "Press plastic wrap directly on surface and refrigerate until cold and set; about 1 hour or up to overnight.", "When ready to assemble, combine heavy whipping cream and 3 tablespoons sugar in chilled bowl and beat to stiff peaks.", "Gently fold whipped cream into cooled pastry cream until evenly colored with no streaks.", "Place one crepe on cake platter. Top with about 1/3 cup filling and spread into a thin layer. Repeat, alternating layers until you reach 20 layers of crepe.", "Refrigerate assembled cake for 1 to 2 hours. For bruleed top, sprinkle surface with 2 to 4 tablespoons sugar and caramelize with a kitchen torch. Refrigerate until topping is no longer warm. Serve cold or at room temperature."],
+    tips: ["Let crepe batter rest in the fridge for at least 2 hours before cooking to ensure even crepes with minimal holes.", "The first crepe is typically for practice.", "Use a reliable non-stick pan to prevent sticking.", "Cook crepes until golden brown on both sides; colorless crepes lack flavor.", "Make sure pastry cream is thick enough and whipped cream is whipped to stiff peaks before folding together.", "For the bruleed topping, use a kitchen torch and refrigerate again until no longer warm.", "Weighing ingredients with a kitchen scale is highly encouraged for best results.", "Recipe adapted with changes from Rosanna Pansino."]
+  },
+  {
+    id: "upside-down-date-cake",
+    name: "Upside Down Date Cake",
+    description: "A Middle Eastern classic with soft, moist vanilla cake topped with lightly candied black dates, best served warm for ultimate comfort.",
+    category: "Cakes",
+    prepTime: "30 minutes",
+    cookTime: "45 minutes",
+    totalTime: "1 hour 15 minutes",
+    servings: 9,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=400&fit=crop",
+    ingredients: {
+      "Date Topping": ["24 to 28 black or rottab dates, NOT dried dates (about 600 grams with pits and skin on)", "1/3 cup (76g) unsalted butter", "1/2 cup plus 1 tablespoon (113g) granulated sugar"],
+      "Cake": ["1 cup plus 5 tablespoons (160g) all purpose flour, preferably weighed", "3 tablespoons (21g) cornstarch (cornflour)", "1 teaspoon baking powder", "1/4 teaspoon baking soda", "1/4 teaspoon fine salt", "1/2 cup (114g) unsalted butter, softened to room temperature", "1 cup (200g) granulated sugar", "2 large eggs (at room temperature)", "2 one gram packets vanilla sugar (or 3/4 teaspoon pure vanilla extract; 1 1/2 teaspoons if using imitation vanilla flavoring)", "1/2 cup (114g) sour cream (at room temperature)"]
+    },
+    instructions: ["Adjust oven rack to lower middle position, set a rimmed baking sheet or round pan larger than 9-inches on the rack, and heat oven to 180C/350F. Allow the baking sheet/pan to become very hot.", "Spray (or butter and flour) the sides ONLY of a 9-inch round cake pan; leave the bottom ungreased.", "Peel the dates by sliding the skin off with your fingers. Cut dates in half and remove pits. Set date halves aside.", "In a medium saucepan, heat the butter and sugar over medium-high heat until butter melts. Continue cooking, whisking constantly until the sugar caramelizes and turns golden brown; about 3 minutes.", "Transfer the caramelized sugar mixture into the bottom of the prepared pan. Working quickly, spread into an even layer.", "Arrange the date halves, cut-side up, in a circular fashion over the caramelized sugar mixture to cover the entire bottom.", "In a medium bowl, whisk together the flour, cornstarch, baking powder, baking soda, salt and vanilla sugar (if using).", "In a stand mixer fitted with the paddle attachment, beat the butter on medium speed until creamy, about 1 minute.", "With the mixer running on medium-low speed, gradually add the sugar. Raise speed to medium-high and beat until lightened in color and texture; 4 to 5 minutes.", "Add the eggs one at a time, beating well after each addition. Add vanilla extract if using liquid form.", "On lowest speed, add one-third of the flour mixture and mix until mostly combined. Add half the sour cream, another third of flour, remaining sour cream, and end with last third of flour. Mix until just combined. Transfer batter to pan and smooth over dates.", "Place cake pan on the hot baking sheet in the oven. Bake for 45 to 50 minutes until center springs back when lightly touched and a skewer comes out clean. Tent with foil if browning too quickly.", "Cool in pan for about 5 minutes, then invert onto a serving platter.", "Serve warm or at room temperature. Store leftovers in an airtight container; refrigeration is not advised as it can dry out the crumb."],
+    tips: ["Black (or rottab) dates are a special type that turn soft and dark brown as they ripen. They are not interchangeable with dried dates in this recipe.", "Black dates are easily accessible in the Middle East around Fall months but can be stored in the freezer for later use. Thaw before peeling if using from frozen.", "Weighing ingredients, especially flour, is ideal for consistency. If no kitchen scale, use the Spoon and Sweep method.", "Some readers have had issues with hardened caramel sticking to the pan. Alternatively, skip caramelization and just mix room temperature butter with sugar and spread on bottom.", "Baking the cake over a super hot pan preheating in the oven guarantees the caramelized sugar will coat the dates instead of sticking to the pan."]
+  },
+  {
+    id: "hot-fudge-pudding-cake",
+    name: "Hot Fudge Pudding Cake",
+    description: "A scaled-up version of the popular Molten Chocolate Mug Cake that serves a crowd, featuring a fluffy cake exterior with a molten, saucy chocolate interior.",
+    category: "Cakes",
+    prepTime: "10 minutes",
+    cookTime: "20 minutes",
+    totalTime: "40 minutes",
+    servings: 6,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cake": ["1 cup (120 grams) all purpose flour", "1 cup (200 grams) granulated sugar", "1/2 cup (44 grams) unsweetened cocoa powder (sift if lumpy)", "2 teaspoons baking powder", "1/4 teaspoon salt", "3/4 cup (172 grams) unsalted butter, melted", "3/4 cup (177ml) whole milk, slightly warmed", "3 large eggs", "1 teaspoon vanilla extract (or 2 teaspoons if using imitation vanilla flavoring)", "4 oz (114 grams) lightly broken up semisweet chocolate", "1/4 cup (60ml) water"],
+      "To Serve (optional)": ["Vanilla ice cream", "Berries of your choice"]
+    },
+    instructions: ["Preheat oven to 200C/392F on medium rack. Spray an 8-inch square (or 7x10-inch) baking dish with nonstick spray.", "Whisk together flour, sugar, cocoa powder, baking powder, and salt in a large bowl.", "In another bowl, whisk together melted butter, milk, eggs, and vanilla until combined.", "Pour milk mixture over dry ingredients and whisk until smooth batter forms.", "Pour batter into prepared pan and spread evenly. Arrange chocolate pieces in a single layer on surface.", "Evenly drizzle water over the chocolate-studded batter.", "Bake 15-23 minutes until edges are set and springy but center is slightly wobbly. Avoid overbaking.", "Cool for 10 minutes, then serve warm with ice cream and berries if desired. Cover leftovers and store at room temperature."],
+    tips: ["Do NOT overbake — baking time determines whether you get a spongy or molten cake. Watch for visual cues: edges springy to touch, center still jiggly.", "Ceramic dishes bake faster than glass, so monitor accordingly.", "Use quality chocolate you enjoy eating, or substitute dark, milk, chips, or omit entirely.", "Warming milk briefly prevents solidifying the melted butter.", "This cake is best served warm within an hour, but cooled portions can be reheated briefly in microwave.", "A doubled recipe fits well in a 13x9-inch dish with adjusted baking time."]
+  },
+  {
+    id: "chocolate-baklava-bracelets-asawer-el-sit",
+    name: "Chocolate Baklava Bracelets (Asawer El Sit)",
+    description: "Delicately crisp phyllo rings with a creamy chocolate center, a sprinkling of sea salt and crunchy pistachios.",
+    category: "Middle Eastern",
+    prepTime: "1 hour 10 minutes",
+    cookTime: "25 minutes",
+    totalTime: "1 hour 50 minutes",
+    servings: 60,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1509365390695-33aee754301f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Sugar Syrup": ["3/4 cup (150g) granulated sugar", "1/4 cup plus 2 tablespoons water", "Small squeeze of lemon juice"],
+      "Baklava Bracelets": ["1 (500g) package phyllo dough, thawed", "1/2 cup plus 2 tablespoons (140g) melted ghee (or clarified butter)", "3 packages (90g each) Cadbury Dairy Milk, plain", "Sliced pistachios, for garnish", "Sea salt flakes (optional)"]
+    },
+    instructions: ["Combine sugar, water and lemon juice in saucepan. Heat over high heat without stirring. Once boiling, reduce to low and simmer 5 minutes until thickened. Cool completely.", "Preheat oven to 160C/320F with rack in lower middle position.", "Unfold phyllo on cutting board and flatten. Cut stack in half, then cut each half in quarters to create 4 equal squares. Cover with plastic wrap and damp towel.", "Place long rod at edge of phyllo square. Loosely roll phyllo around rod, leaving last 2cm unrolled.", "Push both ends of rolled phyllo toward center to shirr like an accordion.", "Slide phyllo off rod and curve to form circle, pressing ruffled end to create flat base. Press ends together to adhere. Repeat with remaining squares.", "Arrange bracelets on baking sheet touching one another. Brush with melted ghee.", "Bake 25-30 minutes until crisp and golden brown.", "Immediately pour cooled syrup over hot bracelets. Place Cadbury square in center of each while warm. Heat will melt chocolate; if needed, return to warm oven briefly.", "Use toothpick to swirl chocolate across ring base. Sprinkle sea salt flakes and pistachios.", "Cool completely until chocolate sets before serving. Store covered with foil for about 1 week."],
+    tips: ["Always thaw phyllo in refrigerator overnight or at room temperature 4-5 hours; do not microwave.", "Keep unused phyllo covered with plastic wrap topped with damp towel to prevent drying.", "Arrange bracelets touching on pan to prevent opening during baking.", "Use high-quality phyllo brand with few tears.", "For clarified butter: melt 200g butter slowly, let milk solids settle, skim foam, pour clear butterfat into bowl."]
+  },
+  {
+    id: "fabulous-kahk-eid-cookies",
+    name: "Fabulous Kahk (Eid Cookies)",
+    description: "Traditional Egyptian Eid cookies with a delicate melt-in-your-mouth texture, lightly spiced and buttery, filled with honey, dates, or nuts, then dusted with powdered sugar.",
+    category: "Middle Eastern",
+    prepTime: "2 hours",
+    cookTime: "25 minutes",
+    totalTime: "3 hours 25 minutes",
+    servings: 135,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&h=400&fit=crop",
+    ingredients: {
+      "Kahk Dough": ["1 kg (8 cups) all purpose flour", "65g (1/2 cup plus 1 tablespoon) powdered sugar, plus extra for coating", "1/4 cup (40g) toasted sesame seeds (optional, but highly recommended)", "1 1/2 teaspoons (6g) baking powder", "1 teaspoon instant yeast (optional)", "1/8 teaspoon salt", "1 tablespoon (10g) Kahk Essence (Reehet El Kahk)", "One 1g packet vanilla powder (or 1/4 teaspoon vanilla extract)", "600g (2 1/2 cups plus 2 tablespoons) ghee or clarified butter, at room temperature", "160g (2/3 cup) milk, at room temperature"],
+      "Agameya (Honey Filling)": ["2 tablespoons (25g) ghee or clarified butter", "1/4 cup (32g) all-purpose flour", "3/4 cup (250g) honey", "1 1/2 tablespoon (15g) toasted sesame seeds", "1/4 teaspoon Kahk Essence (Reehet El Kahk) (optional)", "1/4 cup (28g) finely chopped walnuts or favorite nut (optional)"],
+      "Malban (Turkish Delight Filling)": ["500g plain Turkish Delight (malban sada)", "1 tablespoon (12g) ghee or clarified butter", "2 tablespoons (20g) toasted sesame seeds", "1/4 teaspoon Kahk Essence (Reehet El Kahk) (optional)", "2/3 cup (75g) finely chopped walnuts or favorite nut (optional)"],
+      "Agwa (Date Paste Filling)": ["500g soft, high quality date paste (agwa)", "1 tablespoon (12g) ghee or clarified butter, or more", "2 tablespoons (20g) toasted sesame seeds (optional)", "1/4 teaspoon Kahk Essence (Reehet El Kahk) (optional)"],
+      "Other Filling Options": ["Leave them plain", "Toasted walnuts, about 250g, chopped into large chunks", "Toasted pistachios, about 250g"]
+    },
+    instructions: ["Begin by cooking the Agameya, if using, as it needs to cool completely. Prepare all fillings by rolling into macadamia nut-sized balls. Arrange on parchment-lined baking sheets and refrigerate.", "Adjust oven rack to middle position and preheat oven to 160C/320F.", "In a stand mixer with paddle attachment, whisk together flour, powdered sugar, sesame seeds, baking powder, instant yeast, salt, kahk essence and vanilla powder.", "Add the ghee and mix on medium-low until well blended and dry ingredients are evenly coated. Raise speed to medium and continue mixing until dough turns creamy and paste-like; 1 to 2 minutes.", "With mixer on low, gradually pour in the milk. Continue mixing until a cohesive dough comes together. Do not over mix. Test by rolling an apricot-size piece between hands and pressing gently; the dough should not crack.", "Using a measuring tablespoon or tablespoon-sized scoop, scoop out tablespoons of dough. You should have approximately 135 dough scoops.", "Roll each dough into a ball, press center with thumb to make an indentation. Add filling of choice, then gather dough over filling to completely cover. Roll into a smooth ball without cracks.", "Arrange dough balls on silicon mat or parchment-lined baking sheet, leaving an inch of space between each.", "Press lightly with a kahk stamper or decorate with kahk shaping tweezers. If unavailable, make a cross hatch design with fork tines. Do NOT stamp agameya-filled dough as this could tear the dough.", "Bake until blonde on top and bottom takes on a light golden brown color; about 18 to 22 minutes. Be careful not to overbake agameya and malban ones.", "Cool for a few minutes on baking sheet, then transfer to wire rack to cool COMPLETELY before dusting with powdered sugar.", "Using a small sieve, dust generously with powdered sugar or roll into a bowl full of sugar.", "Serve or store in a container. Kahk will keep well at room temperature for weeks.", "For Agameya: Melt ghee in a small saucepan over medium-high heat. Add flour and cook, stirring constantly, until golden blonde. Add honey and bring to a boil, stirring constantly. Cook until barely thickened and candy thermometer reads 118C/245F. Remove from heat and stir in sesame seeds, kahk essence and nuts. Refrigerate until firm but shapeable, then roll into small balls with greased hands.", "For Malban: Knead Turkish Delight with ghee, sesame seeds and kahk essence until soft and pliable. Knead in walnuts if desired. Roll into small balls with greased hands.", "For Agwa: Knead date paste with ghee, sesame seeds and kahk essence until soft and pliable. Add more ghee if paste is stiff. Roll into small balls with greased hands."],
+    tips: ["Weigh all ingredients using a kitchen scale for maximum accuracy, including the milk.", "Use the best quality ghee you can find.", "Butter cannot be used unless clarified first.", "For longer shelf life, heat ghee until super hot, then transfer to a heat-proof bowl and refrigerate until room temperature.", "The yeast is added for flavor purposes only; it does not lift or rise the dough.", "Kahk Essence is a powdered mixture of spices (mahlab, cardamom, bay leaves, rose rice, cloves, fennel) or can be substituted with rose water.", "This recipe makes amazing mini-sized kahk too (size of a grape) -- bake for 10 to 12 minutes without stamping.", "Do not stamp agameya-filled kahk as this could let filling ooze out.", "Cool cookies completely before dusting with powdered sugar to prevent sugar from melting.", "Kahk keeps well at room temperature for weeks.", "Freeze agameya-filled kahk balls briefly to help prevent bursting during baking."]
+  },
+  {
+    id: "knafeh-na-ameh",
+    name: "Knafeh Na'ameh",
+    description: "A perfected homemade version of the Levantine specialty featuring a delicately crunchy smooth knafeh crust cradling a molten layer of gooey cheese, finished with scented sugar syrup.",
+    category: "Middle Eastern",
+    prepTime: "40 minutes",
+    cookTime: "15 minutes",
+    totalTime: "2 hours 55 minutes",
+    servings: 12,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=600&h=400&fit=crop",
+    ingredients: {
+      "Scented Sugar Syrup": ["2 cups (400g) granulated sugar", "1 cup (230g) water", "Squeeze of lemon", "2 teaspoons orange blossom water", "1/2 teaspoon rose water"],
+      "Cheese Filling": ["500g Shelal cheese (preferably without black sesame)", "300g Akkawi Tchiki Cheese"],
+      "Knafeh Crust (Farkeh)": ["375g kunafa (kataifi dough), fresh or frozen", "1/3 cup plus 2 tablespoons (94g) melted ghee or clarified butter", "3 tablespoons (60g) scented sugar syrup", "3 tablespoons (45g) water", "2 tablespoons (30g) ghee or clarified butter, at room temperature", "Ground pistachios, for garnish (optional)"]
+    },
+    instructions: ["Combine sugar, water, and lemon juice in a saucepan over medium-high heat, avoiding stirring to prevent crystallization. Once boiling, stop stirring.", "Reduce heat to low and simmer for no longer than 10 minutes. Stir in orange blossom and rose waters.", "Transfer syrup to a bowl and cool to room temperature before using.", "Thinly slice both cheeses and place in separate bowls with lukewarm water. Soak for 2 to 6 hours, changing water every 30 minutes, until no longer salty.", "Drain both cheeses through a colander, squeezing out excess liquid. Crumble together and set aside in colander.", "Process kunafa in spice grinder in batches until finely ground and powdery. Mix with ghee, syrup, and water until it resembles couscous and sticks when squeezed.", "Transfer kunafa mixture to a large skillet over medium heat. Toast while stirring continuously, avoiding browning, until dry and sandy. Process to smooth out lumps or strain through a mesh sieve.", "Brush a 34cm aluminum or copper pan with room temperature ghee. Remove 3 tablespoons of farkeh and set aside. Evenly press remaining farkeh into pan, compressing into a compact layer about 3/4cm thick.", "Spread cheese mixture over the crust, leaving a 2cm border around edges uncovered.", "Set pan over one side of stovetop with flame covering only half the bottom. Rotate pan continuously while patting cheese with a cloth to absorb moisture. Continue until edge of crust turns deep golden brown and cheese is mostly melted, 10 to 15 minutes.", "Cover pan and let rest a few minutes. Sprinkle reserved farkeh over cheese to absorb excess moisture.", "Grease serving platter with ghee and invert knafeh so cheese is on bottom and crust on top. Pour cooled syrup over surface and spread evenly. Garnish with ground pistachios if desired.", "Cut into squares and serve immediately while warm and cheese is gooey. Reheat over a simmering water bath if serving later."],
+    tips: ["Work can be spaced over several days to avoid stress on serving day.", "Sugar syrup can be made months in advance; farkeh can be toasted, sifted, and frozen for months.", "Cheese soaking should ideally be done the night before.", "Pan must be aluminum or copper; other materials cannot handle stovetop heat.", "Position pan over only half the stove to prevent center from burning before sides cook.", "Only cook on stovetop, not in oven, for proper texture and browning.", "Knafeh is best eaten the same day it is made.", "Rose and orange blossom waters are optional.", "Cheese alternative combinations are available if specific varieties are unavailable."]
+  },
+  {
+    id: "nutella-biscotti",
+    name: "Nutella Biscotti",
+    description: "Hazelnut-flavored biscotti filled with Nutella all the way through for the ultimate coffee break indulgence.",
+    category: "Cookies",
+    prepTime: "30 minutes",
+    cookTime: "40 minutes",
+    totalTime: "3 hours 10 minutes",
+    servings: 30,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["100g (about 2/3 cup) hazelnuts, skinned and toasted", "2 1/2 cups (300g) all purpose flour (preferably weighed)", "1 1/2 teaspoon baking powder", "1/2 teaspoon salt", "3/4 cup (170g) unsalted butter, softened to room temperature", "1/2 cup (100g) soft light brown sugar, packed", "1/2 cup (100g) granulated sugar", "2 large egg yolks, at room temperature", "1 teaspoon vanilla extract (or 2 teaspoons if using imitation vanilla flavoring)", "2 cups (460g) slightly cooled Nutella"]
+    },
+    instructions: ["Adjust oven rack to middle position and preheat oven to 150C/300F. Line a baking sheet with parchment paper or silicon mat.", "In a medium bowl, whisk together the flour, baking powder and salt.", "Take a heaping 1/4 cup of the flour mixture and place in a spice/coffee grinder or food processor with the hazelnuts. Pulse until hazelnuts are very finely ground and powdery. Work in two batches if needed.", "Transfer the ground hazelnut/flour mixture to the bowl with the reserved flour. Whisk together until well combined.", "In a stand mixer fitted with the paddle attachment, beat together the butter, brown sugar, and granulated sugar on medium-high speed until slightly lightened; about 2 minutes.", "Add in the egg yolks one at a time, mixing after each addition. Then beat in the vanilla.", "With mixer on lowest speed, gradually add in ground hazelnut/flour mixture until just combined. Mixture will be crumbly; do not overmix.", "Gather the dough into a smooth, taut ball, then cut in half evenly. Cut each half in half, making one slightly bigger than the other. You should now have 4 quarters of dough; 2 slightly larger than the other 2.", "Pat one of the smaller quarters into a 12\"x3\" rectangle of even thickness on the parchment-lined baking sheet. Use a spoon or piping bag to center the Nutella down the length of the dough, leaving a 1cm border around edges.", "Pat and roll one of the larger quarters on a separate piece of parchment into a 12\"x4\" rectangle. Transfer the dough over the Nutella-topped dough, line the long sides together, then carefully place over top. Peel off parchment from top dough and press all around edges to seal. Repeat with other 2 quarters.", "Bake until loaves are deep golden and edges are firm to the touch; 40 to 45 minutes. Allow to cool on baking sheet until cool enough to handle; about 30 minutes. Cool completely on wire rack.", "Transfer loaves to cutting board. Using a serrated knife with gentle sawing motion, score each loaf's surface into 1-inch-thick slices. Then switching to a sharp chef's knife, cut through the scores using one heavy press.", "Serve with coffee or tea, dipping them in the hot drink if desired. Store leftovers in an airtight container."],
+    tips: ["Slightly cooled Nutella makes for a mess-free process because it doesn't run over the dough. Stick the jar of Nutella in the fridge as you prepare the biscotti dough.", "Weighing ingredients, especially flour, is ideal in baking due to its consistency.", "Do not over-crowd your grinder with the flour/hazelnut mixture, as that risks turning it into hazelnut butter.", "Bake low and slow to give the dough a chance to bake all the way through. Higher temperatures caused the crust to bake nicely but the inside became dense and doughy.", "Due to skipping the second bake, the cookies are not as violently crunchy as classic biscotti, but they have a pleasant chew to them."]
+  },
+  {
+    id: "pistachio-baklava-cheesecake",
+    name: "Pistachio Baklava Cheesecake",
+    description: "A fusion dessert combining flaky and crispy baklava pastry layers with a creamy, rich cheesecake filling, ground pistachios, and aromatic sugar syrup.",
+    category: "Cheesecakes",
+    prepTime: "20 minutes",
+    cookTime: "55 minutes",
+    totalTime: "1 hour 15 minutes (plus 4+ hours chilling)",
+    servings: 8,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1567171466295-4afa63d45416?w=600&h=400&fit=crop",
+    ingredients: {
+      "Baklava Layers": ["12-15 layers filo pastry", "3 tbsp clarified butter, melted"],
+      "Pistachio Layer": ["200g finely ground pistachios (+ 2 tbsp for garnish)", "1/3 cup unsalted butter, melted", "4 tbsp granulated sugar"],
+      "Cheesecake Batter": ["600g cream cheese, room temperature", "1/2 cup heavy cream", "1/2 cup caster sugar", "4 tbsp cornstarch", "1 tbsp orange blossom essence", "3 large eggs, room temperature"],
+      "Sugar Syrup": ["1 cup granulated sugar", "1/2 cup honey", "3/4 cup water", "2 tbsp lemon juice", "1 tbsp orange blossom essence"]
+    },
+    instructions: ["Preheat oven to 180°C; prepare 8-inch springform pan with butter and parchment.", "Layer 8 filo sheets with clarified butter; bake 15 minutes until golden.", "Combine ground pistachios, melted butter, and sugar.", "Prepare syrup by boiling sugar, honey, lemon juice, and water; simmer 5-10 minutes; cool.", "Mix cream cheese and caster sugar; add cream, orange blossom essence, and cornstarch.", "Add eggs one at a time, mixing until smooth.", "Spread 3/4 pistachio mixture on cooled filo base; pour cheesecake filling; add butter-coated filo sheet.", "Top with remaining pistachio mixture and crumpled filo sheets arranged circularly.", "Bake 55-60 minutes until sides set and top golden; cool in oven with door ajar.", "Pour cooled syrup over cheesecake; chill minimum 4 hours (preferably overnight); garnish with ground pistachios."],
+    tips: ["Bring all ingredients to room temperature before starting.", "Mix gently to prevent cracking.", "Firmly press filo layers into the pan.", "Cool gradually in the oven with the door ajar.", "Apply syrup carefully and evenly.", "Refrigerate overnight for optimal results."]
+  },
+  {
+    id: "kunafa-rolls",
+    name: "Kunafa Rolls",
+    description: "A delightful fusion of traditional Middle Eastern flavors and a modern twist, featuring ricotta filling infused with orange zest, orange blossom, and cardamom, baked golden and drizzled with fragrant sugar syrup.",
+    category: "Middle Eastern",
+    prepTime: "30 minutes",
+    cookTime: "40 minutes",
+    totalTime: "1 hour 10 minutes (plus 1 hour resting)",
+    servings: 14,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Sugar Syrup": ["2 cups sugar", "1 cup water", "1/2 lemon, juiced", "1 tsp orange blossom water"],
+      "Ricotta Filling": ["400g ricotta cheese", "1 tbsp icing sugar", "1 tsp orange zest", "Pinch cardamom powder"],
+      "Kunafa Rolls": ["500g fresh kunafa", "2 cups clarified butter, melted and cooled slightly", "Ground pistachios (for garnish)"]
+    },
+    instructions: ["Combine sugar and water in saucepan over medium-high heat; boil while stirring until dissolved. Simmer 10 minutes without stirring. Remove from heat, stir in orange blossom water, and cool.", "Mix ricotta cheese, orange zest, orange blossom water, and cardamom powder in a bowl.", "Cut kunafa into 5x12cm strips (keep unused portions covered with damp towel). Form T shapes, fill with ricotta mixture, roll tightly into cigar shapes seam-side down in greased pan.", "Rest baking pan at room temperature for one hour until pastry dries.", "Preheat oven to 200°C. Pour clarified butter over rolls and bake 35-40 minutes until golden brown.", "Transfer to kitchen towel to drain excess butter. Pour sugar syrup over rolls, allowing it to soak in. Garnish with ground pistachios before serving."],
+    tips: ["Keep unused kunafa covered with a damp towel to prevent drying.", "Store cooled rolls in airtight containers with parchment between layers.", "Refrigerate up to 3-4 days or freeze up to 2 months.", "Reheat in 180°C oven for 10-15 minutes; avoid microwaving to maintain crispness."]
+  },
+  {
+    id: "dubai-chocolate-cookies",
+    name: "Dubai Chocolate Cookies",
+    description: "These highly requested Dubai chocolate cookies combine creamy pistachio, crunchy kataifi, and rich chocolate into an irresistible treat inspired by the viral Dubai chocolate bar.",
+    category: "Cookies",
+    prepTime: "30 minutes",
+    cookTime: "12 minutes",
+    totalTime: "42 minutes",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1625876981260-1f9372725bae?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cookie Dough": ["Note: Full ingredient list was not available from the fetched page data. Please visit sugarspunrun.com for complete details."]
+    },
+    instructions: ["Note: Full instructions were not available from the fetched page data. Please visit sugarspunrun.com for complete details."],
+    tips: ["Dubai chocolate's unique appeal comes from the combination of light nuttiness from pistachio cream, toasty crunch from kataifi, and a snappy sweet chocolate shell.", "These cookies don't require refrigeration but will last longer (up to a week) if chilled, versus 3-4 days unrefrigerated."]
+  },
+  {
+    id: "the-best-fudgy-brownies",
+    name: "The Best Fudgy Brownies",
+    description: "Rich, fudgy, chocolatey, and incredibly decadent brownies made with a combination of semi-sweet and dark chocolate for the ultimate chocolate experience.",
+    category: "Brownies",
+    prepTime: "25 minutes",
+    cookTime: "25 minutes",
+    totalTime: "50 minutes",
+    servings: 16,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1515037893149-de7f840978e2?w=600&h=400&fit=crop",
+    ingredients: {
+      "Brownies": ["1 oz semi-sweet chocolate (28g)", "3 oz high quality dark chocolate, 60-70% cocoa (85g)", "10 tbsp unsalted butter (140g)", "3/4 cup sugar (165g)", "2 eggs, room temperature", "1 tsp instant coffee mixed with 1 tbsp hot water", "1/2 cup all-purpose flour (65g)", "1/3 cup cocoa powder, Dutch processed (35g)", "3/4 tsp salt", "2 oz chocolate chips or chopped chocolate (55g)"]
+    },
+    instructions: ["Preheat oven to 335°F; line 9-inch pan with parchment and butter.", "Melt butter with chocolates using 20-second microwave intervals.", "Whisk eggs and sugar at medium-high speed for 3-5 minutes until thick and ribbony.", "Fold chocolate mixture into egg mixture at low speed.", "Mix instant coffee with hot water; gently fold in.", "Sift flour, cocoa powder, and salt; fold into batter carefully.", "Fold in chocolate chips.", "Pour into prepared pan; spread evenly.", "Bake 20-25 minutes (typically 22 minutes).", "Cool to room temperature before cutting."],
+    tips: ["Use room temperature eggs for best results.", "Do not overbake -- brownies should still look slightly underdone in the center.", "Use high quality chocolate for the best flavor."]
+  },
+  {
+    id: "salted-caramel-pecan-chocolate-chip-cookies",
+    name: "Salted Caramel Pecan Chocolate Chip Cookies",
+    description: "Thick, gooey, and chewy salted caramel pecan chocolate chip cookies with brown butter dough, loaded with dark and milk chocolate chunks and caramel-coated pecans.",
+    category: "Cookies",
+    prepTime: "30 minutes",
+    cookTime: "12 minutes",
+    totalTime: "2 hours (includes chilling)",
+    servings: 10,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cookie Dough": ["10 tbsp unsalted butter (140g)", "1/2 cup packed light brown sugar (150g)", "1/4 cup white sugar (55g)", "1 large egg", "1 egg yolk", "3/4 tsp salt", "1/2 tsp baking powder", "1/4 tsp baking soda", "1 1/3 cup all purpose flour (170g)", "3 oz dark chocolate (113g), chopped", "3 oz milk chocolate (113g), chopped"],
+      "Salted Caramel Pecans": ["12 soft caramels (Werther's recommended)", "2 tbsp cream", "3/4 cups pecan halves and pieces (100g), roasted", "Salt to taste"]
+    },
+    instructions: ["Toast pecans at 350°F for 5-7 minutes until fragrant.", "Melt butter on medium-low heat, stirring until browned with nutty aroma.", "Reduce heat to lowest setting; whisk in sugars for 1-2 minutes.", "Cool mixture for about 5 minutes until warm but not hot.", "Add egg and yolk; whisk 1-2 minutes until light and smooth.", "Fold in dry ingredients (flour, baking powder, baking soda, salt) until almost combined; refrigerate 10 minutes.", "Heat caramels and cream on low until sauce forms; add pecans with salt.", "Fold chocolate and caramel pecans into chilled dough; press onto cookie balls.", "Use 2-inch scoop for portions; press toppings on balls.", "Refrigerate at least 30 minutes (ideally 2+ hours).", "Bake at 375°F for 10-12 minutes."],
+    tips: ["Don't overcook butter-sugar mixture to prevent crystallization.", "Sugar reduction is not recommended as it affects texture.", "Use chopped chocolate rather than chips for superior melting.", "Cookies feel firm at edges and soft in center when done; they set more while cooling."]
+  },
+  {
+    id: "3-ingredient-nutella-cookies",
+    name: "3 Ingredient Nutella Cookies",
+    description: "Soft, chewy Nutella cookies made with just 3 ingredients and ready in 20 minutes.",
+    category: "Cookies",
+    prepTime: "10 mins",
+    cookTime: "12 mins",
+    totalTime: "22 mins",
+    servings: 12,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3/4 cup all purpose flour (98g)", "3/4 cup Nutella (210g), room temperature", "1 large egg, room temperature", "1/4 tsp salt"]
+    },
+    instructions: ["Preheat oven to 360F (conventional) and line a large cookie sheet with parchment paper.", "Mix the Nutella and egg in a bowl using a hand whisk until combined.", "Sift in the flour and salt, and mix until the mixture forms a soft dough. Avoid over mixing as the dough will become oily.", "Divide the dough into 10-12 balls and gently roll them between your palms to eliminate any large cracks. Place them onto the prepared baking sheet with ~2\" between each.", "Lightly flatten each ball with your fingers or the bottom of a glass.", "Bake for about 12 minutes until the cookies feel set around the edges but still a little soft in the middle.", "Let the cookies cool. Optionally, decorate by drizzling over some warmed Nutella.", "Serve and enjoy."],
+    tips: ["You can add chocolate chips or toasted chopped hazelnuts to elevate these cookies.", "Chilling the dough is not necessary unless it feels too sticky to work with.", "Store baked cookies in an airtight container at room temperature for up to 7 days.", "Prepare dough in advance and refrigerate or freeze dough balls; bake directly from fridge with extra time."]
+  },
+  {
+    id: "best-no-bake-cheesecake",
+    name: "Best No-Bake Cheesecake",
+    description: "A rich and ultra creamy no-bake cheesecake requiring only 10 minutes of work and fewer than 10 ingredients. This indulgent dessert rivals classic versions without the baking hassle.",
+    category: "Cheesecakes",
+    prepTime: "10 mins",
+    cookTime: "0 mins",
+    totalTime: "4 hrs 10 mins",
+    servings: 10,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1524351199678-941a58a3df50?w=600&h=400&fit=crop",
+    ingredients: {
+      "Crust": ["200g Graham Crackers or Wheat Digestives (about 13-14 sheets)", "90g unsalted butter, melted", "Pinch of salt"],
+      "Filling": ["800g cream cheese (28 oz or 3.5 8 oz packs), room temperature", "150g granulated sugar (2/3 cup)", "2 tsp vanilla bean paste", "1/2 tsp salt", "2-4 tbsp lemon juice, to taste", "120g sour cream (1/2 cup)", "120g heavy cream (1/2 cup), chilled"],
+      "Topping": ["120g heavy cream (1/2 cup), chilled and whipped", "Fresh berries"]
+    },
+    instructions: ["Grind graham crackers, then mix with melted butter and salt.", "Line a 9-inch springform pan with parchment paper.", "Press crust mixture tightly onto pan bottom using a measuring cup.", "Mix cream cheese, sugar, vanilla, and salt until creamy (~2 minutes).", "Add sour cream and lemon juice; mix until combined.", "Whisk heavy cream to stiff peaks separately.", "Gently fold whipped cream into cream cheese mixture.", "Pour filling into prepared pan and smooth with offset spatula.", "Refrigerate for 4 hours or overnight until set.", "Decorate with fresh strawberries and whipped cream before serving."],
+    tips: ["Substitute for sour cream: Use additional heavy cream plus 1-2 tbsp extra lemon juice.", "Storage: Cover and refrigerate for up to 1 week.", "Freezing: Wrap thoroughly and freeze for up to 3 months; thaw overnight in fridge before serving."]
+  },
+  {
+    id: "paris-hot-chocolate-angelina-cafe-copycat",
+    name: "Paris Hot Chocolate (Angelina Cafe Copycat)",
+    description: "Inspired by the popular Angelina Cafe in Paris, this hot chocolate is ultra rich, thick, creamy and chocolatey.",
+    category: "Drinks",
+    prepTime: "1 min",
+    cookTime: "5 mins",
+    totalTime: "10 mins",
+    servings: 3,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3/4 cup milk (180g)", "1 cup cream (240g)", "2 tbsp powdered sugar", "1/2 tsp espresso powder", "8 oz good quality dark chocolate (226g); between 60-70% cocoa - chopped or chips"]
+    },
+    instructions: ["Combine all ingredients in a nonstick saucepan and stir.", "Place the pan over medium-low heat, and use a spatula to stir and cook for ~5-7 minutes until the chocolate has fully melted and the mixture comes to a boil.", "Remove from heat and serve while hot, ideally with some plain whipped cream and a fresh croissant."],
+    tips: []
+  },
+  {
+    id: "belgian-liege-waffles-blue-bottle-copycat",
+    name: "Belgian Liege Waffles (Blue Bottle Copycat)",
+    description: "Belgian style Liege waffles featuring a crispy, caramelized crust and chewy interior. This recipe replicates the popular Blue Bottle coffee shop version.",
+    category: "Desserts",
+    prepTime: "30 mins",
+    cookTime: "20 mins",
+    totalTime: "1 hr 50 mins",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1/2 cup milk (120g), warm", "1 tsp active dry yeast", "2 tbsp light brown sugar", "1 large egg", "1 tsp vanilla", "1/2 tsp salt", "2 cups all purpose flour (260g)", "6 tbsp unsalted butter (85g), room temperature", "2/3 cup Pearl sugar (130g)"]
+    },
+    instructions: ["Add warm milk, active dry yeast and brown sugar to stand mixer bowl. Whisk and rest 10 minutes to activate yeast.", "Add flour, egg, salt and vanilla; knead with dough hook for 3 minutes until dough forms.", "Add softened butter; knead on medium-high speed about 5 minutes until incorporated and soft, stretchy dough forms.", "Transfer to clean bowl, cover with plastic wrap and let rise in warm place until doubled (about 60 minutes).", "Flatten dough on lightly floured surface. Sprinkle half the pearl sugar, press in, and roll up. Flatten again and repeat with remaining sugar. Stretch and knead to fully incorporate.", "Preheat waffle maker for about 10 minutes.", "Divide dough into 4 equal parts.", "Cook waffles until golden and cooked through (~6-7 minutes on medium heat, depending on machine).", "Serve with Nutella and fresh berries or enjoy plain."],
+    tips: ["Instant yeast can substitute for active dry yeast using the same quantity; skip the activation step.", "Pearl sugar is essential to authentic Liege waffles; larger grain sugar substitutes not recommended.", "Without a stand mixer, use wooden spoon initially, then hand-knead on counter using push/pull motions; use dough scraper for easier butter incorporation.", "Adjust waffle iron temperature and timing using first waffle as test; perfectly cooked versions have crispy, caramelized crust with soft chewy center."]
+  },
+  {
+    id: "5-minute-carrot-mug-cake",
+    name: "5 Minute Carrot Mug Cake",
+    description: "A delicious single serve carrot cake made in the microwave with little to no effort, served with a yummy cream cheese frosting.",
+    category: "Cakes",
+    prepTime: "4 mins",
+    cookTime: "1 min",
+    totalTime: "5 mins",
+    servings: 1,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1562440499-64c9a111f713?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cake": ["3 tbsp milk", "1.5 tbsp oil", "1/2 tsp vanilla", "4 tbsp all purpose flour", "2 tbsp sugar", "1/3 tsp baking powder", "1/4 tsp cinnamon", "1/8 tsp salt", "1/4 cup freshly grated carrots"],
+      "Frosting": ["1 tbsp cream cheese, room temperature", "1 tbsp heavy cream", "1 tbsp powdered sugar"]
+    },
+    instructions: ["In a microwave safe mug (~10-12oz), add the milk, oil and vanilla, and whisk to combine.", "Sift in the flour, sugar, baking powder, cinnamon and salt, and mix using a spoon or fork until the dry ingredients are fully mixed in.", "Lastly, add in the grated carrots and mix until combined.", "Microwave for ~60-90 seconds until the cake is cooked through (cooking time can vary).", "Let the cake cool for ~15 minutes.", "Mix the cream cheese, heavy cream and powdered sugar until they form a creamy frosting.", "Cover the cooled cake with the cream cheese frosting, serve and enjoy!"],
+    tips: []
+  },
+  {
+    id: "super-soft-chocolate-espresso-rolls",
+    name: "Super Soft Chocolate Espresso Rolls",
+    description: "Pillowy bread rolls filled with decadent dark chocolate and espresso, topped with coffee icing. These rolls are incredibly soft and perfect for chocolate lovers.",
+    category: "Pastries",
+    prepTime: "45 mins",
+    cookTime: "25 mins",
+    totalTime: "2 hrs 35 mins",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=600&h=400&fit=crop",
+    ingredients: {
+      "Dough": ["2/3 cup whole milk (160g), warm (100 to 110F)", "1/4 cup sugar (50g)", "2 teaspoons active dry yeast", "2 1/2 cups all purpose flour (325g)", "1 large egg", "1 teaspoon salt", "1/4 cup unsalted butter, softened (60g)"],
+      "Chocolate Espresso Filling": ["3 tbsp unsalted butter (42g)", "4-6 tbsp heavy cream", "4 tbsp brown or white sugar", "2 tbsp cocoa powder", "1-2 tsp instant coffee powder", "100g semi-sweet or dark chocolate"],
+      "Espresso Icing": ["1/4 cup heavy cream (60g)", "1 cup powdered sugar (130g)", "1/2 tsp instant coffee powder", "2-4 tbsp heavy cream"]
+    },
+    instructions: ["Mix warm milk, yeast and sugar; wait 10 minutes until frothy.", "Add remaining dough ingredients; knead 7-10 minutes until smooth and stretchy.", "Place in oiled bowl, cover and let rise 60-90 minutes until doubled.", "Heat butter, cream, cocoa, coffee and sugar until melted.", "Add chocolate and stir until melted; cool completely.", "Adjust flavoring to taste; mixture should be thick and spreadable.", "Roll out dough into 12x14\" rectangle on floured surface.", "Spread filling evenly over dough.", "Divide into 6 strips (2\" wide, 14\" long).", "Roll each strip into individual rolls.", "Place in buttered pan; let rise 30-45 minutes until puffed.", "Preheat oven to 375F 20 minutes before second rise completes.", "Pour cream evenly over rolls.", "Bake 20-25 minutes until light golden.", "Whisk icing ingredients together, adjusting consistency as needed.", "Spread icing on warm rolls.", "Serve and enjoy."],
+    tips: ["Can substitute egg with 1/4 cup full fat yogurt for egg-free version.", "Instant yeast can replace active dry yeast; skip the initial blooming step.", "Milk chocolate works if preferred; reduce sugar in filling to taste.", "Hand kneading is possible without a stand mixer.", "Store in airtight container at room temperature for up to 2 days; refrigerate longer and microwave 10-15 seconds before serving.", "Recipe can be doubled using a 9x13\" pan.", "Do overnight cold rise: prepare rolls, refrigerate overnight, then bake fresh in morning."]
+  },
+  {
+    id: "best-chewy-snickerdoodle-cookies",
+    name: "Best Chewy Snickerdoodle Cookies",
+    description: "Crispy on the edges, soft and chewy in the middle snickerdoodle cookies that are easy to make with a balanced cinnamon-sugar flavor.",
+    category: "Cookies",
+    prepTime: "15 mins",
+    cookTime: "11 mins",
+    totalTime: "26 mins",
+    servings: 18,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cookie Dough": ["18 tbsp butter (1 cup + 2 tbsp, or 255g), room temperature", "1/2 cup granulated sugar (100g)", "1 cup light or dark brown sugar, packed (200g)", "1 large egg, room temperature", "2 egg yolks, room temperature", "2 tsp vanilla", "3 1/3 cups flour (435g)", "2 1/4 tsp cream of tartar", "1 1/4 tsp baking soda", "1/4 tsp baking powder", "1 tsp salt"],
+      "Cinnamon Sugar Coating": ["1/2 cup granulated sugar (100g)", "1 tbsp cinnamon"]
+    },
+    instructions: ["Bring butter and eggs to room temperature.", "Whisk together butter, granulated sugar and brown sugar for 2-3 minutes until light, fluffy and creamy.", "Add egg, egg yolks and vanilla; whisk until smooth and creamy.", "Sift flour, cream of tartar, baking soda, baking powder, and salt in separate bowl; whisk to combine.", "Fold dry ingredients into wet in 2-3 additions using rubber spatula; stop when combined.", "Scoop dough into 18-20 balls using 2\" cookie scoop.", "Chill in refrigerator overnight or at least 2 hours.", "Preheat oven to 375F and line baking sheets with parchment paper.", "Roll each dough ball in cinnamon-sugar mixture; place on sheets 3\" apart.", "Bake at 375F for 11-12 minutes until edges feel set but center is soft.", "Cool for 20 minutes before serving."],
+    tips: ["Brown sugar is essential for the chewy texture; either light or dark brown sugar works.", "Cream of tartar cannot be skipped; it's critical for both flavor and texture.", "Chilling improves texture and flavor, though you may skip it if needed.", "Store in airtight container at room temperature for up to 3 days, or refrigerate for longer."]
+  },
+  {
+    id: "the-best-strawberry-cheesecake",
+    name: "The Best Strawberry Cheesecake",
+    description: "An ultra creamy, silky cheesecake with firm edges and jiggly center, topped with fresh strawberry compote for a perfectly balanced dessert ideal for summer.",
+    category: "Cheesecakes",
+    prepTime: "1 hr",
+    cookTime: "1 hr 15 mins",
+    totalTime: "2 hrs 15 mins",
+    servings: 12,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600&h=400&fit=crop",
+    ingredients: {
+      "Crust": ["190g graham crackers", "35g sugar (about 3 tbsp)", "75g melted unsalted butter (about 5 tbsp)"],
+      "Cheesecake": ["32 oz full-fat cream cheese (4 8oz blocks), at room temperature", "325g granulated sugar (1 1/2 cups)", "1/2 tsp salt", "1 tsp vanilla essence", "4 large eggs, room temperature", "120g heavy cream (1/2 cup), room temperature", "240g sour cream (1 cup), room temperature", "1 tbsp cornstarch", "2-3 tablespoon lemon juice"],
+      "Strawberry Compote": ["1 lb strawberries, roughly chopped in large chunks", "55g sugar (1/4 cup)", "1 tsp cornstarch", "Juice of 1/2 a lemon", "Fresh strawberries for decoration (optional)"]
+    },
+    instructions: ["Bring all ingredients to room temperature.", "Preheat oven to 350F (conventional).", "Grind graham crackers, sugar and butter in food processor until smooth.", "Butter springform pan bottom, add crust, pack tightly, bake 8 min at 350F, then set oven to 325F.", "Cream cheese for 2-3 min until creamy, add sugar, mix 3-5 min until combined.", "Whisk eggs separately (don't overbeat), add slowly to batter at low speed until just combined.", "Add cream, sour cream, lemon juice, salt, vanilla and cornstarch, mix at low speed until just combined.", "Pour batter into crust, seal pan tightly with foil on outside only.", "Place pan in water bath (1-2 inches boiling water) and bake 75-80 min without opening oven until edges are firm but center is jiggly.", "Cool at room temperature 2-3 hours, then refrigerate overnight.", "Mix strawberries, sugar, cornstarch and lemon juice in saucepan, cook on low heat 5-7 minutes until saucy and thick, let cool completely.", "Transfer cooled cheesecake to serving stand and cover with strawberry compote.", "Decorate with fresh strawberries, serve and enjoy."],
+    tips: ["You can make homemade sour cream: mix 1 cup heavy cream, 1/4 cup milk and 1 tbsp lemon juice or vinegar, cover and rest 12-24 hours at room temperature.", "Wheat digestive biscuits are a substitute for graham crackers.", "Cheesecake keeps well in refrigerator for several days; save strawberry compote for the end.", "Freeze cheesecake without compote; defrost overnight in fridge before eating.", "Recipe can be halved in a 9\" pan for ~45-50 minutes or in a 6-7\" pan."]
+  },
+  {
+    id: "the-best-banana-chocolate-chip-muffins",
+    name: "The Best Banana Chocolate Chip Muffins",
+    description: "Soft and moist brown butter banana chocolate chip muffins loaded with chocolate chips and a chocolate ganache filling.",
+    category: "Cakes",
+    prepTime: "20 mins",
+    cookTime: "30 mins",
+    totalTime: "1 hr",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1535141192574-5d4897c12571?w=600&h=400&fit=crop",
+    ingredients: {
+      "Muffins": ["1/2 cup unsalted butter (113g)", "3/4 cup light brown sugar, packed (150g)", "2 eggs", "1 tsp vanilla", "1 tsp instant coffee + 1 tsp hot water (optional)", "3 large extra ripe bananas, mashed (about 400g)", "1/2 cup sour cream (120g) or sub greek yogurt", "1 3/4 cups all purpose flour (227g)", "1 tsp baking powder", "1/2 tsp baking soda", "1/2 tsp salt", "1 cup chocolate chips, chunks or chopped choc of choice (200g)"],
+      "Ganache": ["1/2 cup dark or semi-sweet chocolate chips (100g)", "1/3 cup heavy cream (80g)"]
+    },
+    instructions: ["Pre-heat oven to 375F and line a jumbo muffin tray with parchment paper or muffin liners.", "Melt the butter in a nonstick saucepan and stir over medium-low heat until brown and fragrant.", "Add the brown butter to a bowl with brown sugar and whisk for 1-2 minutes.", "Wait 3-5 minutes, then add eggs, vanilla and instant coffee mixture. Whisk until smooth and caramel-like.", "Add mashed bananas and sour cream and whisk until combined.", "Sift in flour, baking powder, baking soda and salt. Gently fold until just combined.", "Fold in the chocolate chips/chunks.", "Divide batter evenly between muffin cups, top with additional chocolate chips if desired.", "Bake for ~27-30 minutes until a toothpick comes out with light, moist crumbs.", "While baking, heat cream until it boils and pour over chocolate. Cover 5 minutes, then stir until smooth.", "Once muffins cool slightly, fill with ganache using a piping bag with round tip.", "Serve and enjoy while warm when ganache and chocolate are soft."],
+    tips: ["Brown sugar gives the best flavor and texture; white sugar is an acceptable substitute.", "This recipe requires brown butter -- regular melted butter is not recommended.", "Greek yogurt can replace sour cream in this recipe.", "Bananas ripen fastest in a cool, dark place in a paper bag.", "The chocolate ganache filling is optional; these work as regular banana chocolate chip muffins.", "Batter can be baked as banana chocolate chip bread in a loaf pan for 45-50 minutes.", "Can be made as smaller muffins or cupcakes with reduced baking time.", "Store at room temperature for up to 2 days or refrigerate for up to 1 week."]
+  },
+  {
+    id: "brown-butter-brookies",
+    name: "Brown Butter Brookies",
+    description: "Fudgy brownies meet chewy chocolate chip cookies in these delicious, gooey and decadent brown butter brookies.",
+    category: "Brownies",
+    prepTime: "30 mins",
+    cookTime: "35 mins",
+    totalTime: "1 hr 5 mins",
+    servings: 16,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&h=400&fit=crop",
+    ingredients: {
+      "Cookie Dough": ["10 tbsp unsalted butter (140g)", "1/2 cup packed light or dark brown sugar (100g)", "1/4 cup granulated sugar (50g)", "1 large egg", "1 egg yolk", "1 tsp vanilla bean paste", "1 tsp instant coffee + 1 tsp water", "1 1/4 cup all purpose flour (163g)", "3/4 tsp salt", "1/2 tsp baking powder", "1/4 tsp baking soda", "6 oz chopped chocolate, mix of milk and dark recommended (170g)"],
+      "Brownie Batter": ["10 tbsp unsalted butter (140g)", "4 oz high quality dark chocolate (113g), between 60-70% cocoa, chopped", "1 tsp instant coffee mixed with 1 tablespoon hot water", "1/3 cup cocoa powder (35g); Dutch processed preferred", "2 large eggs, room temperature", "1 cup granulated sugar (200g)", "1/2 cup all purpose flour (65g)", "3/4 tsp salt", "3 oz chopped chocolate (85g); milk and dark combined"]
+    },
+    instructions: ["Melt butter in a non-stick pan on medium-low heat, stirring until brown with a nutty aroma.", "Add sugars and whisk on lowest flame for 1-2 minutes; mixture may look grainy.", "Cool for 5 minutes until warm but not hot.", "Add egg and yolk, whisk quickly. Add vanilla and instant coffee mixture, whisk 1-2 minutes until smooth.", "Sift dry ingredients into separate bowl with chopped chocolate; mix together.", "Fold dry ingredients into wet in two batches; do not overmix.", "Preheat oven to 350F and prepare 9x9 square pan with parchment paper.", "Melt and brown butter for brownie batter as done previously.", "Pour hot brown butter over chopped dark chocolate in heat-safe bowl; rest 2-3 minutes, then stir until smooth.", "Add instant coffee dissolved in hot water; sift in cocoa powder and whisk until smooth.", "Whisk eggs and sugar in separate bowl for several minutes until light, thick, and fluffy.", "Pour chocolate mixture into egg mixture and whisk until combined.", "Sift in flour and salt; fold until just combined.", "Fold in chopped chocolate.", "Spread thin brownie layer in prepared pan.", "Dollop cookie dough chunks with some brownie batter showing through; alternate brownie batter dollops with cookie batter visible.", "Flatten lightly with spatula; optionally sprinkle more chocolate on top.", "Bake for approximately 35 minutes.", "Cool in pan outside oven for at least 20 minutes, then remove and cut with sharp knife."],
+    tips: ["Do not use regular butter instead of brown butter; recipe developed specifically for brown butter.", "Check doneness with toothpick in center; should come out with moist crumbs and gooey batter.", "Lean toward underbaking rather than overbaking when uncertain.", "Store in airtight container at room temperature for up to 3 days; reheat in microwave.", "Making brookies in advance not recommended as texture best when freshly baked."]
+  },
+  {
+    id: "easy-shahi-tukray",
+    name: "Easy Shahi Tukray",
+    description: "A no-bake South Asian dessert made with fried bread soaked in sweetened cardamom milk. Takes only 15 minutes of active work with just 6 ingredients.",
+    category: "Middle Eastern",
+    prepTime: "15 mins",
+    cookTime: "0 mins",
+    totalTime: "15 mins",
+    servings: 8,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 pack Original Hawaiian Sweet Rolls (12 rolls) or brioche/white bread (~350g)", "6-8 tbsp unsalted butter (113g)", "5 cups whole milk (1200g)", "4-6 cardamom pods", "Pinch of salt", "3/4 of 14oz can sweetened condensed milk (~300g)"]
+    },
+    instructions: ["Slice Hawaiian Rolls horizontally in half.", "Pan fry in butter until golden and crispy on both sides.", "Bring milk, cardamom pods, and salt to boil; simmer 5 minutes. Add condensed milk to taste.", "Arrange fried rolls in serving dish, stacking neatly.", "Strain milk mixture over rolls to cover completely.", "Cover and refrigerate 2+ hours until cooled.", "Garnish with slivered almonds and crushed freeze-dried strawberries.", "Serve and enjoy."],
+    tips: ["Can substitute brioche or any soft bread; texture matters more than specific type.", "Oil can replace butter but butter provides superior taste.", "Prepare 1-2 days ahead; refrigerate in airtight container for 5-7 days.", "Replace cardamom with vanilla or cinnamon if preferred."]
+  },
+  {
+    id: "easy-gulab-jamun",
+    name: "Easy Gulab Jamun",
+    description: "An easy homemade gulab jamun using milk powder instead of khoya for softer, better-than-bakery results. Perfect for special occasions.",
+    category: "Middle Eastern",
+    prepTime: "20 mins",
+    cookTime: "10 mins",
+    totalTime: "1 hr",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600&h=400&fit=crop",
+    ingredients: {
+      "Dough": ["1 cup milk powder (100g)", "3 tbsp all purpose flour (~30g)", "1 1/2 tsp baking powder", "1 egg (or 3-4 tbsp milk substitute)", "3 tbsp heavy cream (~40g)", "2 tbsp melted ghee (30g)"],
+      "Syrup": ["1 1/4 cups water", "1 cup sugar", "1-2 cardamom pods", "Optional: saffron and rose water"]
+    },
+    instructions: ["Combine milk powder, flour, and baking powder in a bowl.", "Whisk together melted ghee, egg, and cream separately.", "Mix wet ingredients into dry mixture to form dough.", "Knead gently for 1-2 minutes and refrigerate 20 minutes.", "Knead again until smooth, adding milk if too dry.", "Form 12 balls about 20g each, ensure smooth surface.", "Heat 2 inches oil in a wok on medium heat.", "Prepare syrup by boiling sugar, water, and cardamom; keep covered.", "Fry balls in batches on low heat until they rise and turn brown (4 min).", "Transfer to hot syrup immediately after frying.", "Let soak at least 30 minutes before serving.", "Serve warm or chilled."],
+    tips: ["Substitute egg with 3-4 tbsp milk if needed.", "Avoid overworking dough and frying on low heat to prevent dense results.", "Keep dough soft; add milk if it feels dry to prevent cracking.", "Store in airtight container in refrigerator for 5 days.", "Microwave for 10-15 seconds before serving for best texture."]
+  },
+  {
+    id: "mango-chantilly-swiss-roll-cake",
+    name: "Mango Chantilly Swiss Roll Cake",
+    description: "A light chiffon cake filled with whipped Chantilly cream and fresh mango slices, featuring a delicate sponge brushed with mango syrup.",
+    category: "Cakes",
+    prepTime: "30 mins",
+    cookTime: "15 mins",
+    totalTime: "1 hr 30 mins",
+    servings: 8,
+    difficulty: "Hard",
+    image: "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=600&h=400&fit=crop",
+    ingredients: {
+      "Chiffon Cake": ["4 large eggs, room temperature and separated", "110g sugar (1/2 cup)", "65g all purpose flour (1/2 cup)", "30g cornstarch (3 tbsp)", "1/4 tsp salt", "20g oil (~1.5 tbsp)", "60g milk (1/4 cup)", "1/2 tsp vanilla", "1/4 tsp cream of tartar"],
+      "Mango Simple Syrup": ["55g sugar (1/4 cup)", "55g water (1/4 cup)", "Handful of mango chunks (frozen or fresh)"],
+      "Chantilly Cream": ["2 cups heavy whipping cream, chilled", "3 tbsp sugar", "1/2 tsp vanilla"],
+      "Assembly & Decoration": ["Powdered sugar", "2-3 mangoes, sliced"]
+    },
+    instructions: ["Preheat oven to 325F and line a 9x13\" pan with parchment paper.", "Combine egg yolks, sugar, salt, vanilla, oil and milk; whisk until combined.", "Sift in flour and cornstarch; whisk until combined.", "Whip egg whites with cream of tartar to stiff peaks on medium speed.", "Fold one-third of egg whites into yolk mixture, then fold in remaining whites gently.", "Bake for 13-15 minutes until done.", "Dust warm cake with powdered sugar, invert onto parchment, remove bottom paper, dust again.", "Roll cake while warm along the length with parchment inside for flexibility.", "Cool cake completely.", "Combine water, sugar and mango chunks in saucepan; simmer until sugar dissolves.", "Strain mango out and cool syrup.", "Whip heavy cream with sugar and vanilla to firm peaks.", "Unroll cooled cake carefully.", "Brush cake generously with mango syrup using pastry brush.", "Spread thick layer of whipped cream evenly.", "Cover cake with thinly sliced mango.", "Roll cake again in same direction without rolling too tightly.", "Refrigerate for 30 minutes.", "Trim edges with sharp serrated knife.", "Dust with powdered sugar.", "Pipe remaining whipped cream and decorate with chopped mango.", "Serve and enjoy."],
+    tips: ["Cream of tartar is optional and can be omitted.", "Under-whipping egg whites or overmixing batter causes dense cake; be ultra gentle folding to preserve air.", "Minor cracking is normal; avoid rolling immediately after baking or rolling too tightly.", "Chiffon cakes naturally deflate slightly as hot air escapes; significant deflation indicates underbaking."]
+  },
+  {
+    id: "viral-chocolate-mug-cake",
+    name: "Viral Chocolate Mug Cake",
+    description: "A viral TikTok chocolate mug cake that's moist, rich, and decadent, made with simple ingredients in just 5 minutes.",
+    category: "Cakes",
+    prepTime: "4 mins",
+    cookTime: "1 min",
+    totalTime: "5 mins",
+    servings: 1,
+    difficulty: "Easy",
+    image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 tbsp milk", "1.5 tbsp oil", "3 tbsp sugar", "4 tbsp flour", "2 tbsp cocoa powder", "1/3 tsp baking powder", "1/8 tsp salt", "2-3 tbsp milk chocolate chips", "Optional: Nutella to serve"]
+    },
+    instructions: ["Add milk and oil to a 10-12oz microwave-safe mug and mix well with a fork.", "Add sugar and mix it in.", "Sift in dry ingredients (flour, cocoa powder, baking powder, salt) and gently stir, scraping edges.", "Add chocolate chips and stir.", "Clean mug edges if needed and microwave for 60-90 seconds.", "Spread Nutella on top and serve."],
+    tips: ["Use a 10-12oz microwave-safe mug that's not too wide or narrow.", "Sift dry ingredients to avoid lumps in the final cake.", "Measure ingredients precisely to prevent cake from exploding or becoming rubbery.", "Stop cooking once the cake is soft but not wet on top to avoid dryness.", "Sugar can be reduced to as low as 1.5 tbsp if preferred."]
   }
 ];
