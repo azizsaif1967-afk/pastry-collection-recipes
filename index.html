@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pastry Collection | Baking Recipes Made Simple</title>
+  <meta name="description" content="Discover delicious baking recipes from cakes and cookies to pastries and desserts. The art of baking, made simple.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo" onclick="showHome()">
+        <span class="logo-icon">&#127856;</span>
+        <span class="logo-text">The Pastry Collection</span>
+      </a>
+      <div class="nav-links">
+        <a href="#" onclick="showHome()" class="nav-link active">Home</a>
+        <a href="#recipes" onclick="scrollToRecipes()" class="nav-link">Recipes</a>
+        <a href="#categories" onclick="showCategory('all')" class="nav-link">Categories</a>
+      </div>
+      <div class="nav-search">
+        <input type="text" id="searchInput" placeholder="Search recipes..." oninput="handleSearch(this.value)">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </div>
+      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-tagline">The Art of Baking, Made Simple</p>
+      <h1 class="hero-title">Delicious Recipes<br>for Every Occasion</h1>
+      <p class="hero-description">From classic cakes to fusion desserts, discover recipes that bring joy to your kitchen.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" id="recipeCount">19</span>
+          <span class="stat-label">Recipes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">9</span>
+          <span class="stat-label">Categories</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Tested</span>
+        </div>
+      </div>
+      <button class="hero-btn" onclick="scrollToRecipes()">Explore Recipes</button>
+    </div>
+    <div class="hero-image">
+      <div class="hero-card">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=600&fit=crop" alt="Featured Recipe" loading="lazy">
+        <div class="hero-card-info">
+          <span class="hero-card-tag">Featured</span>
+          <h3>Masala Chai Cake</h3>
+          <p>45 min prep &bull; 8 servings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Filter -->
+  <section class="categories-section" id="categories">
+    <div class="container">
+      <div class="category-filters" id="categoryFilters">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Recipe Grid -->
+  <section class="recipes-section" id="recipes">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">All Recipes</h2>
+        <p class="section-subtitle" id="resultCount">Showing all recipes</p>
+      </div>
+      <div class="recipe-grid" id="recipeGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Recipe Detail Modal -->
+  <div class="recipe-modal" id="recipeModal">
+    <div class="modal-overlay" onclick="closeRecipe()"></div>
+    <div class="modal-content" id="modalContent">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">&#127856;</span>
+          <h3>The Pastry Collection</h3>
+          <p>The art of baking, made simple.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Categories</h4>
+          <a href="#" onclick="showCategory('Cakes')">Cakes</a>
+          <a href="#" onclick="showCategory('Cookies')">Cookies</a>
+          <a href="#" onclick="showCategory('Pastries')">Pastries</a>
+          <a href="#" onclick="showCategory('Desserts')">Desserts</a>
+        </div>
+        <div class="footer-links">
+          <h4>More</h4>
+          <a href="#" onclick="showCategory('Ice Cream')">Ice Cream</a>
+          <a href="#" onclick="showCategory('Drinks')">Drinks</a>
+          <a href="#" onclick="showCategory('French Toast')">French Toast</a>
+          <a href="#" onclick="showCategory('Tarts')">Tarts</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 The Pastry Collection. All recipes inspired by the art of baking.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="recipes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
