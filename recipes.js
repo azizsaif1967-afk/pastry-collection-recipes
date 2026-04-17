@@ -3302,5 +3302,1688 @@ const recipes = [
     },
     instructions: ["Add milk and oil to a 10-12oz microwave-safe mug and mix well with a fork.", "Add sugar and mix it in.", "Sift in dry ingredients (flour, cocoa powder, baking powder, salt) and gently stir, scraping edges.", "Add chocolate chips and stir.", "Clean mug edges if needed and microwave for 60-90 seconds.", "Spread Nutella on top and serve."],
     tips: ["Use a 10-12oz microwave-safe mug that's not too wide or narrow.", "Sift dry ingredients to avoid lumps in the final cake.", "Measure ingredients precisely to prevent cake from exploding or becoming rubbery.", "Stop cooking once the cake is soft but not wet on top to avoid dryness.", "Sugar can be reduced to as low as 1.5 tbsp if preferred."]
+  },
+  {
+    id: "pan-seared-chicken-breast-with-lemon-butter-sauce",
+    name: "Pan-Seared Chicken Breast with Lemon Butter Sauce",
+    description: "Tender, juicy chicken with a bright, tangy pan sauce.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "30 min",
+    totalTime: "30 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (6 oz each)", "3 tbsp butter, divided", "2 tbsp fresh lemon juice", "1 tsp Dijon mustard", "2 cloves garlic, minced", "Salt and freshly ground black pepper to taste", "1 tbsp fresh parsley, chopped", "Zest of 1 lemon"]
+    },
+    instructions: ["Pat chicken breasts dry and season generously with salt and pepper on both sides.", "Heat 1 tbsp butter in a large skillet over medium-high heat until foaming.", "Add chicken and sear for 6-7 minutes per side until golden brown and cooked through.", "Remove chicken to a plate and reduce heat to medium.", "Add remaining butter and garlic to the pan, stirring for 30 seconds until fragrant.", "Whisk in lemon juice and mustard, then pour sauce over chicken.", "Garnish with fresh parsley and lemon zest before serving."],
+    tips: []
+  },
+  {
+    id: "herb-roasted-chicken-thighs-with-root-vegetables",
+    name: "Herb-Roasted Chicken Thighs with Root Vegetables",
+    description: "Succulent roasted chicken thighs with caramelized root veggies.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "60 min",
+    totalTime: "60 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1432139509613-5c4255a3d826?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["8 bone-in chicken thighs (about 2.5 lbs)", "2 medium carrots, cut into 2-inch pieces", "2 medium parsnips, cut into 2-inch pieces", "1 lb baby potatoes, halved", "4 tbsp olive oil", "3 sprigs fresh thyme", "2 sprigs fresh rosemary", "4 cloves garlic, minced", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat oven to 425°F and line a large roasting pan with parchment paper.", "Toss vegetables with 2 tbsp olive oil, salt, and pepper, then spread on the pan.", "Pat chicken thighs dry and rub with remaining olive oil, herbs, and garlic.", "Season chicken generously with salt and pepper, then arrange skin-side up on the vegetables.", "Roast for 45 minutes until chicken skin is golden and internal temperature reaches 165°F.", "Let rest for 5 minutes before serving alongside the roasted vegetables."],
+    tips: []
+  },
+  {
+    id: "honey-glazed-chicken-with-ginger-and-scallions",
+    name: "Honey-Glazed Chicken with Ginger and Scallions",
+    description: "Sweet and savory glazed chicken with aromatic Asian flavors.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "35 min",
+    totalTime: "35 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (6 oz each)", "3 tbsp raw honey", "2 tbsp soy sauce (low-sodium)", "1 tbsp fresh ginger, minced", "2 cloves garlic, minced", "2 tbsp rice vinegar", "1 tbsp sesame oil", "4 scallions, sliced", "1 tbsp sesame seeds"]
+    },
+    instructions: ["Whisk together honey, soy sauce, ginger, garlic, vinegar, and sesame oil in a bowl.", "Heat a large skillet over medium-high heat and add 1 tbsp of the glaze mixture.", "Add chicken breasts and cook for 6 minutes until lightly browned on one side.", "Flip chicken and pour remaining glaze over top, then reduce heat to medium.", "Continue cooking for 8-10 minutes until chicken is cooked through and glaze thickens.", "Transfer to serving plate and garnish with scallions and sesame seeds."],
+    tips: []
+  },
+  {
+    id: "creamy-mushroom-and-thyme-chicken",
+    name: "Creamy Mushroom and Thyme Chicken",
+    description: "Rich and savory chicken in a velvety mushroom sauce.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "40 min",
+    totalTime: "40 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (6 oz each)", "1 lb mixed mushrooms, sliced", "1 cup heavy cream", "1/2 cup chicken broth", "3 tbsp butter, divided", "3 cloves garlic, minced", "2 tsp fresh thyme leaves", "Salt and pepper to taste", "1 tbsp Dijon mustard"]
+    },
+    instructions: ["Season chicken with salt and pepper, then sear in a large skillet with 1 tbsp butter for 5-6 minutes per side until golden.", "Remove chicken and set aside.", "Add remaining butter to the pan and sauté mushrooms until golden brown, about 6 minutes.", "Add garlic and thyme, stirring for 1 minute until fragrant.", "Pour in broth and cream, stirring in mustard until smooth.", "Return chicken to the pan and simmer for 10 minutes until cooked through.", "Taste and adjust seasonings before serving over pasta or with crusty bread."],
+    tips: []
+  },
+  {
+    id: "spice-rubbed-chicken-thighs-with-cilantro-lime",
+    name: "Spice-Rubbed Chicken Thighs with Cilantro Lime",
+    description: "Smoky and zesty chicken thighs with vibrant cilantro lime finish.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["8 bone-in chicken thighs", "2 tsp smoked paprika", "1 tsp cumin", "1 tsp garlic powder", "1 tsp onion powder", "1/2 tsp cayenne pepper", "Zest and juice of 2 limes", "1/4 cup fresh cilantro, chopped", "3 tbsp olive oil", "Salt and pepper to taste"]
+    },
+    instructions: ["Mix paprika, cumin, garlic powder, onion powder, cayenne, salt, and pepper in a small bowl.", "Rub chicken thighs generously with the spice mixture on both sides.", "Heat olive oil in a large skillet over medium-high heat.", "Add chicken skin-side down and cook for 8 minutes until skin is crispy.", "Flip chicken and continue cooking for 15-18 minutes until cooked through.", "Remove from heat and drizzle with lime juice, then top with cilantro and lime zest.", "Serve immediately with lime wedges on the side."],
+    tips: []
+  },
+  {
+    id: "braised-chicken-with-white-wine-and-pearl-onions",
+    name: "Braised Chicken with White Wine and Pearl Onions",
+    description: "Tender braised chicken in a silky white wine reduction.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "65 min",
+    totalTime: "65 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 bone-in chicken breasts (8 oz each)", "1 lb pearl onions, peeled", "1 cup dry white wine", "1 cup chicken broth", "2 medium carrots, cut into 2-inch pieces", "2 bay leaves", "3 sprigs fresh thyme", "2 tbsp olive oil", "Salt and pepper to taste", "1 tbsp Dijon mustard"]
+    },
+    instructions: ["Season chicken with salt and pepper, then sear skin-side down in olive oil for 5 minutes until golden.", "Flip and sear for another 3 minutes, then transfer to a plate.", "Add onions and carrots to the pan, cooking for 3-4 minutes until lightly colored.", "Pour in wine and broth, stirring in mustard until combined.", "Return chicken to the pan along with bay leaves and thyme.", "Reduce heat to low, cover, and braise for 35-40 minutes until chicken is tender and cooked through.", "Discard bay leaves and thyme sprigs before serving."],
+    tips: []
+  },
+  {
+    id: "pan-roasted-chicken-with-beets-and-goat-cheese",
+    name: "Pan-Roasted Chicken with Beets and Goat Cheese",
+    description: "Sweet roasted beets and tangy goat cheese complement tender chicken.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (6 oz each)", "2 medium beets, cut into wedges", "1/4 cup goat cheese, crumbled", "3 tbsp olive oil, divided", "2 tbsp balsamic vinegar", "2 cloves garlic, minced", "2 cups arugula", "1 tbsp fresh thyme", "Salt and pepper to taste"]
+    },
+    instructions: ["Toss beet wedges with 1 tbsp olive oil, salt, and pepper, then roast in a 425°F oven for 15 minutes.", "Season chicken with salt, pepper, and thyme.", "Heat 2 tbsp olive oil in a skillet over medium-high heat and sear chicken for 5-6 minutes per side.", "Add garlic to the pan and cook for 1 minute, then transfer skillet to oven for 8 minutes.", "Arrange arugula on serving plates and top with chicken and roasted beets.", "Whisk together balsamic vinegar with pan drippings and drizzle over the plate.", "Top with crumbled goat cheese and serve immediately."],
+    tips: []
+  },
+  {
+    id: "moroccan-spiced-chicken-with-apricots-and-almonds",
+    name: "Moroccan-Spiced Chicken with Apricots and Almonds",
+    description: "Exotic blend of warm spices with sweet and savory contrasts.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1432139509613-5c4255a3d826?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (6 oz each)", "1/2 cup dried apricots, chopped", "1/3 cup sliced almonds, toasted", "1 tsp cinnamon", "1 tsp cumin", "1/2 tsp turmeric", "1/4 tsp cayenne pepper", "1 cup chicken broth", "3 tbsp olive oil", "1 onion, thinly sliced", "2 cloves garlic, minced"]
+    },
+    instructions: ["Toast almonds in a dry skillet for 2 minutes until fragrant, then set aside.", "Mix cinnamon, cumin, turmeric, and cayenne in a small bowl.", "Season chicken with the spice mixture, then sear in olive oil for 5 minutes per side.", "Remove chicken and sauté onion in the same pan for 4 minutes until softened.", "Add garlic and cook for 1 minute, then pour in broth and add apricots.", "Return chicken to the pan, reduce heat to low, and simmer for 15 minutes until cooked through.", "Top with toasted almonds and serve over couscous or rice."],
+    tips: []
+  },
+  {
+    id: "garlic-and-herb-butter-roasted-chicken",
+    name: "Garlic and Herb-Butter Roasted Chicken",
+    description: "Classic whole roasted chicken infused with garlic, herbs, and butter.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "90 min",
+    totalTime: "90 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 whole chicken (4-5 lbs)", "6 tbsp butter, softened", "8 cloves garlic, minced", "3 tbsp fresh mixed herbs (thyme, rosemary, parsley), chopped", "Zest of 2 lemons", "1 lemon, halved", "1 onion, quartered", "Salt and pepper to taste", "1 cup chicken broth"]
+    },
+    instructions: ["Preheat oven to 425°F and place chicken on a roasting pan.", "Mix softened butter with garlic, herbs, lemon zest, salt, and pepper.", "Carefully loosen the skin on the chicken breast and rub half the herb butter under the skin.", "Rub remaining butter all over the chicken skin.", "Stuff the cavity with lemon halves and onion quarters.", "Roast for 1 hour 15 minutes until skin is golden and internal temperature reaches 165°F.", "Let rest for 10 minutes before carving and serving."],
+    tips: []
+  },
+  {
+    id: "tandoori-chicken-with-cucumber-yogurt-raita",
+    name: "Tandoori Chicken with Cucumber Yogurt Raita",
+    description: "Aromatic Indian-inspired chicken with creamy cooling yogurt sauce.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "35 min",
+    totalTime: "35 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (6 oz each)", "3/4 cup plain Greek yogurt", "2 tbsp tandoori spice blend", "2 tbsp lime juice", "3 cloves garlic, minced", "1 tbsp fresh ginger, minced", "1 cucumber, grated", "2 tbsp fresh cilantro, chopped", "1 tbsp oil", "Salt to taste"]
+    },
+    instructions: ["Mix yogurt, tandoori spice, lime juice, garlic, and ginger in a bowl to create a marinade.", "Coat chicken with the marinade and let sit for 10 minutes.", "Heat oil in a large skillet over medium-high heat.", "Cook chicken for 6-7 minutes per side until cooked through and lightly charred.", "For the raita, combine remaining yogurt with grated cucumber, cilantro, and salt.", "Serve chicken hot with raita on the side.", "Accompany with basmati rice and warm naan bread."],
+    tips: []
+  },
+  {
+    id: "chicken-piccata-with-capers-and-lemon",
+    name: "Chicken Piccata with Capers and Lemon",
+    description: "Elegant thin-cutlet chicken with a bright, briny caper sauce.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (6 oz each)", "3 tbsp capers, drained", "1/4 cup fresh lemon juice", "3 tbsp butter, divided", "1/2 cup chicken broth", "3 cloves garlic, minced", "2 tbsp fresh parsley, chopped", "Salt and pepper to taste", "1 tbsp olive oil"]
+    },
+    instructions: ["Pound chicken breasts to 1/4-inch thickness and season with salt and pepper.", "Heat 1 tbsp butter and olive oil in a large skillet over medium-high heat.", "Cook chicken for 3-4 minutes per side until lightly golden and cooked through.", "Remove chicken to a warm plate.", "Add garlic to the pan and cook for 30 seconds until fragrant.", "Deglaze with lemon juice and broth, then stir in capers and remaining butter.", "Pour sauce over chicken and garnish with fresh parsley before serving."],
+    tips: []
+  },
+  {
+    id: "five-spice-roasted-chicken-legs-with-asian-greens",
+    name: "Five-Spice Roasted Chicken Legs with Asian Greens",
+    description: "Aromatic roasted chicken with tender Chinese greens.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "50 min",
+    totalTime: "50 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["8 chicken leg quarters (thighs and drumsticks)", "1 tbsp five-spice powder", "2 tbsp soy sauce", "1 tbsp honey", "2 tbsp sesame oil, divided", "3 cloves garlic, minced", "1 tbsp fresh ginger, minced", "1 lb bok choy or gai lan", "2 tbsp rice vinegar", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat oven to 425°F and line a roasting pan with foil.", "Mix five-spice powder, soy sauce, honey, 1 tbsp sesame oil, garlic, and ginger.", "Rub chicken with the spice mixture and arrange on the roasting pan.", "Roast for 35-40 minutes until skin is crispy and cooked through.", "Meanwhile, heat remaining sesame oil in a wok or large pan over high heat.", "Add greens and stir-fry for 3-4 minutes until just tender.", "Drizzle with rice vinegar and serve alongside the roasted chicken."],
+    tips: []
+  },
+  {
+    id: "chicken-saltimbocca-with-sage-and-prosciutto",
+    name: "Chicken Saltimbocca with Sage and Prosciutto",
+    description: "Elegant thin-pounded chicken wrapped with prosciutto and sage.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "22 min",
+    totalTime: "22 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (5 oz each)", "8 slices prosciutto", "12 fresh sage leaves", "3 tbsp butter, divided", "1/2 cup dry white wine", "1/4 cup chicken broth", "1 tbsp fresh lemon juice", "Salt and pepper to taste", "Toothpicks"]
+    },
+    instructions: ["Pound chicken breasts to 1/4-inch thickness between plastic wrap.", "Place 2 sage leaves and 2 prosciutto slices on each chicken breast.", "Roll up and secure with toothpicks to enclose filling.", "Heat 2 tbsp butter in a large skillet over medium-high heat.", "Sear chicken for 3-4 minutes per side until golden, then transfer to a plate.", "Add wine and broth to the pan, scraping up browned bits.", "Return chicken to pan, reduce heat to low, and simmer for 3-4 minutes.", "Finish sauce with remaining butter and lemon juice before serving."],
+    tips: []
+  },
+  {
+    id: "deviled-chicken-with-dijon-and-tarragon",
+    name: "Deviled Chicken with Dijon and Tarragon",
+    description: "Peppery mustard coating creates a crispy, flavorful crust.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "40 min",
+    totalTime: "40 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1432139509613-5c4255a3d826?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 boneless, skinless chicken breasts (6 oz each)", "4 tbsp Dijon mustard", "2 tbsp whole grain mustard", "1 tbsp red wine vinegar", "1 tsp fresh tarragon, chopped", "1 tsp Worcestershire sauce", "2 cloves garlic, minced", "1/2 cup panko breadcrumbs", "2 tbsp butter", "Salt and pepper to taste"]
+    },
+    instructions: ["Mix Dijon mustard, whole grain mustard, vinegar, tarragon, Worcestershire, and garlic in a bowl.", "Coat chicken on all sides with the mustard mixture.", "Spread breadcrumbs on a plate and dredge mustard-coated chicken in crumbs.", "Heat butter in a large skillet over medium-high heat.", "Cook chicken for 6-7 minutes per side until golden brown and cooked through.", "Transfer to a serving platter and let rest for 2 minutes.", "Serve with greens or roasted vegetables."],
+    tips: []
+  },
+  {
+    id: "grass-fed-ribeye-with-compound-herb-butter",
+    name: "Grass-Fed Ribeye with Compound Herb Butter",
+    description: "Premium beef with a melting herb-infused butter topping.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 2,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 grass-fed ribeye steaks (10 oz each, 1.5 inches thick)", "6 tbsp butter, softened", "2 tbsp fresh parsley, finely chopped", "1 tbsp fresh tarragon, finely chopped", "1 tbsp fresh chives, finely chopped", "1 clove garlic, minced", "Sea salt and cracked black pepper", "2 tbsp olive oil"]
+    },
+    instructions: ["Mix softened butter with herbs and garlic, then form into a log using plastic wrap and refrigerate.", "Remove steaks from refrigerator 30 minutes before cooking to bring to room temperature.", "Heat olive oil in a cast-iron skillet over medium-high heat until smoking.", "Season steaks generously with salt and pepper, then sear for 6-7 minutes per side for medium-rare.", "Transfer steaks to a warm plate and rest for 5 minutes.", "Top each steak with a slice of the herb butter and let it melt over the warm meat.", "Serve immediately with roasted vegetables or a fresh salad."],
+    tips: []
+  },
+  {
+    id: "slow-braised-beef-cheeks-with-red-wine",
+    name: "Slow-Braised Beef Cheeks with Red Wine",
+    description: "Melt-in-your-mouth tender beef in a rich wine reduction.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "3 hours 45 min",
+    totalTime: "3 hours 45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 beef cheeks (8 oz each)", "2 cups full-bodied red wine", "2 cups beef broth", "2 medium carrots, chunked", "2 medium parsnips, chunked", "1 large onion, quartered", "4 cloves garlic, smashed", "2 bay leaves", "3 sprigs fresh thyme", "3 tbsp olive oil", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat oven to 325°F and pat beef cheeks dry with paper towels.", "Season generously with salt and pepper, then sear in hot olive oil for 4-5 minutes per side.", "Transfer to a Dutch oven and set aside.", "In the same pan, sauté carrots, parsnips, and onion for 5 minutes until lightly colored.", "Pour in wine and broth, scraping up browned bits, then add garlic, bay leaves, and thyme.", "Return beef to the pot and cover, then braise in the oven for 3-3.5 hours until extremely tender.", "Remove beef and strain cooking liquid, discarding herbs, then reduce sauce on the stovetop until thickened."],
+    tips: []
+  },
+  {
+    id: "korean-beef-bulgogi-with-sesame-and-scallions",
+    name: "Korean Beef Bulgogi with Sesame and Scallions",
+    description: "Tender marinated beef strips with sweet and savory Korean flavors.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 lbs beef sirloin, thinly sliced against the grain", "1/4 cup soy sauce", "2 tbsp honey", "2 tbsp sesame oil", "4 cloves garlic, minced", "1 tbsp fresh ginger, minced", "2 tbsp rice vinegar", "1 tbsp sesame seeds, toasted", "4 scallions, sliced", "1 tsp gochugaru (Korean chili flakes)"]
+    },
+    instructions: ["Whisk together soy sauce, honey, sesame oil, garlic, ginger, and vinegar in a bowl.", "Toss beef slices with the marinade and let sit for 10 minutes.", "Heat a large skillet or wok over high heat until smoking.", "Cook beef in batches for 2-3 minutes, stirring frequently, until cooked through.", "Return all beef to the pan and toss with the reserved marinade.", "Top with sesame seeds, scallions, and gochugaru.", "Serve immediately over rice or with lettuce wraps."],
+    tips: []
+  },
+  {
+    id: "pan-seared-beef-tenderloin-with-mushroom-duxelles",
+    name: "Pan-Seared Beef Tenderloin with Mushroom Duxelles",
+    description: "Tender center-cut beef topped with savory mushroom mixture.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "40 min",
+    totalTime: "40 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 beef tenderloin steaks (6 oz each)", "1 lb mixed mushrooms, finely chopped", "3 tbsp butter, divided", "4 cloves garlic, minced", "2 tbsp fresh parsley, chopped", "1 tbsp fresh thyme, chopped", "1/4 cup dry sherry", "1/4 cup heavy cream", "Salt and pepper to taste", "2 tbsp olive oil"]
+    },
+    instructions: ["Heat 2 tbsp butter in a skillet and sauté mushrooms until all moisture evaporates, about 8 minutes.", "Add garlic, parsley, and thyme, then deglaze with sherry and reduce by half.", "Stir in cream and cook for 1 minute, then season with salt and pepper and set aside.", "Heat olive oil in a separate skillet over medium-high heat until smoking.", "Sear beef for 5-6 minutes per side for medium-rare, then transfer to a plate.", "Let rest for 5 minutes, then top each steak with a spoonful of mushroom duxelles.", "Serve immediately with seasonal vegetables."],
+    tips: []
+  },
+  {
+    id: "grilled-flank-steak-with-chimichurri",
+    name: "Grilled Flank Steak with Chimichurri",
+    description: "Flavorful grilled steak finished with vibrant herb sauce.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "22 min",
+    totalTime: "22 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 lbs flank steak", "1 cup fresh parsley, chopped", "1/2 cup fresh cilantro, chopped", "1/4 cup olive oil", "3 tbsp red wine vinegar", "4 cloves garlic, minced", "1 tsp red pepper flakes", "Salt and pepper to taste", "Juice of 1 lemon"]
+    },
+    instructions: ["Make chimichurri by combining parsley, cilantro, olive oil, vinegar, garlic, and red pepper flakes.", "Season flank steak generously with salt and pepper on both sides.", "Preheat grill to high heat and oil the grates.", "Grill steak for 5-6 minutes per side for medium-rare.", "Transfer to a cutting board and rest for 5 minutes.", "Slice against the grain and transfer to a platter.", "Drizzle with chimichurri and squeeze fresh lemon juice over top."],
+    tips: []
+  },
+  {
+    id: "beef-daube-proven-al-with-vegetables",
+    name: "Beef Daube Provençal with Vegetables",
+    description: "French-style braised beef with aromatic herbs and wine.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "2 hours 50 min",
+    totalTime: "2 hours 50 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1432139509613-5c4255a3d826?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3 lbs beef chuck, cut into 2-inch cubes", "2 cups red wine", "1.5 cups beef broth", "4 medium carrots, cut into 2-inch pieces", "2 cups pearl onions, peeled", "1 lb new potatoes, halved", "4 cloves garlic, minced", "2 bay leaves", "4 sprigs fresh thyme", "1 tsp herbes de Provence", "3 tbsp olive oil", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat oven to 325°F and sear beef in batches in hot olive oil until well browned.", "Transfer beef to a Dutch oven and set aside.", "In the same pan, sauté carrots and onions for 4 minutes, then add garlic.", "Pour in wine and broth, scraping up browned bits, then pour over beef.", "Add bay leaves, thyme, and herbes de Provence, then cover and braise for 2 hours.", "Add potatoes and continue braising for 30 minutes until vegetables are tender.", "Discard bay leaves and thyme sprigs, then taste and adjust seasonings before serving."],
+    tips: []
+  },
+  {
+    id: "beef-carpaccio-with-peppery-arugula-and-parmesan",
+    name: "Beef Carpaccio with Peppery Arugula and Parmesan",
+    description: "Paper-thin raw beef dressed with peppery greens and crispy parmesan.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "15 min",
+    totalTime: "15 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb premium beef tenderloin, very fresh", "4 cups peppery arugula", "1/4 cup capers, drained", "3 tbsp extra-virgin olive oil", "1 tbsp fresh lemon juice", "2 oz Parmigiano-Reggiano, shaved", "1 tsp Dijon mustard", "Sea salt and cracked black pepper", "1/2 tsp red pepper flakes"]
+    },
+    instructions: ["Partially freeze the beef tenderloin for 1-2 hours to make slicing easier.", "Using a sharp knife, slice beef as thinly as possible and arrange on a cold plate.", "Whisk together olive oil, lemon juice, mustard, salt, and pepper to create dressing.", "Dress the arugula lightly with the dressing and arrange over the beef slices.", "Top with capers and shaved parmesan, then drizzle with extra virgin olive oil.", "Finish with a sprinkle of red pepper flakes and sea salt.", "Serve immediately at room temperature with crusty bread."],
+    tips: []
+  },
+  {
+    id: "beef-wellington-with-mushroom-shallot-duxelles",
+    name: "Beef Wellington with Mushroom-Shallot Duxelles",
+    description: "Tender beef wrapped in mushroom paste and flaky pastry crust.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "70 min",
+    totalTime: "70 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 lbs beef tenderloin center cut", "1 lb mixed mushrooms, finely chopped", "3 shallots, minced", "1 puff pastry sheet, thawed", "4 tbsp butter, divided", "3 cloves garlic, minced", "2 tbsp Dijon mustard", "1 egg yolk, beaten", "2 tbsp fresh thyme, chopped", "Salt and pepper to taste", "3 tbsp olive oil"]
+    },
+    instructions: ["Sear beef on all sides in hot olive oil, then brush with mustard and season generously.", "Heat 2 tbsp butter and sauté mushrooms, shallots, and garlic until dry, about 8 minutes.", "Stir in thyme and cool the duxelles completely.", "Roll out pastry and spread mushroom mixture over it, leaving a border.", "Wrap pastry around the seared beef, sealing edges with egg wash.", "Place seam-side down on a baking sheet and brush with egg wash.", "Bake at 400°F for 25-30 minutes until pastry is golden and internal temperature reaches 125°F for medium-rare.", "Rest for 5 minutes before slicing and serving."],
+    tips: []
+  },
+  {
+    id: "coffee-and-chili-rubbed-brisket",
+    name: "Coffee and Chili Rubbed Brisket",
+    description: "Smoky and slightly sweet brisket with complex spice crust.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "4 hours 15 min",
+    totalTime: "4 hours 15 min",
+    servings: 8,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 lb beef brisket", "3 tbsp instant espresso powder", "2 tbsp brown sugar", "1 tbsp chili powder", "1 tbsp smoked paprika", "1 tbsp garlic powder", "1 tbsp onion powder", "1 tsp cayenne pepper", "2 tbsp sea salt", "1 tbsp black pepper", "2 tbsp olive oil", "1 cup beef broth"]
+    },
+    instructions: ["Preheat oven to 275°F and make a spice rub by combining espresso powder, brown sugar, chili powder, paprika, garlic powder, onion powder, cayenne, salt, and pepper.", "Rub the brisket generously on all sides with the spice mixture.", "Sear in hot olive oil for 3-4 minutes per side until a crust forms.", "Transfer to a roasting pan, add broth, cover tightly with foil, and braise for 4 hours.", "Remove foil and increase temperature to 325°F for the last 15 minutes to crisp the exterior.", "Remove from oven and let rest for 15 minutes.", "Slice against the grain and serve with the pan juices."],
+    tips: []
+  },
+  {
+    id: "steak-frites-with-b-arnaise-sauce",
+    name: "Steak Frites with Béarnaise Sauce",
+    description: "Classic French sirloin with crispy fries and silky béarnaise.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 2,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 sirloin steaks (8 oz each)", "4 medium russet potatoes, cut into fries", "3 egg yolks", "6 tbsp butter, melted", "2 tbsp tarragon vinegar", "1 tbsp fresh tarragon, chopped", "2 shallots, minced", "Salt and pepper", "Oil for frying"]
+    },
+    instructions: ["Heat oil to 325°F and fry potatoes for 8 minutes until pale, then drain and set aside.", "Increase oil temperature to 375°F and fry potatoes again for 3-4 minutes until golden and crispy.", "For béarnaise, whisk egg yolks in a heatproof bowl over simmering water until pale.", "Slowly whisk in melted butter until sauce is thick and creamy.", "Remove from heat and whisk in vinegar, tarragon, and shallots.", "Season steaks generously and sear in a hot cast-iron skillet for 5-6 minutes per side for medium-rare.", "Serve steaks with fries and béarnaise sauce on the side."],
+    tips: []
+  },
+  {
+    id: "herb-crusted-lamb-rack-with-rosemary-jus",
+    name: "Herb-Crusted Lamb Rack with Rosemary Jus",
+    description: "Elegant herb-coated lamb with savory pan sauce.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "35 min",
+    totalTime: "35 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 lamb racks (8 ribs each, 1.5 lbs total)", "1/2 cup panko breadcrumbs", "4 tbsp Dijon mustard", "3 cloves garlic, minced", "3 tbsp fresh rosemary, chopped", "2 tbsp fresh thyme, chopped", "2 tbsp butter", "1/2 cup lamb or beef broth", "1 tbsp red wine", "Salt and pepper to taste", "2 tbsp olive oil"]
+    },
+    instructions: ["Mix breadcrumbs, mustard, garlic, rosemary, and thyme to create a crust mixture.", "Sear lamb racks fat-side down in hot olive oil for 3 minutes, then flip and sear for 2 minutes.", "Brush with mustard mixture and press the herb crust firmly onto the meat.", "Bake at 400°F for 12-15 minutes until internal temperature reaches 125°F for medium-rare.", "Transfer lamb to a cutting board and tent loosely with foil to rest.", "Deglaze the pan with broth and wine, then swirl in butter for a glossy sauce.", "Slice between the bones and arrange on plates, drizzling with pan jus."],
+    tips: []
+  },
+  {
+    id: "lamb-shoulder-tagine-with-apricots-and-almonds",
+    name: "Lamb Shoulder Tagine with Apricots and Almonds",
+    description: "Moroccan-inspired slow-braised lamb with sweet and savory spices.",
+    category: "Main Course",
+    prepTime: "15 min",
+    cookTime: "2 hours 45 min",
+    totalTime: "2 hours 45 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1432139509613-5c4255a3d826?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3 lbs lamb shoulder, cut into 2-inch cubes", "1 cup dried apricots", "1/2 cup sliced almonds, toasted", "1 tsp cinnamon", "1 tsp cumin", "1/2 tsp turmeric", "1/4 tsp cayenne pepper", "1 large onion, sliced", "1 cup lamb broth", "1/2 cup dry white wine", "3 tbsp olive oil", "2 tbsp honey", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat oven to 325°F and sear lamb in hot olive oil until well browned, then set aside.", "In the same pot, sauté onion until softened, about 5 minutes.", "Add spices and cook for 1 minute until fragrant.", "Add broth, wine, honey, and apricots, then return lamb to the pot.", "Cover and braise in the oven for 2.5 hours until lamb is very tender.", "Remove from oven and skim any excess fat from the surface.", "Stir in toasted almonds and adjust seasonings before serving over couscous."],
+    tips: []
+  },
+  {
+    id: "pan-seared-halibut-with-lemon-beurre-blanc",
+    name: "Pan-Seared Halibut with Lemon Beurre Blanc",
+    description: "Delicate white fish with silky, buttery lemon sauce.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 halibut fillets (6 oz each)", "6 tbsp butter, divided", "3 tbsp fresh lemon juice", "1/4 cup dry white wine", "2 shallots, minced", "1/2 cup fish or vegetable broth", "Salt and white pepper to taste", "2 tbsp olive oil", "Fresh tarragon for garnish"]
+    },
+    instructions: ["Make beurre blanc by reducing wine, shallots, and broth in a saucepan until nearly dry.", "Whisk in 6 tbsp cold butter piece by piece over low heat until silky.", "Finish with lemon juice, salt, and white pepper, then strain through fine mesh.", "Heat olive oil in a skillet over medium-high heat.", "Season halibut with salt and pepper, then sear for 4-5 minutes per side until opaque.", "Transfer to serving plates and spoon beurre blanc alongside.", "Garnish with fresh tarragon and serve immediately."],
+    tips: []
+  },
+  {
+    id: "saffron-poached-salmon-with-fennel",
+    name: "Saffron-Poached Salmon with Fennel",
+    description: "Elegant poached salmon infused with saffron and anise.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 salmon fillets (6 oz each)", "2 cups fish broth", "1 fennel bulb, thinly sliced", "1/4 tsp saffron threads", "1/4 cup dry white wine", "2 tbsp butter", "1 lemon, sliced", "2 bay leaves", "Salt and white pepper to taste", "Fresh dill for garnish"]
+    },
+    instructions: ["Infuse saffron threads in warm broth for 5 minutes to release color and flavor.", "Bring saffron broth and wine to a gentle simmer in a large skillet.", "Add fennel, lemon slices, and bay leaves, then simmer for 5 minutes.", "Carefully add salmon fillets and maintain gentle simmer for 8-10 minutes until cooked through.", "Remove bay leaves and transfer salmon and fennel to serving bowls.", "Whisk butter into the poaching liquid and adjust seasoning.", "Pour broth over salmon and garnish with fresh dill before serving."],
+    tips: []
+  },
+  {
+    id: "grilled-mediterranean-branzino-with-herbs",
+    name: "Grilled Mediterranean Branzino with Herbs",
+    description: "Whole grilled fish with Mediterranean aromatics and olive oil.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 2,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1535140728325-a4d3707eee61?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 whole branzino (12 oz each), cleaned and gutted", "1/4 cup extra-virgin olive oil", "4 tbsp fresh parsley, chopped", "2 tbsp fresh dill, chopped", "2 tbsp fresh thyme, chopped", "4 cloves garlic, sliced", "2 lemons, thinly sliced", "1/4 cup Kalamata olives, pitted", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat grill to high heat and oil the grates.", "Season branzino inside and out with salt and pepper.", "Fill cavity of each fish with garlic, herbs, lemon slices, and olives.", "Brush exterior with olive oil and place directly on the grill.", "Grill for 7-8 minutes per side until skin is crispy and flesh is opaque.", "Transfer to a serving platter and drizzle with additional olive oil.", "Serve immediately with lemon wedges on the side."],
+    tips: []
+  },
+  {
+    id: "cioppino-with-fennel-tomato-and-saffron",
+    name: "Cioppino with Fennel, Tomato, and Saffron",
+    description: "Italian-American seafood stew bursting with fresh ocean flavors.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb white fish fillets, cut into chunks", "1 lb large shrimp, peeled", "1 lb mussels, cleaned", "1 can (28 oz) crushed tomatoes", "1 fennel bulb, thinly sliced", "4 cloves garlic, minced", "1/4 tsp saffron threads", "1 cup fish broth", "1/4 cup dry white wine", "3 tbsp olive oil", "1/2 tsp red pepper flakes", "Salt and pepper to taste", "Fresh parsley for garnish"]
+    },
+    instructions: ["Heat olive oil in a large pot and sauté fennel until softened, about 5 minutes.", "Add garlic and red pepper flakes, cooking for 1 minute until fragrant.", "Pour in tomatoes, broth, and wine, then add saffron and simmer for 10 minutes.", "Add fish chunks and simmer for 5 minutes.", "Add shrimp and mussels, then cover and cook for 5-7 minutes until shrimp is pink and mussels open.", "Discard any unopened mussels and taste for seasoning.", "Ladle into bowls and garnish with fresh parsley and a crusty bread for soaking up the broth."],
+    tips: []
+  },
+  {
+    id: "pan-seared-scallops-with-cauliflower-puree",
+    name: "Pan-Seared Scallops with Cauliflower Puree",
+    description: "Sweet seared scallops over creamy cauliflower puree.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "35 min",
+    totalTime: "35 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["16 large sea scallops", "1 lb cauliflower, cut into florets", "1/2 cup heavy cream", "3 tbsp butter, divided", "2 cloves garlic, minced", "1/4 cup vegetable broth", "1 tbsp fresh lemon juice", "Salt and white pepper to taste", "2 tbsp olive oil", "Fresh chives for garnish"]
+    },
+    instructions: ["Steam cauliflower until tender, about 10 minutes, then puree with butter, cream, and garlic.", "Season puree with salt, pepper, and broth to achieve creamy consistency.", "Heat olive oil in a skillet over medium-high heat until just smoking.", "Pat scallops completely dry and season with salt and pepper on both sides.", "Sear scallops for 2-3 minutes per side until golden and just cooked through.", "Spoon cauliflower puree onto serving plates and arrange scallops on top.", "Drizzle with lemon juice and garnish with fresh chives before serving."],
+    tips: []
+  },
+  {
+    id: "thai-spiced-shrimp-with-coconut-and-lime",
+    name: "Thai-Spiced Shrimp with Coconut and Lime",
+    description: "Aromatic shrimp in a fragrant coconut broth with fresh lime.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "27 min",
+    totalTime: "27 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 lbs large shrimp, peeled and deveined", "1 can (13.5 oz) coconut milk", "2 tbsp red curry paste", "2 tbsp fish sauce", "1 tbsp palm sugar or brown sugar", "3 tbsp fresh lime juice", "4 cloves garlic, minced", "1 tbsp fresh ginger, minced", "1/2 cup vegetable broth", "Fresh basil and cilantro for garnish", "2 tbsp oil"]
+    },
+    instructions: ["Heat oil in a large pan over medium heat and add curry paste, stirring for 1 minute.", "Add garlic and ginger, cooking for 1 minute until fragrant.", "Pour in coconut milk and broth, stirring to combine.", "Add fish sauce and palm sugar, simmering for 3 minutes.", "Add shrimp and cook for 4-5 minutes until pink and cooked through.", "Remove from heat and finish with fresh lime juice.", "Serve over jasmine rice and garnish with fresh basil and cilantro."],
+    tips: []
+  },
+  {
+    id: "baked-cod-with-tomatoes-and-olives",
+    name: "Baked Cod with Tomatoes and Olives",
+    description: "Tender white fish with Mediterranean vegetable topping.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "30 min",
+    totalTime: "30 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1535140728325-a4d3707eee61?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 cod fillets (6 oz each)", "2 cups cherry tomatoes, halved", "1/2 cup Kalamata olives, pitted", "1/4 cup capers, drained", "4 cloves garlic, minced", "3 tbsp olive oil", "2 tbsp fresh parsley, chopped", "1 tbsp fresh oregano, chopped", "1 tbsp fresh lemon juice", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat oven to 400°F and arrange cod fillets on a baking sheet lined with parchment.", "In a bowl, combine tomatoes, olives, capers, garlic, olive oil, parsley, and oregano.", "Top each cod fillet with the tomato mixture.", "Bake for 18-20 minutes until fish is opaque and flakes easily with a fork.", "Squeeze fresh lemon juice over the fish just before serving.", "Transfer to serving plates with all the pan juices and vegetables.", "Serve immediately with crusty bread or over rice."],
+    tips: []
+  },
+  {
+    id: "garlic-and-white-wine-mussels",
+    name: "Garlic and White Wine Mussels",
+    description: "Briny mussels steamed in aromatic white wine broth.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "22 min",
+    totalTime: "22 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 lbs mussels, cleaned and debearded", "1 cup dry white wine", "1/2 cup fish or vegetable broth", "6 cloves garlic, sliced", "2 tbsp butter", "1/4 cup fresh parsley, chopped", "2 tbsp fresh basil, chopped", "1/4 tsp red pepper flakes", "Salt and pepper to taste", "Crusty bread for serving"]
+    },
+    instructions: ["Heat a large pot over medium-high heat and add garlic, butter, and red pepper flakes.", "Cook for 1 minute until fragrant, then pour in wine and broth.", "Bring to a boil and add mussels, then cover and steam for 5-7 minutes until they open.", "Discard any unopened mussels and divide mussels and broth among serving bowls.", "Top with fresh parsley and basil.", "Serve immediately with crusty bread for soaking up the delicious broth."],
+    tips: []
+  },
+  {
+    id: "ceviche-with-citrus-jalape-o-and-avocado",
+    name: "Ceviche with Citrus, Jalapeño, and Avocado",
+    description: "Fresh raw fish cured in citrus with bright, spicy flavors.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "15 min",
+    totalTime: "15 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb very fresh white fish (halibut or snapper), diced", "1/2 cup fresh lime juice", "1/4 cup fresh orange juice", "1 red onion, thinly sliced", "1 jalapeño, seeded and minced", "1 cup cherry tomatoes, halved", "2 ripe avocados, diced", "1/4 cup fresh cilantro, chopped", "Salt and pepper to taste", "Tortilla chips for serving"]
+    },
+    instructions: ["Combine diced fish with lime juice, orange juice, and red onion in a bowl.", "Season with salt and pepper, then refrigerate for at least 1 hour until fish is opaque.", "Just before serving, fold in jalapeño, tomatoes, avocado, and cilantro.", "Taste and adjust seasonings as needed.", "Transfer to serving bowls and serve with tortilla chips on the side.", "Serve immediately to prevent avocado from browning."],
+    tips: []
+  },
+  {
+    id: "honey-glazed-cedar-plank-salmon",
+    name: "Honey Glazed Cedar Plank Salmon",
+    description: "Smoky, sweet salmon grilled on aromatic cedar.",
+    category: "Seafood",
+    prepTime: "15 min",
+    cookTime: "28 min",
+    totalTime: "28 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 salmon fillets (6 oz each), skin-on", "3 tbsp raw honey", "2 tbsp whole grain mustard", "1 tbsp soy sauce (low sodium)", "2 cloves garlic, minced", "1 cedar plank, soaked in water 1 hour", "Fresh dill for garnish", "Lemon wedges for serving"]
+    },
+    instructions: ["Soak cedar plank in water for at least one hour before grilling.", "Whisk together honey, mustard, soy sauce, and garlic in a small bowl.", "Pat salmon dry and brush generously with the honey-mustard glaze.", "Preheat grill to medium-high heat and place soaked plank on grates for 3 minutes.", "Place salmon fillets on the plank skin-side down, close lid, and grill for 14-18 minutes.", "Salmon is done when it flakes easily with a fork and reaches 145°F internal temperature.", "Garnish with fresh dill and serve with lemon wedges."],
+    tips: []
+  },
+  {
+    id: "handmade-tagliatelle-with-bolognese",
+    name: "Handmade Tagliatelle with Bolognese",
+    description: "Rich, slow-simmered meat sauce over silky fresh egg pasta.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "3 hours",
+    totalTime: "3 hours",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb ground beef", "6 oz pancetta, finely diced", "1 onion, minced", "2 carrots, minced", "2 celery stalks, minced", "1 can (28 oz) crushed tomatoes", "1/2 cup whole milk", "1/4 cup dry white wine", "3 tbsp olive oil", "3 cloves garlic, minced", "2 bay leaves", "1 lb fresh tagliatelle pasta", "Salt and pepper to taste"]
+    },
+    instructions: ["Heat olive oil and sauté pancetta until rendered, about 3 minutes.", "Add onion, carrot, and celery, cooking until softened, about 8 minutes.", "Add garlic and ground beef, breaking it into small pieces as it cooks.", "Once meat is browned, pour in wine and simmer until mostly evaporated.", "Add tomatoes and bay leaves, then reduce heat to low and simmer for 2 hours, stirring occasionally.", "Stir in milk and simmer for another 30 minutes.", "Meanwhile, cook fresh tagliatelle in salted boiling water for 2-3 minutes until al dente.", "Serve pasta topped with generous portions of Bolognese sauce."],
+    tips: []
+  },
+  {
+    id: "creamy-cacio-e-pepe",
+    name: "Creamy Cacio e Pepe",
+    description: "Simple Roman pasta with pecorino and black pepper perfection.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "15 min",
+    totalTime: "15 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb spaghetti or tonnarelli", "1 cup freshly grated Pecorino Romano cheese", "2 tbsp freshly ground black pepper", "Salt for pasta water", "1 tbsp butter", "Reserved pasta water"]
+    },
+    instructions: ["Toast black pepper in a large skillet over medium heat for 1 minute until fragrant.", "Bring a large pot of salted water to boil and cook pasta until al dente.", "Toast black pepper in a large skillet over medium heat for 1 minute.", "Reserve 1 cup pasta water, then drain pasta.", "Add butter and 1/4 cup pasta water to the skillet with pepper.", "Add hot pasta to the skillet and toss over medium heat.", "Gradually add cheese while tossing, adding pasta water as needed to create a creamy sauce.", "Serve immediately while pasta is hot, with extra cheese on the side."],
+    tips: []
+  },
+  {
+    id: "pappardelle-with-wild-mushroom-rag",
+    name: "Pappardelle with Wild Mushroom Ragù",
+    description: "Wide ribbon pasta with earthy mushroom sauce.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb fresh pappardelle", "1.5 lbs mixed wild mushrooms, sliced", "4 tbsp butter, divided", "4 cloves garlic, minced", "1/4 cup dry sherry", "1/2 cup vegetable broth", "1/4 cup heavy cream", "2 tbsp fresh thyme, chopped", "1/4 cup fresh parsley, chopped", "2 tbsp grated Parmigiano-Reggiano", "Salt and pepper to taste"]
+    },
+    instructions: ["Heat 2 tbsp butter in a large skillet and sauté mushrooms over high heat until golden, about 8 minutes.", "Add garlic and thyme, cooking for 1 minute until fragrant.", "Deglaze with sherry, scraping up browned bits, and reduce until nearly dry.", "Add broth and cream, then simmer for 10 minutes until sauce thickens slightly.", "Cook pappardelle in salted boiling water until al dente, about 3 minutes for fresh pasta.", "Drain pasta and toss with remaining butter, then transfer to serving bowls.", "Top with mushroom ragù, parsley, and grated cheese before serving."],
+    tips: []
+  },
+  {
+    id: "lobster-filled-ravioli-with-saffron-cream",
+    name: "Lobster-Filled Ravioli with Saffron Cream",
+    description: "Luxurious homemade ravioli filled with tender lobster.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "75 min",
+    totalTime: "75 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 lbs lobster tail meat, finely chopped", "2 cups fresh pasta dough (or store-bought sheets)", "1 cup ricotta cheese", "1/2 cup grated Parmigiano-Reggiano", "1 egg yolk", "2 tbsp fresh chives, minced", "1 tbsp fresh tarragon, minced", "1 cup heavy cream", "1/4 tsp saffron threads", "3 tbsp butter", "Salt and white pepper to taste"]
+    },
+    instructions: ["Infuse saffron threads in warm cream for 15 minutes.", "Mix lobster meat, ricotta, Parmigiano-Reggiano, egg yolk, chives, and tarragon to create filling.", "Season filling with salt and white pepper.", "Divide pasta dough in half and roll one sheet thin.", "Place dollops of filling in rows on the pasta, spacing them 2 inches apart.", "Cover with second sheet of pasta and press around filling, then cut into individual ravioli.", "Bring a pot of salted water to boil and cook ravioli for 3-4 minutes until they float and are tender.", "Warm saffron cream with butter, then toss drained ravioli in the sauce.", "Serve immediately in shallow bowls."],
+    tips: []
+  },
+  {
+    id: "agnolotti-with-braised-short-rib-filling",
+    name: "Agnolotti with Braised Short Rib Filling",
+    description: "Delicate pasta parcels filled with rich braised meat.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "90 min",
+    totalTime: "90 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 lbs beef short ribs, braised and shredded", "1 lb fresh pasta dough", "1/2 cup braised short rib cooking liquid", "1/2 cup Parmigiano-Reggiano, grated", "1/4 cup mascarpone cheese", "1 egg yolk", "2 tbsp fresh sage, chopped", "2 tbsp fresh thyme, chopped", "3 tbsp butter", "Salt and pepper to taste"]
+    },
+    instructions: ["Combine shredded short ribs with cooking liquid, Parmigiano-Reggiano, mascarpone, egg yolk, sage, and thyme.", "Season filling generously with salt and pepper.", "Roll out pasta dough thin and cut into 3-inch squares.", "Place 1 tbsp filling on each square, fold into triangle, then bring corners together to seal.", "Cook agnolotti in salted boiling water for 4-5 minutes until they float.", "Brown butter in a large pan until it smells nutty, about 3 minutes.", "Toss drained agnolotti in brown butter and serve immediately.", "Garnish with additional sage and grated Parmigiano-Reggiano."],
+    tips: []
+  },
+  {
+    id: "spaghetti-alle-vongole-with-white-clams",
+    name: "Spaghetti alle Vongole with White Clams",
+    description: "Tender clams in a briny white wine pasta sauce.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb spaghetti", "2 lbs littleneck clams, cleaned", "1 cup dry white wine", "1/2 cup fish broth", "4 cloves garlic, sliced", "1/4 cup extra-virgin olive oil", "1/4 tsp red pepper flakes", "1/4 cup fresh parsley, chopped", "Salt and pepper to taste", "Zest of 1 lemon"]
+    },
+    instructions: ["Heat olive oil in a large skillet and sauté garlic and red pepper flakes for 1 minute.", "Add clams, wine, and fish broth, then cover and steam for 6-8 minutes until clams open.", "Discard any unopened clams and remove open clams from their shells.", "Cook spaghetti in salted boiling water until al dente, then drain.", "Toss pasta with the clam sauce and clam meat, adding fresh parsley.", "Season with salt, pepper, and lemon zest before serving.", "Serve immediately in bowls with extra sauce spooned over top."],
+    tips: []
+  },
+  {
+    id: "fettuccine-alfredo-with-fresh-herbs",
+    name: "Fettuccine Alfredo with Fresh Herbs",
+    description: "Classic creamy pasta with Parmigiano and butter.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "15 min",
+    totalTime: "15 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb fresh fettuccine", "8 tbsp butter", "1 cup heavy cream", "1.5 cups Parmigiano-Reggiano, freshly grated", "4 cloves garlic, minced", "2 tbsp fresh parsley, chopped", "1 tbsp fresh thyme, chopped", "Salt and white pepper to taste", "Nutmeg, freshly grated"]
+    },
+    instructions: ["Melt butter in a large skillet over medium heat and add garlic, cooking for 1 minute.", "Pour in cream and bring to a gentle simmer, then reduce heat to low.", "Cook fettuccine in salted boiling water until al dente, about 3-4 minutes for fresh pasta.", "Reserve 1 cup pasta water, then drain pasta.", "Add hot pasta to the cream sauce and toss gently.", "Gradually add Parmigiano-Reggiano while tossing, adding pasta water as needed for creamy consistency.", "Season with salt, white pepper, fresh herbs, and a pinch of nutmeg.", "Serve immediately in warm bowls."],
+    tips: []
+  },
+  {
+    id: "lasagna-bolognese-with-b-chamel",
+    name: "Lasagna Bolognese with Béchamel",
+    description: "Layered pasta with meat sauce and creamy béchamel.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "1 hour 30 min",
+    totalTime: "1 hour 30 min",
+    servings: 8,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb ground beef", "4 oz pancetta, diced", "1 onion, minced", "2 carrots, minced", "2 celery stalks, minced", "1 can (28 oz) crushed tomatoes", "1/2 lb fresh lasagna sheets", "4 tbsp butter", "3 tbsp flour", "2 cups whole milk", "1 cup Parmigiano-Reggiano, grated", "Salt, pepper, and nutmeg to taste"]
+    },
+    instructions: ["Make Bolognese by sautéing pancetta, then vegetables, then browning beef, then simmering tomatoes for 45 minutes.", "Make béchamel by melting butter, whisking in flour for 1 minute, then gradually adding milk while whisking until thick.", "Season béchamel with salt, pepper, and nutmeg.", "Spread a thin layer of béchamel on the bottom of a 9x13 pan.", "Layer pasta, Bolognese, béchamel, and Parmigiano-Reggiano, repeating until pan is full.", "Finish with béchamel and a generous layer of cheese.", "Bake uncovered at 375°F for 35-40 minutes until golden and bubbling.", "Let rest for 10 minutes before serving."],
+    tips: []
+  },
+  {
+    id: "orecchiette-with-broccoli-rabe-and-sausage",
+    name: "Orecchiette with Broccoli Rabe and Sausage",
+    description: "A rustic Italian classic with bitter greens and savory pork.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "28 min",
+    totalTime: "28 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb orecchiette pasta", "1 bunch broccoli rabe, trimmed and chopped", "12 oz Italian sausage, casings removed", "4 cloves garlic, thinly sliced", "1/2 tsp red pepper flakes", "3 tbsp extra virgin olive oil", "1/2 cup pecorino romano, grated", "Salt and pepper to taste"]
+    },
+    instructions: ["Bring a large pot of salted water to a rolling boil.", "Add broccoli rabe and blanch for 2 minutes, then remove with tongs and set aside — keep the water boiling.", "Cook orecchiette in the same water until al dente, reserving 1 cup pasta water before draining.", "Heat olive oil in a large skillet, crumble in sausage and cook until browned, about 6 minutes.", "Add sliced garlic and red pepper flakes, stirring for 30 seconds until fragrant.", "Toss in blanched broccoli rabe, drained pasta, and a splash of pasta water — stir until combined.", "Finish with grated pecorino and serve immediately."],
+    tips: []
+  },
+  {
+    id: "creamy-tuscan-sun-dried-tomato-rigatoni",
+    name: "Creamy Tuscan Sun-Dried Tomato Rigatoni",
+    description: "Rich, creamy pasta with Italian sun-dried tomato flavor.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "28 min",
+    totalTime: "28 min",
+    servings: 5,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb rigatoni pasta", "1/2 cup sun-dried tomatoes in oil, drained and chopped", "3 cups fresh baby spinach", "3 cloves garlic, minced", "1 cup heavy cream", "1/2 cup parmesan cheese, grated", "1/4 cup fresh basil, torn", "2 tbsp olive oil", "Salt and black pepper to taste"]
+    },
+    instructions: ["Cook rigatoni in well-salted boiling water until al dente, reserving 1 cup pasta water.", "Heat olive oil in a large deep skillet over medium heat.", "Add garlic and sun-dried tomatoes, sautéing for 2 minutes until fragrant.", "Pour in heavy cream and bring to a gentle simmer, stirring occasionally for 3 minutes.", "Add spinach and stir until just wilted, about 1 minute.", "Toss in drained pasta with half the parmesan, adding pasta water to loosen as needed.", "Serve topped with remaining parmesan and fresh torn basil."],
+    tips: []
+  },
+  {
+    id: "homemade-gnocchi-with-brown-butter-sage",
+    name: "Homemade Gnocchi with Brown Butter Sage",
+    description: "Pillowy potato gnocchi in a nutty, aromatic brown butter.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 lbs russet potatoes", "1 1/2 cups all-purpose flour, plus more for dusting", "1 large egg, lightly beaten", "1 tsp salt", "4 tbsp unsalted butter", "12 fresh sage leaves", "1/4 cup parmesan cheese, shaved", "Pinch of nutmeg"]
+    },
+    instructions: ["Bake potatoes at 400°F for 45 minutes until tender, then halve and scoop out flesh while still hot.", "Rice the potato flesh onto a floured surface and let cool for 5 minutes.", "Create a well in the center, add egg, salt, nutmeg, and gradually fold in flour until a soft dough forms.", "Divide dough into ropes about 3/4 inch thick, then cut into 1-inch pieces and roll over fork tines.", "Boil gnocchi in salted water — they&#x27;re done when they float to the surface, about 2-3 minutes.", "Melt butter in a large skillet over medium heat until golden brown and nutty, add sage leaves and fry for 30 seconds.", "Toss boiled gnocchi in the brown butter sage sauce and serve with shaved parmesan."],
+    tips: []
+  },
+  {
+    id: "pappardelle-with-short-rib-ragu",
+    name: "Pappardelle with Short Rib Ragu",
+    description: "Silky wide noodles draped in a deeply rich, slow-cooked ragu.",
+    category: "Pasta",
+    prepTime: "15 min",
+    cookTime: "200 min",
+    totalTime: "200 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 lbs bone-in beef short ribs", "1 lb pappardelle pasta", "1 can (28 oz) San Marzano crushed tomatoes", "1 cup red wine (Chianti or similar)", "1 onion, diced", "2 carrots, diced", "3 cloves garlic, minced", "2 sprigs fresh rosemary", "Parmesan cheese for serving", "Salt and pepper to taste"]
+    },
+    instructions: ["Season short ribs generously with salt and pepper, then sear in a hot Dutch oven until deeply browned on all sides.", "Remove ribs and sauté onion, carrots, and garlic in the rendered fat for 5 minutes until softened.", "Deglaze with red wine, scraping up all browned bits, and simmer until reduced by half.", "Add crushed tomatoes and rosemary, return short ribs to the pot and bring to a gentle simmer.", "Cover and braise in a 325°F oven for 2.5-3 hours until meat is falling off the bone.", "Shred the meat, discard bones and rosemary stems, and stir the meat back into the sauce.", "Cook pappardelle until al dente, toss with the ragu, and serve with generous parmesan."],
+    tips: []
+  },
+  {
+    id: "eggplant-parmesan-with-fresh-basil",
+    name: "Eggplant Parmesan with Fresh Basil",
+    description: "Crispy eggplant layered with tomato sauce and melted cheese.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "55 min",
+    totalTime: "55 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 large eggplants, sliced into 1/4-inch rounds", "2 cups cherry tomato sauce", "1 cup mozzarella cheese, shredded", "1/2 cup Parmigiano-Reggiano, grated", "2 cups panko breadcrumbs", "2 eggs, beaten", "2 tbsp fresh basil, chopped", "4 cloves garlic, minced", "Oil for frying", "Salt and pepper to taste"]
+    },
+    instructions: ["Salt eggplant slices and let sit for 15 minutes to remove moisture, then pat dry.", "Set up three bowls: one with beaten egg, one with panko, one with herbs mixed in.", "Dredge eggplant slices in egg, then coat with panko breadcrumb mixture.", "Heat oil in a large skillet and fry eggplant until golden on both sides, about 3-4 minutes total.", "Drain on paper towels.", "Spread a thin layer of tomato sauce in a baking dish.", "Layer fried eggplant, sauce, mozzarella, and Parmigiano-Reggiano, repeating until full.", "Bake at 375°F for 20-25 minutes until cheese is melted and bubbly.", "Garnish with fresh basil before serving."],
+    tips: []
+  },
+  {
+    id: "squash-and-ricotta-ravioli-with-sage-brown-butter",
+    name: "Squash and Ricotta Ravioli with Sage Brown Butter",
+    description: "Sweet roasted squash filling with crispy sage and browned butter.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "60 min",
+    totalTime: "60 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1540914124281-342587941389?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 lbs butternut squash, roasted and puréed", "1 lb fresh pasta dough", "1 cup ricotta cheese", "1/2 cup Parmigiano-Reggiano, grated", "1 egg yolk", "1/2 tsp nutmeg, freshly grated", "8 tbsp butter", "12 fresh sage leaves", "Salt and white pepper to taste"]
+    },
+    instructions: ["Mix puréed squash, ricotta, Parmigiano-Reggiano, egg yolk, and nutmeg to create filling.", "Season filling with salt and white pepper.", "Roll pasta dough thin and cut into 3-inch squares.", "Place filling on each square, fold into triangle, then bring corners together to form ravioli.", "Cook ravioli in salted boiling water for 3-4 minutes until they float.", "In a small pan, melt butter over medium-high heat until it turns golden and smells nutty, about 3-4 minutes.", "Add sage leaves and cook for 1 more minute.", "Drain ravioli and transfer to serving bowls, then drizzle with brown butter and sage.", "Serve immediately with extra Parmigiano-Reggiano."],
+    tips: []
+  },
+  {
+    id: "wild-mushroom-risotto-with-truffle-oil",
+    name: "Wild Mushroom Risotto with Truffle Oil",
+    description: "Creamy arborio rice infused with earthy mushrooms and truffles.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "40 min",
+    totalTime: "40 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 cups arborio rice", "1 lb mixed wild mushrooms, sliced", "4 cups vegetable broth, warm", "1/2 cup dry white wine", "1 onion, finely diced", "3 cloves garlic, minced", "4 tbsp butter, divided", "2 tbsp olive oil", "1/2 cup Parmigiano-Reggiano, grated", "1 tbsp truffle oil", "2 tbsp fresh parsley, chopped", "Salt and white pepper to taste"]
+    },
+    instructions: ["Sauté mushrooms in 2 tbsp butter over high heat until golden, about 6 minutes, then set aside.", "Heat remaining butter and olive oil, then sauté onion until softened, about 4 minutes.", "Add garlic and cook for 1 minute until fragrant.", "Add rice and toast for 2 minutes, stirring frequently.", "Deglaze with white wine and stir until absorbed.", "Add warm broth one ladle at a time, stirring constantly and adding more broth as each portion is absorbed.", "After about 18-20 minutes, rice should be creamy and al dente.", "Stir in cooked mushrooms, butter, and Parmigiano-Reggiano.", "Finish with truffle oil and fresh parsley, then serve immediately."],
+    tips: []
+  },
+  {
+    id: "roasted-beet-and-goat-cheese-salad",
+    name: "Roasted Beet and Goat Cheese Salad",
+    description: "Sweet roasted beets with creamy goat cheese and bitter greens.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "50 min",
+    totalTime: "50 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1543362906-acfc16c67564?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 lbs beets, cut into wedges", "6 cups mixed bitter greens", "4 oz goat cheese, crumbled", "1/2 cup candied walnuts", "1/4 cup red wine vinegar", "1/4 cup extra-virgin olive oil", "1 tbsp Dijon mustard", "1 tsp honey", "Salt and pepper to taste", "3 tbsp olive oil for roasting"]
+    },
+    instructions: ["Toss beets with olive oil, salt, and pepper, then roast at 425°F for 35-40 minutes until tender and caramelized.", "Make dressing by whisking together vinegar, extra-virgin olive oil, mustard, and honey.", "Cool roasted beets slightly, then divide greens among serving plates.", "Top each plate with warm roasted beets, crumbled goat cheese, and candied walnuts.", "Drizzle with dressing and season with salt and pepper before serving.", "Serve while beets are still slightly warm for best flavor contrast."],
+    tips: []
+  },
+  {
+    id: "spinach-and-feta-phyllo-triangles",
+    name: "Spinach and Feta Phyllo Triangles",
+    description: "Crispy phyllo pastry filled with spinach, feta, and herbs.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 lbs fresh spinach, chopped", "1 cup crumbled feta cheese", "1/2 cup ricotta cheese", "1/4 cup fresh dill, chopped", "2 tbsp fresh mint, chopped", "2 cloves garlic, minced", "1 onion, finely diced", "12 sheets phyllo pastry", "4 tbsp melted butter", "Salt and pepper to taste"]
+    },
+    instructions: ["Sauté onion and garlic over medium heat for 3 minutes until softened.", "Add spinach and cook, stirring, until all moisture evaporates, about 5 minutes.", "Remove from heat and fold in feta, ricotta, dill, and mint.", "Season with salt and pepper, then cool slightly.", "Lay out one phyllo sheet and brush lightly with melted butter.", "Cut phyllo into four strips and place 1 tbsp filling near one corner of each strip.", "Fold each strip into a triangle by folding dough over filling repeatedly.", "Arrange triangles on a baking sheet, brush with remaining butter.", "Bake at 375°F for 20-25 minutes until golden and crispy.", "Serve warm as an appetizer or light meal."],
+    tips: []
+  },
+  {
+    id: "cauliflower-steaks-with-romesco-sauce",
+    name: "Cauliflower Steaks with Romesco Sauce",
+    description: "Thick-cut roasted cauliflower with Spanish red pepper sauce.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "40 min",
+    totalTime: "40 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1540914124281-342587941389?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 large heads cauliflower, cut into 1-inch steaks", "1/2 cup roasted red peppers", "1/4 cup almonds, toasted", "1/4 cup walnuts, toasted", "2 cloves garlic", "2 tbsp red wine vinegar", "1/4 cup extra-virgin olive oil", "1/2 tsp smoked paprika", "1/4 tsp cayenne pepper", "3 tbsp olive oil for roasting", "Salt and pepper to taste", "Fresh parsley for garnish"]
+    },
+    instructions: ["Make romesco sauce by blending roasted red peppers, almonds, walnuts, garlic, vinegar, and extra-virgin olive oil.", "Season sauce with paprika, cayenne, salt, and pepper.", "Brush cauliflower steaks with olive oil and season with salt and pepper on both sides.", "Roast at 425°F for 25-30 minutes until golden brown and tender.", "Transfer roasted cauliflower to serving plates and spoon romesco sauce generously over top.", "Garnish with fresh parsley and serve immediately.", "Serve with crusty bread for dipping in the sauce."],
+    tips: []
+  },
+  {
+    id: "shakshuka-with-harissa-and-herbs",
+    name: "Shakshuka with Harissa and Herbs",
+    description: "Poached eggs in spiced tomato sauce with fresh herbs.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "30 min",
+    totalTime: "30 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 can (28 oz) crushed tomatoes", "1 onion, sliced", "1 red bell pepper, sliced", "3 cloves garlic, minced", "2 tbsp harissa paste", "4 eggs", "1/4 cup fresh cilantro, chopped", "2 tbsp fresh parsley, chopped", "3 tbsp olive oil", "1 tsp ground cumin", "1/2 tsp smoked paprika", "Salt and pepper to taste", "Crusty bread for serving"]
+    },
+    instructions: ["Heat olive oil in a large skillet and sauté onion and pepper until softened, about 5 minutes.", "Add garlic, cumin, and paprika, cooking for 1 minute until fragrant.", "Stir in tomatoes and harissa, then simmer for 10 minutes until sauce thickens slightly.", "Make four wells in the sauce and crack one egg into each well.", "Cover the skillet and cook over medium-low heat for 5-7 minutes until egg whites are set but yolks are still runny.", "Sprinkle with cilantro and parsley, then season with salt and pepper.", "Serve directly from the skillet with crusty bread for dipping.", "Drizzle with extra olive oil if desired."],
+    tips: []
+  },
+  {
+    id: "mushroom-and-spinach-lasagna",
+    name: "Mushroom and Spinach Lasagna",
+    description: "Layers of earthy mushrooms, creamy ricotta, and fresh spinach.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "65 min",
+    totalTime: "65 min",
+    servings: 8,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1543362906-acfc16c67564?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 cups cremini mushrooms, finely chopped", "4 cups fresh spinach", "15 oz ricotta cheese", "2 cups mozzarella cheese, shredded", "1/2 cup parmesan cheese, grated", "1 egg", "2 cups marinara sauce", "9 lasagna noodles", "3 cloves garlic, minced", "2 tablespoons olive oil"]
+    },
+    instructions: ["Preheat oven to 375°F and cook lasagna noodles according to package directions until al dente.", "Heat olive oil in a large skillet over medium-high heat and sauté mushrooms until they release their moisture and begin to brown.", "Add minced garlic and fresh spinach, cooking until the spinach wilts completely.", "In a large bowl, combine ricotta, egg, mozzarella, and parmesan cheese with the mushroom mixture.", "Spread a thin layer of marinara sauce on the bottom of a 9x13 baking dish.", "Layer three noodles, then half of the ricotta mixture, then one-third of the remaining sauce, repeating until all ingredients are used, ending with sauce on top.", "Cover with foil and bake for 35 minutes, then uncover and bake for 10 minutes until the cheese is bubbly and golden."],
+    tips: []
+  },
+  {
+    id: "crispy-tofu-stir-fry-with-sesame",
+    name: "Crispy Tofu Stir-Fry with Sesame",
+    description: "Golden-fried tofu in a bright, sesame-soy sauce with vegetables.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "40 min",
+    totalTime: "40 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["16 oz extra-firm tofu, pressed and cubed", "2 tablespoons sesame oil", "3 tablespoons soy sauce", "1 tablespoon rice vinegar", "2 cloves garlic, minced", "1 tablespoon grated ginger", "2 cups broccoli florets", "1 red bell pepper, sliced", "1 cup snap peas", "2 tablespoons sesame seeds", "2 green onions, sliced"]
+    },
+    instructions: ["Press tofu between paper towels with a heavy weight for 15 minutes to remove excess moisture.", "Cut pressed tofu into bite-sized cubes and pan-fry in a hot skillet with 1 tablespoon sesame oil until all sides are golden brown.", "Remove tofu from skillet and set aside.", "In the same skillet, heat remaining sesame oil and add minced garlic and ginger, stirring for 30 seconds until fragrant.", "Add broccoli, bell pepper, and snap peas, stir-frying over high heat for 5-7 minutes until vegetables are tender-crisp.", "Whisk together soy sauce and rice vinegar, then pour into skillet with vegetables and return tofu to pan.", "Toss everything together for 1-2 minutes until coated, then transfer to a serving bowl and garnish with sesame seeds and green onions."],
+    tips: []
+  },
+  {
+    id: "caprese-pasta-with-fresh-basil",
+    name: "Caprese Pasta with Fresh Basil",
+    description: "Light summer pasta with tomatoes, fresh mozzarella, and fragrant basil.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "27 min",
+    totalTime: "27 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1540914124281-342587941389?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["12 oz fresh pasta or spaghetti", "3 medium heirloom tomatoes, diced", "8 oz fresh mozzarella, cubed", "1 cup fresh basil leaves, torn", "4 cloves garlic, minced", "1/4 cup extra virgin olive oil", "2 tablespoons balsamic vinegar", "1 teaspoon salt", "Black pepper to taste", "Pinch of red pepper flakes"]
+    },
+    instructions: ["Cook pasta in salted boiling water according to package directions until al dente.", "While pasta cooks, combine diced tomatoes, fresh mozzarella, and torn basil in a large bowl.", "In a small bowl, whisk together olive oil, balsamic vinegar, minced garlic, salt, pepper, and red pepper flakes.", "Drain pasta, reserving 1/2 cup of pasta water.", "Add hot pasta to the tomato mixture along with the dressing and toss gently.", "If the pasta seems dry, add pasta water a little at a time to reach desired consistency.", "Taste and adjust seasonings before serving at room temperature or slightly warm."],
+    tips: []
+  },
+  {
+    id: "chickpea-and-cauliflower-curry",
+    name: "Chickpea and Cauliflower Curry",
+    description: "Warming spices create a creamy curry bursting with plant-based protein.",
+    category: "Vegetarian",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 5,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 tablespoons coconut oil", "1 onion, diced", "3 cloves garlic, minced", "1 tablespoon grated ginger", "2 teaspoons curry powder", "1 teaspoon cumin", "1/2 teaspoon turmeric", "2 cans chickpeas, drained and rinsed", "4 cups cauliflower florets", "1 can coconut milk", "1 cup vegetable broth", "1 teaspoon salt"]
+    },
+    instructions: ["Heat coconut oil in a large pot over medium heat and sauté diced onion until softened, about 5 minutes.", "Add minced garlic and ginger, cooking for 1 minute until fragrant.", "Stir in curry powder, cumin, and turmeric, toasting the spices for 1 minute to release their flavors.", "Add chickpeas, cauliflower florets, coconut milk, vegetable broth, and salt to the pot.", "Bring to a simmer and cook for 25 minutes until cauliflower is very tender and flavors have melded.", "Taste and adjust seasonings as needed.", "Serve over rice with fresh cilantro and lime wedges."],
+    tips: []
+  },
+  {
+    id: "rustic-minestrone-soup",
+    name: "Rustic Minestrone Soup",
+    description: "A hearty vegetable soup loaded with beans and pasta.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "55 min",
+    totalTime: "55 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 tablespoons olive oil", "1 onion, diced", "2 carrots, diced", "2 celery stalks, diced", "4 cloves garlic, minced", "1 can diced tomatoes", "6 cups vegetable broth", "1 can cannellini beans, drained", "2 cups zucchini, cubed", "1 cup green beans, cut into 1-inch pieces", "1 cup small pasta shells", "2 tablespoons tomato paste", "1 teaspoon Italian seasoning", "Salt and pepper to taste"]
+    },
+    instructions: ["Heat olive oil in a large pot over medium heat and sauté onion, carrots, and celery until softened, about 7 minutes.", "Add minced garlic and tomato paste, stirring constantly for 2 minutes.", "Pour in diced tomatoes with their juice and vegetable broth, bringing to a simmer.", "Add cannellini beans, zucchini, green beans, and Italian seasoning, simmering for 15 minutes.", "Stir in pasta shells and cook for an additional 10 minutes until pasta is tender.", "Season with salt and pepper to taste.", "Ladle into bowls and serve with crusty bread and grated Parmesan cheese."],
+    tips: []
+  },
+  {
+    id: "creamy-tomato-basil-soup",
+    name: "Creamy Tomato Basil Soup",
+    description: "Silky tomato soup elevated with fresh basil and a touch of cream.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1603105037880-880cd4dc8b56?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 tablespoons olive oil", "1 onion, diced", "4 cloves garlic, minced", "2 cans crushed tomatoes", "3 cups vegetable broth", "1/2 cup heavy cream", "1 cup fresh basil leaves", "1 teaspoon sugar", "Salt and pepper to taste", "Red pepper flakes to taste"]
+    },
+    instructions: ["Heat olive oil in a pot over medium heat and sauté onion until translucent, about 5 minutes.", "Add minced garlic and cook for 1 minute until fragrant.", "Pour in crushed tomatoes and vegetable broth, bringing to a simmer.", "Simmer for 20 minutes to allow flavors to develop.", "Remove from heat and stir in fresh basil leaves.", "Using an immersion blender, puree the soup until smooth and creamy.", "Stir in heavy cream, sugar, salt, pepper, and red pepper flakes to taste, then gently reheat without boiling."],
+    tips: []
+  },
+  {
+    id: "spiced-butternut-squash-soup",
+    name: "Spiced Butternut Squash Soup",
+    description: "Velvety roasted squash soup with warm spices and sage.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "60 min",
+    totalTime: "60 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1588566565463-180a5b2090d2?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 large butternut squash, peeled and cubed", "2 tablespoons olive oil", "1 onion, diced", "3 cloves garlic, minced", "4 cups vegetable broth", "1/2 cup coconut milk", "1 teaspoon cumin", "1/2 teaspoon cinnamon", "6 fresh sage leaves", "Salt and pepper to taste", "Pumpkin seeds for garnish"]
+    },
+    instructions: ["Preheat oven to 400°F and toss cubed butternut squash with 1 tablespoon olive oil, salt, and pepper.", "Roast on a baking sheet for 25 minutes until tender and caramelized.", "Heat remaining olive oil in a pot over medium heat and sauté onion until softened.", "Add garlic, cumin, cinnamon, and sage leaves, cooking for 1 minute.", "Add roasted squash and vegetable broth to the pot, bringing to a simmer.", "Simmer for 10 minutes, then blend until smooth using an immersion blender.", "Stir in coconut milk and season with salt and pepper, warming through gently before serving with pumpkin seeds."],
+    tips: []
+  },
+  {
+    id: "lentil-and-vegetable-stew",
+    name: "Lentil and Vegetable Stew",
+    description: "Hearty stew packed with protein-rich lentils and seasonal vegetables.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "60 min",
+    totalTime: "60 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 tablespoon olive oil", "1 onion, diced", "3 carrots, diced", "3 celery stalks, diced", "4 cloves garlic, minced", "1 cup red lentils", "6 cups vegetable broth", "1 can diced tomatoes", "2 cups spinach", "1 teaspoon cumin", "1 teaspoon coriander", "Salt and pepper to taste", "Lemon juice to taste"]
+    },
+    instructions: ["Heat olive oil in a large pot and sauté onion, carrots, and celery for 7 minutes until softened.", "Add minced garlic, cumin, and coriander, cooking for 1 minute until fragrant.", "Stir in red lentils and pour in vegetable broth, bringing to a boil.", "Reduce heat and simmer for 20 minutes until lentils are almost tender.", "Add diced tomatoes and continue simmering for 10 more minutes.", "Stir in fresh spinach and cook until wilted.", "Season with salt, pepper, and lemon juice to brighten the flavors."],
+    tips: []
+  },
+  {
+    id: "miso-broth-with-bok-choy",
+    name: "Miso Broth with Bok Choy",
+    description: "Delicate umami-rich broth with tender bok choy and silky tofu.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 2,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1603105037880-880cd4dc8b56?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 cups vegetable or dashi broth", "3 tablespoons miso paste", "1 cup bok choy, chopped", "6 oz soft tofu, cubed", "2 green onions, sliced", "1 tablespoon grated ginger", "1 teaspoon sesame oil", "Nori seaweed, sliced into strips", "Sesame seeds for garnish"]
+    },
+    instructions: ["Heat vegetable broth in a pot over medium heat, bringing to a gentle simmer.", "Add grated ginger and let it infuse for 2 minutes.", "In a small bowl, whisk miso paste with a few tablespoons of warm broth to dissolve it smoothly.", "Pour the miso mixture back into the pot, stirring gently without boiling.", "Add chopped bok choy and soft tofu cubes, simmering for 5 minutes.", "Stir in sesame oil and remove from heat.", "Pour into bowls and garnish with green onions, nori strips, and sesame seeds."],
+    tips: []
+  },
+  {
+    id: "roasted-carrot-and-ginger-soup",
+    name: "Roasted Carrot and Ginger Soup",
+    description: "Naturally sweet roasted carrots with warming ginger and coconut.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "55 min",
+    totalTime: "55 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1588566565463-180a5b2090d2?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 lbs carrots, cut into chunks", "2 tablespoons olive oil", "1 onion, diced", "3 tablespoons fresh ginger, grated", "4 cloves garlic, minced", "4 cups vegetable broth", "1/2 cup coconut milk", "1 teaspoon cumin", "Salt and pepper to taste", "Fresh cilantro for garnish"]
+    },
+    instructions: ["Preheat oven to 400°F and toss carrot chunks with 1 tablespoon olive oil, salt, and pepper.", "Roast for 30 minutes until deeply caramelized and tender.", "Heat remaining olive oil in a pot and sauté diced onion until softened.", "Add grated ginger and minced garlic, cooking for 1 minute.", "Add roasted carrots, vegetable broth, and cumin to the pot.", "Simmer for 10 minutes, then blend until completely smooth.", "Stir in coconut milk, adjust seasonings, and garnish with fresh cilantro before serving."],
+    tips: []
+  },
+  {
+    id: "split-pea-soup-with-herbs",
+    name: "Split Pea Soup with Herbs",
+    description: "Classic creamy soup with split peas and fragrant herbs.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "60 min",
+    totalTime: "60 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 tablespoon olive oil", "1 onion, diced", "3 carrots, diced", "3 celery stalks, diced", "4 cloves garlic, minced", "2 cups dried split peas", "8 cups vegetable broth", "2 bay leaves", "1 teaspoon thyme", "1 teaspoon parsley", "Salt and pepper to taste"]
+    },
+    instructions: ["Heat olive oil in a large pot and sauté onion, carrots, and celery for 5 minutes.", "Add minced garlic and cook for 1 minute until fragrant.", "Pour in split peas and vegetable broth, adding bay leaves, thyme, and parsley.", "Bring to a boil, then reduce heat and simmer for 45 minutes, stirring occasionally.", "The peas will break down and create a naturally creamy texture.", "Remove bay leaves and season with salt and pepper.", "For a smoother soup, blend partially or completely as desired before serving."],
+    tips: []
+  },
+  {
+    id: "beet-borscht-with-sour-cream",
+    name: "Beet Borscht with Sour Cream",
+    description: "Deep-hued beet soup with a cool sour cream swirl.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "65 min",
+    totalTime: "65 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1603105037880-880cd4dc8b56?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 medium beets, peeled and cubed", "2 tablespoons olive oil", "1 onion, diced", "3 carrots, diced", "6 cups vegetable broth", "1 can diced tomatoes", "2 tablespoons red wine vinegar", "1 bay leaf", "1 teaspoon caraway seeds", "Salt and pepper to taste", "Sour cream for serving", "Fresh dill for garnish"]
+    },
+    instructions: ["Heat olive oil in a large pot and sauté onion and carrots for 5 minutes.", "Add cubed beets and pour in vegetable broth along with diced tomatoes.", "Add bay leaf and caraway seeds, bringing to a boil.", "Reduce heat and simmer for 35 minutes until beets are very tender.", "Stir in red wine vinegar and season with salt and pepper.", "Remove bay leaf and ladle soup into bowls.", "Top each bowl with a dollop of sour cream and garnish with fresh dill."],
+    tips: []
+  },
+  {
+    id: "creamy-wild-mushroom-soup",
+    name: "Creamy Wild Mushroom Soup",
+    description: "Earthy, velvety soup celebrating the deep flavors of wild mushrooms.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1588566565463-180a5b2090d2?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb mixed wild mushrooms (shiitake, cremini, oyster), sliced", "1 medium onion, diced", "3 cloves garlic, minced", "4 cups vegetable broth", "1 cup heavy cream", "2 tbsp butter", "2 tbsp fresh thyme leaves", "Salt and white pepper to taste", "Truffle oil for finishing (optional)"]
+    },
+    instructions: ["Melt butter in a large pot over medium-high heat and cook mushrooms in batches until deeply browned, about 8 minutes total.", "Remove a handful of sautéed mushrooms and set aside for garnish.", "Add onion to the pot and cook for 4 minutes until softened, then add garlic and thyme for 30 seconds.", "Pour in vegetable broth, bring to a boil, then reduce to a simmer for 15 minutes.", "Blend soup until smooth using an immersion blender, then stir in heavy cream.", "Season with salt and white pepper, ladle into bowls and top with reserved mushrooms.", "Finish with a drizzle of truffle oil if desired."],
+    tips: []
+  },
+  {
+    id: "spicy-black-bean-soup-with-lime-crema",
+    name: "Spicy Black Bean Soup with Lime Crema",
+    description: "Smoky, hearty bean soup with a cool, tangy lime crema.",
+    category: "Soups",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3 cans (15 oz each) black beans, drained and rinsed", "1 large onion, diced", "3 cloves garlic, minced", "2 chipotle peppers in adobo, chopped", "4 cups chicken or vegetable broth", "1 tsp ground cumin", "1/2 cup sour cream", "Juice of 2 limes", "Fresh cilantro for garnish"]
+    },
+    instructions: ["Sauté onion in olive oil over medium heat for 5 minutes until softened.", "Add garlic, cumin, and chipotle peppers, stirring for 1 minute until fragrant.", "Add black beans and broth, bring to a boil, then reduce to a simmer for 25 minutes.", "Blend half the soup until smooth using an immersion blender for a thick, creamy texture with whole bean bites.", "Whisk together sour cream and lime juice to make the crema.", "Ladle soup into bowls and top with a swirl of lime crema and fresh cilantro."],
+    tips: []
+  },
+  {
+    id: "vegetable-frittata-with-herbs",
+    name: "Vegetable Frittata with Herbs",
+    description: "Fluffy baked egg dish loaded with sautéed vegetables.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "40 min",
+    totalTime: "40 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["8 large eggs", "1/4 cup whole milk", "2 tablespoons olive oil", "1 cup mushrooms, sliced", "1 bell pepper, diced", "1 onion, diced", "2 cups fresh spinach", "1/2 cup cheddar cheese, shredded", "2 tablespoons fresh parsley, chopped", "1 tablespoon fresh thyme", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat oven to 375°F.", "Whisk together eggs and milk in a bowl, then set aside.", "Heat olive oil in an oven-safe skillet over medium heat and sauté mushrooms, bell pepper, and onion for 5 minutes.", "Add fresh spinach and cook until wilted.", "Pour egg mixture over vegetables, stirring gently to distribute evenly.", "Sprinkle cheddar cheese, parsley, and thyme over the top.", "Cook on stovetop for 2 minutes, then transfer to oven and bake for 15-18 minutes until the center is just set and the top is lightly golden."],
+    tips: []
+  },
+  {
+    id: "fluffy-blueberry-pancakes",
+    name: "Fluffy Blueberry Pancakes",
+    description: "Light and airy pancakes studded with fresh blueberries.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 cups all-purpose flour", "2 tablespoons sugar", "3 teaspoons baking powder", "1/2 teaspoon salt", "1 cup whole milk", "1 egg", "2 tablespoons melted butter", "1 teaspoon vanilla extract", "1.5 cups fresh blueberries", "Butter for cooking"]
+    },
+    instructions: ["In a large bowl, whisk together flour, sugar, baking powder, and salt.", "In another bowl, whisk together milk, egg, melted butter, and vanilla extract.", "Pour wet ingredients into dry ingredients and stir until just combined—don&#x27;t overmix.", "Gently fold in fresh blueberries.", "Heat a griddle or skillet over medium heat and lightly butter the surface.", "Pour 1/4 cup batter for each pancake and cook for 2-3 minutes until bubbles form on top.", "Flip and cook for another 1-2 minutes until golden brown, then serve warm with maple syrup and additional blueberries."],
+    tips: []
+  },
+  {
+    id: "spinach-and-feta-egg-muffins",
+    name: "Spinach and Feta Egg Muffins",
+    description: "Portable egg cups perfect for meal prep.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "35 min",
+    totalTime: "35 min",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["10 large eggs", "1/4 cup whole milk", "3 cups fresh spinach, chopped", "1/2 cup feta cheese, crumbled", "1/4 cup diced red bell pepper", "1/4 cup diced onion", "2 cloves garlic, minced", "1/2 teaspoon salt", "1/4 teaspoon black pepper", "Cooking spray"]
+    },
+    instructions: ["Preheat oven to 375°F and lightly spray a 12-cup muffin tin with cooking spray.", "Whisk together eggs and milk in a large bowl.", "Add spinach, feta cheese, bell pepper, onion, and garlic, stirring to combine.", "Season with salt and pepper.", "Divide mixture evenly among muffin cups, filling each about three-quarters full.", "Bake for 18-20 minutes until set and lightly browned on top.", "Let cool in the tin for 5 minutes before removing."],
+    tips: []
+  },
+  {
+    id: "granola-with-honey-and-almonds",
+    name: "Granola with Honey and Almonds",
+    description: "Crunchy homemade granola bursting with toasted nuts and dried fruit.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3 cups rolled oats", "1 cup raw almonds, chopped", "1/2 cup raw coconut flakes", "1/3 cup honey", "3 tablespoons coconut oil, melted", "1 teaspoon vanilla extract", "1/2 teaspoon cinnamon", "1/4 teaspoon salt", "1 cup dried cranberries", "1/2 cup dried apricots, chopped"]
+    },
+    instructions: ["Preheat oven to 325°F and line two baking sheets with parchment paper.", "In a large bowl, combine oats, almonds, coconut flakes, cinnamon, and salt.", "In a small bowl, whisk together honey, melted coconut oil, and vanilla extract.", "Pour liquid ingredients over dry ingredients and stir until evenly coated.", "Spread mixture across prepared baking sheets in a single layer.", "Bake for 30-35 minutes, stirring every 10 minutes, until golden brown and fragrant.", "Remove from oven and let cool completely on the baking sheet, then stir in dried cranberries and apricots."],
+    tips: []
+  },
+  {
+    id: "avocado-toast-with-poached-eggs",
+    name: "Avocado Toast with Poached Eggs",
+    description: "Creamy smashed avocado on whole grain toast topped with a runny egg.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "20 min",
+    totalTime: "20 min",
+    servings: 2,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 slices whole grain bread", "1 ripe avocado", "2 large eggs", "1 tablespoon white vinegar", "2 tablespoons butter", "1 lemon, halved", "Red pepper flakes", "Sea salt", "Black pepper", "Fresh cilantro, chopped"]
+    },
+    instructions: ["Toast bread slices until golden and crispy.", "Bring water with vinegar to a gentle simmer in a shallow pan.", "Cut avocado in half and scoop flesh into a bowl, mashing with a fork until mostly smooth but still slightly chunky.", "Spread mashed avocado on toast and season with salt, pepper, and squeeze of lemon.", "Carefully slide eggs one at a time into the simmering water and poach for 3-4 minutes until whites are set but yolks remain runny.", "Use a slotted spoon to remove eggs and place on top of avocado toast.", "Sprinkle with red pepper flakes and fresh cilantro before serving."],
+    tips: []
+  },
+  {
+    id: "overnight-oats-with-berries",
+    name: "Overnight Oats with Berries",
+    description: "Make-ahead creamy oats with fresh berries and honey.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "8 hours",
+    totalTime: "8 hours",
+    servings: 2,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 cup rolled oats", "1 cup unsweetened almond milk", "1/2 cup plain Greek yogurt", "2 tablespoons honey", "1 teaspoon vanilla extract", "1/2 teaspoon cinnamon", "1 cup fresh mixed berries", "2 tablespoons chopped almonds", "Pinch of salt"]
+    },
+    instructions: ["Divide oats evenly between two mason jars or containers.", "In a bowl, whisk together almond milk, Greek yogurt, honey, vanilla extract, cinnamon, and salt.", "Pour mixture evenly over oats in both jars.", "Stir well to combine, then cover and refrigerate overnight or up to three days.", "In the morning, stir and add more almond milk if needed to reach desired consistency.", "Top with fresh berries and chopped almonds before serving.", "Enjoy cold or transfer to a bowl and microwave for 1-2 minutes if you prefer warm oatmeal."],
+    tips: []
+  },
+  {
+    id: "smoked-salmon-and-dill-scramble",
+    name: "Smoked Salmon and Dill Scramble",
+    description: "Creamy scrambled eggs with smoked salmon and fresh dill.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "15 min",
+    totalTime: "15 min",
+    servings: 2,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 large eggs", "3 oz smoked salmon, cut into pieces", "2 tablespoons butter", "1/4 cup crème fraîche or sour cream", "2 tablespoons fresh dill, chopped", "1 green onion, sliced", "Salt and pepper to taste", "Lemon wedges", "Whole grain toast for serving"]
+    },
+    instructions: ["Whisk eggs with crème fraîche, salt, and pepper in a bowl.", "Heat butter in a non-stick skillet over medium-low heat.", "Pour in egg mixture and let it set slightly before gently stirring with a spatula.", "When eggs begin to form soft curds, add smoked salmon and fresh dill, folding gently.", "Continue cooking until eggs are just set but still creamy, about 3 minutes total.", "Remove from heat and stir in green onion.", "Serve immediately on whole grain toast with lemon wedges."],
+    tips: []
+  },
+  {
+    id: "savory-dutch-baby-pancake",
+    name: "Savory Dutch Baby Pancake",
+    description: "A dramatic, puffy oven pancake loaded with savory toppings.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "30 min",
+    totalTime: "30 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3 large eggs", "1/2 cup all-purpose flour", "1/2 cup whole milk", "2 tbsp butter", "1/2 cup gruyère cheese, shredded", "4 slices prosciutto", "1 cup fresh arugula", "Pinch of nutmeg", "Salt and pepper to taste"]
+    },
+    instructions: ["Preheat oven to 425°F and place a 10-inch cast iron skillet inside while it heats.", "Whisk together eggs, flour, milk, nutmeg, salt, and pepper until completely smooth.", "Carefully remove the hot skillet, add butter, and swirl until melted and coating the bottom.", "Pour batter into the hot skillet immediately and sprinkle with half the gruyère.", "Bake for 18-20 minutes until dramatically puffed and golden brown — don&#x27;t open the oven door.", "Remove and immediately top with prosciutto, arugula, remaining cheese, and a crack of pepper.", "Slice into wedges and serve right away — it will deflate within minutes."],
+    tips: []
+  },
+  {
+    id: "chilaquiles-verdes",
+    name: "Chilaquiles Verdes",
+    description: "Crispy tortilla chips smothered in tangy salsa verde and eggs.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["8 corn tortillas, cut into triangles and fried crispy", "2 cups salsa verde (tomatillo based)", "4 eggs", "1/2 cup queso fresco, crumbled", "1 avocado, sliced", "1/4 cup Mexican crema or sour cream", "Fresh cilantro and sliced radishes for garnish", "1 tbsp vegetable oil"]
+    },
+    instructions: ["Heat salsa verde in a large skillet over medium heat until it begins to simmer.", "Add the crispy tortilla chips and toss gently to coat, cooking for 2 minutes until chips soften slightly but retain some crunch.", "Create 4 small wells in the chips and crack an egg into each well.", "Cover the skillet and cook for 4-5 minutes until egg whites are set but yolks remain runny.", "Remove from heat and top with crumbled queso fresco, avocado slices, and a drizzle of crema.", "Garnish with fresh cilantro and sliced radishes, then serve directly from the skillet."],
+    tips: []
+  },
+  {
+    id: "ricotta-lemon-blueberry-pancakes",
+    name: "Ricotta Lemon Blueberry Pancakes",
+    description: "Cloud-like ricotta pancakes bursting with fresh blueberries.",
+    category: "Breakfast",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 cup ricotta cheese", "2 large eggs, separated", "3/4 cup all-purpose flour", "2 tbsp sugar", "1 tsp baking powder", "Zest of 1 lemon", "1 cup fresh blueberries", "Butter for the griddle", "Maple syrup for serving"]
+    },
+    instructions: ["Whisk egg yolks with ricotta, lemon zest, and sugar until smooth.", "Fold in flour and baking powder gently — do not overmix.", "In a separate bowl, beat egg whites to stiff peaks with a hand mixer.", "Gently fold whipped egg whites into the batter in two additions to keep it airy and light.", "Heat a buttered griddle over medium-low heat and pour 1/4 cup batter per pancake, dotting each with blueberries.", "Cook for 3 minutes until bubbles form on top and edges set, then flip and cook 2 more minutes.", "Serve stacked with extra blueberries, a dusting of powdered sugar, and warm maple syrup."],
+    tips: []
+  },
+  {
+    id: "dark-chocolate-and-sea-salt-brownies",
+    name: "Dark Chocolate and Sea Salt Brownies",
+    description: "Fudgy brownies with a hint of sea salt.",
+    category: "Desserts",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 12,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["6 oz dark chocolate, chopped", "1/2 cup butter", "1 cup sugar", "2 large eggs", "1 teaspoon vanilla extract", "3/4 cup all-purpose flour", "1/4 cup cocoa powder", "1/4 teaspoon baking soda", "1/4 teaspoon salt", "Fleur de sel for topping"]
+    },
+    instructions: ["Preheat oven to 350°F and line an 8x8 baking pan with parchment paper.", "Melt dark chocolate and butter together in a double boiler or microwave, stirring until smooth.", "Whisk together sugar, eggs, and vanilla extract in a bowl.", "Pour melted chocolate into egg mixture and stir until combined.", "In another bowl, whisk together flour, cocoa powder, baking soda, and salt.", "Fold dry ingredients into wet ingredients until just combined.", "Pour into prepared pan and smooth the top, then sprinkle lightly with fleur de sel.", "Bake for 25-30 minutes until a toothpick inserted in the center comes out with moist crumbs, not wet batter."],
+    tips: []
+  },
+  {
+    id: "lemon-blueberry-cheesecake",
+    name: "Lemon Blueberry Cheesecake",
+    description: "Creamy cheesecake swirled with tart lemon and sweet blueberries.",
+    category: "Desserts",
+    prepTime: "15 min",
+    cookTime: "70 min",
+    totalTime: "70 min",
+    servings: 10,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 cups graham cracker crumbs", "6 tablespoons melted butter", "16 oz cream cheese, softened", "1/2 cup sugar", "2 large eggs", "1/2 cup sour cream", "Zest of 2 lemons", "3 tablespoons fresh lemon juice", "1 teaspoon vanilla extract", "1.5 cups fresh blueberries"]
+    },
+    instructions: ["Preheat oven to 325°F and line a 9-inch round cake pan with parchment paper.", "Mix graham cracker crumbs with melted butter and press into the bottom of prepared pan.", "Beat softened cream cheese and sugar until smooth and fluffy, about 2 minutes.", "Add eggs one at a time, beating well after each addition.", "Stir in sour cream, lemon zest, lemon juice, and vanilla extract until combined.", "Pour filling over crust and dot with fresh blueberries, swirling gently with a knife.", "Bake for 45-50 minutes until the cheesecake is set around the edges but slightly jiggly in the center.", "Cool completely before refrigerating for at least 4 hours."],
+    tips: []
+  },
+  {
+    id: "vanilla-panna-cotta-with-berry-compote",
+    name: "Vanilla Panna Cotta with Berry Compote",
+    description: "Silky Italian custard with warm berry topping.",
+    category: "Desserts",
+    prepTime: "15 min",
+    cookTime: "4 hours",
+    totalTime: "4 hours",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 cups heavy cream", "1/2 cup whole milk", "1/4 cup sugar", "1 vanilla bean, split and scraped", "1 teaspoon unflavored gelatin", "2 tablespoons cold water", "2 cups fresh mixed berries", "2 tablespoons honey", "Pinch of cinnamon"]
+    },
+    instructions: ["Bloom gelatin by sprinkling it over cold water and letting it sit for 5 minutes.", "Heat cream and milk with sugar and vanilla bean in a saucepan just until it reaches a simmer.", "Remove from heat and stir in bloomed gelatin until completely dissolved.", "Strain mixture through a fine-mesh sieve to remove vanilla bean.", "Pour into serving glasses or ramekins and refrigerate for at least 4 hours until set.", "In a small saucepan, combine fresh berries with honey and cinnamon over medium heat.", "Simmer for 5 minutes until berries begin to break down and release their juices.", "Spoon warm berry compote over chilled panna cotta before serving."],
+    tips: []
+  },
+  {
+    id: "maple-pecan-pie",
+    name: "Maple Pecan Pie",
+    description: "Classic pie with buttery pecans in a maple custard filling.",
+    category: "Desserts",
+    prepTime: "15 min",
+    cookTime: "70 min",
+    totalTime: "70 min",
+    servings: 8,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 pre-made pie crust", "1.5 cups pecan halves", "3 large eggs", "1 cup pure maple syrup", "4 tablespoons melted butter", "1/4 cup brown sugar", "1 teaspoon vanilla extract", "1/4 teaspoon salt", "1/4 teaspoon nutmeg"]
+    },
+    instructions: ["Preheat oven to 350°F and place pie crust in a 9-inch pie pan.", "Scatter pecan halves evenly over the bottom of the crust.", "In a bowl, whisk together eggs, maple syrup, melted butter, brown sugar, vanilla extract, salt, and nutmeg.", "Pour filling over pecans, making sure they are partially submerged.", "Place pie on a baking sheet and bake for 45-50 minutes until the filling is set but slightly jiggly in the very center.", "Cool on a wire rack for at least 2 hours before slicing.", "Serve with whipped cream or vanilla ice cream."],
+    tips: []
+  },
+  {
+    id: "salted-caramel-chocolate-tart",
+    name: "Salted Caramel Chocolate Tart",
+    description: "Elegant tart with caramel layer and dark chocolate ganache.",
+    category: "Desserts",
+    prepTime: "15 min",
+    cookTime: "55 min",
+    totalTime: "55 min",
+    servings: 10,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 cup all-purpose flour", "1/4 cup cocoa powder", "1/4 cup sugar", "Pinch of salt", "6 tablespoons cold butter, cubed", "1 egg yolk", "1 cup sugar for caramel", "6 tablespoons butter for caramel", "1/2 cup heavy cream", "6 oz dark chocolate, chopped", "Fleur de sel for topping"]
+    },
+    instructions: ["Preheat oven to 375°F.", "Mix flour, cocoa powder, sugar, and salt, then cut in cold butter until mixture resembles coarse crumbs.", "Add egg yolk and mix until dough just comes together.", "Press into a 9-inch tart pan and prick with a fork.", "Bake for 12 minutes, then remove and let cool slightly.", "For caramel, melt 1 cup sugar in a saucepan over medium heat, swirling occasionally until amber-colored.", "Carefully add 6 tablespoons butter and 1/2 cup heavy cream, stirring to combine.", "Pour caramel into tart shell and smooth the top.", "Melt chocolate and pour over caramel, smoothing evenly.", "Sprinkle with fleur de sel and refrigerate until set."],
+    tips: []
+  },
+  {
+    id: "strawberry-shortcake-with-whipped-cream",
+    name: "Strawberry Shortcake with Whipped Cream",
+    description: "Fluffy sponge cake layered with fresh strawberries and cream.",
+    category: "Desserts",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 cups all-purpose flour", "1.5 teaspoons baking powder", "1/4 teaspoon salt", "1/4 cup butter, softened", "1/2 cup sugar", "1 large egg", "1/2 cup whole milk", "1 teaspoon vanilla extract", "2 lbs fresh strawberries, sliced", "3 tablespoons sugar for strawberries", "1 cup heavy cream", "2 tablespoons powdered sugar"]
+    },
+    instructions: ["Preheat oven to 350°F and line an 8-inch cake pan with parchment paper.", "Whisk together flour, baking powder, and salt in a bowl.", "Cream butter and sugar until light and fluffy, then beat in egg.", "Alternate adding flour mixture and milk, beginning and ending with flour, stirring gently.", "Add vanilla extract and pour batter into prepared pan.", "Bake for 20-25 minutes until a toothpick comes out clean.", "Cool cake completely, then split horizontally into two layers.", "Toss strawberries with 3 tablespoons sugar and let sit for 15 minutes to release juices.", "Whip heavy cream with powdered sugar until stiff peaks form.", "Layer cake with whipped cream and strawberries between layers and on top."],
+    tips: []
+  },
+  {
+    id: "thai-green-curry-with-chicken",
+    name: "Thai Green Curry with Chicken",
+    description: "Aromatic green curry with tender chicken and fresh Thai herbs.",
+    category: "International",
+    prepTime: "15 min",
+    cookTime: "40 min",
+    totalTime: "40 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 tablespoons coconut oil", "2 tablespoons green curry paste", "1 can coconut milk", "1 lb chicken breast, cubed", "1 cup Thai eggplant, cubed", "1 cup green beans, cut into 2-inch pieces", "2 tablespoons fish sauce", "1 tablespoon brown sugar", "6 fresh Thai basil leaves", "2 Thai green chilies, sliced", "1 tablespoon lime juice"]
+    },
+    instructions: ["Heat coconut oil in a large pot or wok over medium heat.", "Add green curry paste and stir-fry for 2 minutes until fragrant.", "Pour in coconut milk, stirring to combine with the paste.", "Add cubed chicken and bring to a simmer, cooking for 8-10 minutes until chicken is nearly cooked through.", "Add Thai eggplant and green beans, simmering for 8 minutes until vegetables are tender-crisp.", "Season with fish sauce, brown sugar, and lime juice.", "Add fresh Thai basil and sliced green chilies just before serving.", "Serve over jasmine rice."],
+    tips: []
+  },
+  {
+    id: "spanish-paella-with-seafood",
+    name: "Spanish Paella with Seafood",
+    description: "Saffron-infused rice loaded with shrimp, mussels, and fresh herbs.",
+    category: "International",
+    prepTime: "15 min",
+    cookTime: "55 min",
+    totalTime: "55 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3 tablespoons olive oil", "1 onion, diced", "4 cloves garlic, minced", "2 cups short-grain rice", "5 cups seafood or chicken broth, warmed", "1 teaspoon saffron threads", "1 red bell pepper, sliced", "1 cup green peas", "1 lb large shrimp, peeled", "12 mussels, cleaned", "Salt and pepper to taste", "Fresh parsley and lemon wedges for serving"]
+    },
+    instructions: ["Heat olive oil in a large paella pan or wide skillet over medium heat.", "Sauté onion and garlic until soft, about 5 minutes.", "Add rice and toast for 2 minutes, stirring constantly.", "Steep saffron in a small bowl with 1/4 cup of the warm broth.", "Pour saffron broth and remaining warm broth into the rice, stirring well.", "Add red bell pepper and bring to a simmer, cooking uncovered for about 20 minutes without stirring.", "Add peas and arrange shrimp and mussels on top of the rice.", "Continue cooking for 8-10 minutes until shrimp are pink, mussels open, and rice is tender.", "Discard any unopened mussels, then garnish with fresh parsley and serve with lemon wedges."],
+    tips: []
+  },
+  {
+    id: "indian-butter-chicken",
+    name: "Indian Butter Chicken",
+    description: "Tender chicken in a rich, creamy tomato-based sauce.",
+    category: "International",
+    prepTime: "15 min",
+    cookTime: "55 min",
+    totalTime: "55 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 tablespoons ghee or butter", "1.5 lbs chicken breast, cubed", "1 onion, diced", "4 cloves garlic, minced", "1 tablespoon grated ginger", "2 teaspoons cumin", "1.5 teaspoons coriander", "1 teaspoon paprika", "1/4 teaspoon cayenne pepper", "1 can crushed tomatoes", "1 cup heavy cream", "1 tablespoon tomato paste", "Salt to taste", "Fresh cilantro for serving"]
+    },
+    instructions: ["Heat ghee in a large pot over medium-high heat and cook chicken until browned on all sides, then set aside.", "In the same pot, sauté diced onion until softened, about 5 minutes.", "Add garlic and ginger, cooking for 1 minute until fragrant.", "Stir in cumin, coriander, paprika, and cayenne pepper, toasting the spices for 1 minute.", "Add tomato paste and cook for 1 minute, stirring constantly.", "Pour in crushed tomatoes and bring to a simmer.", "Return chicken to pot and simmer for 20 minutes until cooked through.", "Stir in heavy cream and salt to taste, simmering gently for 5 more minutes without boiling.", "Serve over basmati rice with fresh cilantro."],
+    tips: []
+  },
+  {
+    id: "italian-osso-buco",
+    name: "Italian Osso Buco",
+    description: "Braised veal shanks in a rich tomato and wine sauce.",
+    category: "International",
+    prepTime: "15 min",
+    cookTime: "2 hours 20 min",
+    totalTime: "2 hours 20 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 veal shanks, 2 inches thick", "3 tablespoons olive oil", "1 onion, diced", "2 carrots, diced", "2 celery stalks, diced", "4 cloves garlic, minced", "1 cup dry white wine", "1 can crushed tomatoes", "1 cup beef broth", "2 bay leaves", "1 teaspoon thyme", "Salt and pepper to taste", "Gremolata: zest of 1 lemon, 3 cloves garlic minced, 1/4 cup parsley"]
+    },
+    instructions: ["Preheat oven to 325°F.", "Season veal shanks with salt and pepper, then brown in hot olive oil on all sides, about 10 minutes total.", "Remove shanks and set aside.", "In the same pot, sauté onion, carrots, and celery until softened, about 7 minutes.", "Add garlic and cook for 1 minute.", "Deglaze pot with white wine, scraping up browned bits.", "Add crushed tomatoes, beef broth, bay leaves, and thyme.", "Return veal shanks to pot and bring to a simmer.", "Cover and transfer to oven, braising for 1.5 to 2 hours until meat is very tender and falls off the bone.", "Mix lemon zest, garlic, and parsley to make gremolata and sprinkle over shanks before serving."],
+    tips: []
+  },
+  {
+    id: "mexican-street-corn-salad",
+    name: "Mexican Street Corn Salad",
+    description: "Charred corn with lime, cotija cheese, and chipotle mayo.",
+    category: "International",
+    prepTime: "15 min",
+    cookTime: "30 min",
+    totalTime: "30 min",
+    servings: 6,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 cups corn kernels, fresh or frozen", "2 tablespoons olive oil", "1/2 cup crumbled cotija cheese", "1/4 cup fresh cilantro, chopped", "2 limes, juiced", "1/4 cup mayonnaise", "1 chipotle in adobo, minced", "1 clove garlic, minced", "Salt and pepper to taste", "Paprika for garnish"]
+    },
+    instructions: ["Heat olive oil in a large skillet over high heat.", "Add corn kernels and cook without stirring for 3-4 minutes until charred on the bottom.", "Stir and continue cooking for another 3-4 minutes until corn has color and is tender.", "In a small bowl, mix mayonnaise with minced chipotle and garlic.", "Remove corn from heat and stir in lime juice and chipotle mayo.", "Add cotija cheese and fresh cilantro, tossing gently to combine.", "Season with salt and pepper, and sprinkle with paprika before serving."],
+    tips: []
+  },
+  {
+    id: "sheet-pan-chicken-and-vegetables",
+    name: "Sheet Pan Chicken and Vegetables",
+    description: "One-pan dinner with roasted chicken and seasonal vegetables.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "45 min",
+    totalTime: "45 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 chicken breasts", "2 cups broccoli florets", "2 bell peppers, chopped", "1 red onion, wedged", "3 tablespoons olive oil", "3 cloves garlic, minced", "1 teaspoon Italian seasoning", "1/2 teaspoon paprika", "Salt and pepper to taste", "Lemon slices for serving"]
+    },
+    instructions: ["Preheat oven to 425°F.", "Toss broccoli, bell peppers, and red onion with 2 tablespoons olive oil, salt, and pepper.", "Spread vegetables on a large sheet pan.", "Pat chicken breasts dry and rub with remaining olive oil, minced garlic, Italian seasoning, paprika, salt, and pepper.", "Arrange chicken on the pan with vegetables.", "Roast for 25-30 minutes until chicken reaches 165°F internally and vegetables are tender.", "Serve with lemon slices."],
+    tips: []
+  },
+  {
+    id: "garlic-shrimp-pasta",
+    name: "Garlic Shrimp Pasta",
+    description: "Restaurant-quality shrimp pasta ready in 20 minutes.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "20 min",
+    totalTime: "20 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["12 oz pasta", "1 lb large shrimp, peeled and deveined", "4 tablespoons olive oil", "6 cloves garlic, sliced", "1/4 teaspoon red pepper flakes", "1 cup dry white wine", "2 tablespoons butter", "Juice of 1 lemon", "Fresh parsley, chopped", "Salt and pepper to taste", "Grated Parmesan cheese"]
+    },
+    instructions: ["Cook pasta in salted boiling water according to package directions until al dente.", "While pasta cooks, heat olive oil in a large skillet over medium-high heat.", "Add sliced garlic and red pepper flakes, stirring for about 30 seconds until fragrant but not brown.", "Add shrimp and cook for 2 minutes on each side until they begin to turn pink.", "Pour in white wine and add butter, stirring until melted.", "Remove from heat and stir in lemon juice and fresh parsley.", "Drain pasta and toss with shrimp and sauce.", "Season with salt and pepper and serve with grated Parmesan cheese."],
+    tips: []
+  },
+  {
+    id: "beef-stir-fry-with-broccoli",
+    name: "Beef Stir-Fry with Broccoli",
+    description: "Tender beef and crispy broccoli in a savory soy glaze.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "30 min",
+    totalTime: "30 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb beef sirloin, thinly sliced", "4 cups broccoli florets", "3 tablespoons vegetable oil", "3 cloves garlic, minced", "1 tablespoon grated ginger", "1/4 cup soy sauce", "2 tablespoons oyster sauce", "1 tablespoon rice vinegar", "1 teaspoon sesame oil", "1 teaspoon cornstarch", "2 tablespoons water", "Green onions, sliced"]
+    },
+    instructions: ["Mix cornstarch with 2 tablespoons water in a small bowl and set aside.", "Heat 1 tablespoon vegetable oil in a wok or large skillet over high heat.", "Working in batches, sear beef slices for 2 minutes per side, then set aside.", "Add remaining oil to the pan and stir-fry broccoli for 4-5 minutes until tender-crisp.", "Add garlic and ginger, stirring for 30 seconds until fragrant.", "Return beef to the pan and pour in soy sauce, oyster sauce, and rice vinegar.", "Toss in cornstarch mixture and sesame oil, stirring for 1-2 minutes until sauce thickens.", "Garnish with green onions and serve over steamed rice."],
+    tips: []
+  },
+  {
+    id: "caprese-chicken-skillet",
+    name: "Caprese Chicken Skillet",
+    description: "Mozzarella-topped chicken breast with tomatoes and fresh basil.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "30 min",
+    totalTime: "30 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["4 chicken breasts", "2 tablespoons olive oil", "2 large tomatoes, sliced", "8 oz fresh mozzarella, sliced", "8 fresh basil leaves", "3 cloves garlic, minced", "2 tablespoons balsamic vinegar", "Salt and pepper to taste", "Pinch of red pepper flakes"]
+    },
+    instructions: ["Heat olive oil in a large skillet over medium-high heat.", "Season chicken breasts with salt and pepper, then cook for 6-7 minutes per side until golden and cooked through.", "Top each chicken breast with tomato slices, then fresh mozzarella.", "Reduce heat to low, cover the skillet, and cook for 2-3 minutes until cheese melts.", "Remove from heat and top each chicken breast with fresh basil leaves.", "Drizzle balsamic vinegar over the top and sprinkle with red pepper flakes.", "Serve immediately."],
+    tips: []
+  },
+  {
+    id: "quinoa-burrito-bowls",
+    name: "Quinoa Burrito Bowls",
+    description: "Quick customizable bowls with quinoa, beans, and fresh toppings.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1.5 cups cooked quinoa", "2 tablespoons olive oil", "1 onion, diced", "2 cloves garlic, minced", "1 tablespoon chili powder", "1 teaspoon cumin", "1 can black beans, drained", "1 cup corn kernels", "Salt and pepper to taste", "Toppings: diced avocado, fresh cilantro, lime wedges, diced tomatoes, crumbled feta"]
+    },
+    instructions: ["Heat olive oil in a skillet over medium heat and sauté diced onion until soft.", "Add minced garlic, chili powder, and cumin, cooking for 1 minute until fragrant.", "Stir in black beans and corn, cooking for 5 minutes until heated through.", "Season with salt and pepper.", "Divide cooked quinoa among serving bowls.", "Top with bean and corn mixture.", "Add desired toppings: avocado, cilantro, lime wedges, tomatoes, and feta.", "Squeeze lime juice over everything before serving."],
+    tips: []
+  },
+  {
+    id: "pan-seared-salmon-with-asparagus",
+    name: "Pan-Seared Salmon with Asparagus",
+    description: "Crispy-skinned salmon with fresh roasted asparagus.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 2,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["2 salmon fillets, 6 oz each", "1 bunch fresh asparagus", "3 tablespoons olive oil", "2 cloves garlic, minced", "1 lemon", "Salt and pepper to taste", "Fresh thyme sprigs", "Butter for finishing"]
+    },
+    instructions: ["Preheat oven to 400°F.", "Toss asparagus with 1 tablespoon olive oil, salt, and pepper on a baking sheet.", "Roast for 10-12 minutes until tender and lightly charred.", "While asparagus roasts, heat remaining olive oil in a skillet over medium-high heat.", "Pat salmon dry and season with salt and pepper.", "Place salmon skin-side up in the hot skillet and cook for 5 minutes without moving.", "Flip salmon and cook for another 3-4 minutes until cooked through.", "Add minced garlic and thyme to the pan, then finish with a pat of butter.", "Serve salmon with roasted asparagus and lemon wedges."],
+    tips: []
+  },
+  {
+    id: "thai-noodle-salad",
+    name: "Thai Noodle Salad",
+    description: "Chewy noodles with a spicy peanut dressing and fresh vegetables.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    totalTime: "25 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["8 oz rice noodles", "2 carrots, julienned", "1 cucumber, julienned", "1 red bell pepper, julienned", "2 green onions, sliced", "1/2 cup fresh cilantro, chopped", "1/3 cup natural peanut butter", "3 tablespoons soy sauce", "2 tablespoons lime juice", "1 tablespoon honey", "1 teaspoon grated ginger", "2 cloves garlic, minced", "Red pepper flakes to taste", "Chopped peanuts for garnish"]
+    },
+    instructions: ["Cook rice noodles according to package directions, then drain and rinse under cold water.", "In a small bowl, whisk together peanut butter, soy sauce, lime juice, honey, ginger, and garlic.", "Add red pepper flakes to taste.", "In a large bowl, combine cooked noodles with carrots, cucumber, bell pepper, green onions, and cilantro.", "Pour peanut dressing over noodles and toss until evenly coated.", "Divide among serving bowls and garnish with chopped peanuts.", "Serve at room temperature or chilled."],
+    tips: []
+  },
+  {
+    id: "turkey-meatballs-with-marinara",
+    name: "Turkey Meatballs with Marinara",
+    description: "Lean ground turkey meatballs in a quick homemade sauce.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "35 min",
+    totalTime: "35 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["1 lb ground turkey", "1/2 cup panko breadcrumbs", "1 egg", "3 cloves garlic, minced", "1/4 cup grated Parmesan cheese", "1 teaspoon Italian seasoning", "Salt and pepper to taste", "2 tablespoons olive oil", "2 cups marinara sauce", "Fresh basil for garnish", "Pasta for serving"]
+    },
+    instructions: ["In a bowl, combine ground turkey, panko, egg, minced garlic, Parmesan cheese, Italian seasoning, salt, and pepper.", "Gently mix until just combined, then form into 12 meatballs.", "Heat olive oil in a large skillet over medium-high heat.", "Brown meatballs on all sides, about 8 minutes total.", "Pour marinara sauce over meatballs and reduce heat to medium-low.", "Simmer for 10-12 minutes until meatballs are cooked through.", "Serve over cooked pasta and garnish with fresh basil."],
+    tips: []
+  },
+  {
+    id: "vegetable-fried-rice",
+    name: "Vegetable Fried Rice",
+    description: "Quick weeknight stir-fry with rice and colorful vegetables.",
+    category: "Quick",
+    prepTime: "15 min",
+    cookTime: "22 min",
+    totalTime: "22 min",
+    servings: 4,
+    difficulty: "Medium",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+    ingredients: {
+      "Main": ["3 cups cooked rice, chilled", "2 tablespoons vegetable oil", "2 eggs, beaten", "1 cup frozen peas and carrots", "1 cup broccoli florets, chopped", "3 cloves garlic, minced", "3 tablespoons soy sauce", "1 teaspoon sesame oil", "2 green onions, sliced", "Sesame seeds for garnish"]
+    },
+    instructions: ["Heat 1 tablespoon vegetable oil in a wok or large skillet over high heat.", "Scramble eggs until cooked, then remove and set aside.", "Add remaining oil and stir-fry peas, carrots, broccoli, and garlic for 3-4 minutes.", "Add chilled rice, breaking up any clumps, and stir-fry for 3-4 minutes.", "Return eggs to the pan and pour in soy sauce and sesame oil.", "Toss until everything is evenly combined and heated through.", "Stir in green onions and garnish with sesame seeds before serving."],
+    tips: []
   }
 ];
