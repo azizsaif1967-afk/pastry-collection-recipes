@@ -298,6 +298,32 @@ function shareUrlFor(id) {
   return u.toString();
 }
 
+async function shareSite() {
+  const u = new URL(window.location.href);
+  u.search = '';
+  u.hash = '';
+  const url = u.toString();
+  const shareData = {
+    title: 'The Pastry Collection',
+    text: `Discover ${recipes.length}+ baking recipes at The Pastry Collection.`,
+    url
+  };
+  try {
+    if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
+      await navigator.share(shareData);
+      return;
+    }
+  } catch (err) {
+    if (err && err.name === 'AbortError') return;
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    showToast('Link copied to clipboard');
+  } catch {
+    window.prompt('Copy this link:', url);
+  }
+}
+
 async function shareRecipe(id) {
   const recipe = recipes.find(r => r.id === id);
   if (!recipe) return;
