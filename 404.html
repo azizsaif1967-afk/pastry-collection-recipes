@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pastry Collection</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    // GitHub Pages SPA redirect: a request like /pastry/abc12 lands here because
+    // no file matches that path. We extract the last path segment as a short id
+    // and forward to /index.html?p=<short>, where app.js resolves it to a recipe.
+    (function () {
+      var segments = location.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean);
+      // Strip the repo/base segment (e.g. "pastry-collection-recipes" on GitHub Pages, or "pastry" on azizsaif.com)
+      // Heuristic: if there are 2+ segments, the first is the base; the last is the short id.
+      var base = segments.length > 1 ? '/' + segments.slice(0, -1).join('/') + '/' : '/';
+      var shortId = segments.length ? segments[segments.length - 1] : '';
+      // Avoid loops if the 404 was triggered without a usable short segment.
+      if (shortId && shortId !== 'index.html') {
+        location.replace(base + '?p=' + encodeURIComponent(shortId) + (location.search ? '&' + location.search.slice(1) : '') + location.hash);
+      } else {
+        location.replace(base);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p style="padding:40px;font-family:sans-serif;">Redirecting…</p>
+</body>
+</html>

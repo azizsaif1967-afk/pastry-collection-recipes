@@ -6,8 +6,51 @@ let searchQuery = '';
 // Leave '' to skip remote submission — leads will still be stored in localStorage as 'pastry_leads'.
 const LEAD_ENDPOINT = '';
 
+// Public canonical base URL for share links. Must end with a trailing slash.
+// Hosting must be configured so that /<shortid> under this path serves the site
+// (a 404.html SPA-redirect handles this for GitHub Pages — see /404.html).
+const SHARE_BASE = 'https://azizsaif.com/pastry/';
+
+// short-id <-> recipe-id maps, populated on init from buildShortIdMap()
+const SHORT_TO_ID = {};
+const ID_TO_SHORT = {};
+
+// Stable hash → base36 short id. Default 4 chars (~1.7M combos, plenty for 276 items).
+// Collisions trigger a fallback to 5 chars at init.
+function _hashId(id, len) {
+  let h = 5381;
+  for (let i = 0; i < id.length; i++) {
+    h = ((h << 5) + h) + id.charCodeAt(i);
+    h |= 0;
+  }
+  return Math.abs(h).toString(36).slice(-len).padStart(len, '0');
+}
+
+function buildShortIdMap() {
+  for (const len of [4, 5, 6]) {
+    const map = {};
+    let collision = false;
+    for (const r of recipes) {
+      const s = _hashId(r.id, len);
+      if (map[s]) { collision = true; break; }
+      map[s] = r.id;
+    }
+    if (!collision) {
+      Object.keys(SHORT_TO_ID).forEach(k => delete SHORT_TO_ID[k]);
+      Object.keys(ID_TO_SHORT).forEach(k => delete ID_TO_SHORT[k]);
+      for (const [s, id] of Object.entries(map)) {
+        SHORT_TO_ID[s] = id;
+        ID_TO_SHORT[id] = s;
+      }
+      return len;
+    }
+  }
+  console.warn('shortIdMap: could not find collision-free length up to 6');
+}
+
 // ===== Initialize =====
 document.addEventListener('DOMContentLoaded', () => {
+  buildShortIdMap();
   syncStats();
   renderFeatured();
   renderCategories();
@@ -40,11 +83,17 @@ function openFeatured() {
   if (recipes[0]) openRecipe(recipes[0].id);
 }
 
-// If URL has ?recipe=<id>, open that recipe directly (used by share links).
+// Resolve a share link into a recipe id. Supports:
+//   ?r=<short>   short id (current format)
+//   ?p=<short>   captured by 404.html SPA-redirect for /<short> path
+//   ?recipe=<id> legacy long id
+//   #<short>     hash fragment short id
 function handleDeepLink() {
-  const id = new URLSearchParams(window.location.search).get('recipe');
+  const params = new URLSearchParams(window.location.search);
+  const short = params.get('r') || params.get('p') || (window.location.hash || '').replace(/^#/, '');
+  let id = SHORT_TO_ID[short];
+  if (!id) id = params.get('recipe');
   if (id && recipes.some(r => r.id === id)) {
-    // Defer slightly so renderRecipes finishes first.
     setTimeout(() => openRecipe(id), 50);
   }
 }
@@ -291,18 +340,14 @@ window.addEventListener('scroll', () => {
 
 // ===== Share =====
 function shareUrlFor(id) {
-  const u = new URL(window.location.href);
-  u.search = '';
-  u.hash = '';
-  u.searchParams.set('recipe', id);
-  return u.toString();
+  const short = ID_TO_SHORT[id];
+  if (short) return SHARE_BASE + short;
+  // Fallback: long form on canonical base. Should not happen if buildShortIdMap succeeded.
+  return SHARE_BASE + '?recipe=' + encodeURIComponent(id);
 }
 
 async function shareSite() {
-  const u = new URL(window.location.href);
-  u.search = '';
-  u.hash = '';
-  const url = u.toString();
+  const url = SHARE_BASE;
   const shareData = {
     title: 'The Pastry Collection',
     text: `Discover ${recipes.length}+ baking recipes at The Pastry Collection.`,
