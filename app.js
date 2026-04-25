@@ -6,10 +6,11 @@ let searchQuery = '';
 // Leave '' to skip remote submission — leads will still be stored in localStorage as 'pastry_leads'.
 const LEAD_ENDPOINT = '';
 
-// Public canonical base URL for share links. Must end with a trailing slash.
-// Hosting must be configured so that /<shortid> under this path serves the site
-// (a 404.html SPA-redirect handles this for GitHub Pages — see /404.html).
-const SHARE_BASE = 'https://azizsaif.com/pastry/';
+// Public base URL for share links. Must end with a trailing slash.
+// Set this to whatever public URL serves the site. The 404.html SPA-redirect
+// resolves /<shortid> under this path back to the right recipe.
+// When/if azizsaif.com/pastry/ is wired up, change this to that URL.
+const SHARE_BASE = 'https://azizsaif1967-afk.github.io/pastry-collection-recipes/';
 
 // short-id <-> recipe-id maps, populated on init from buildShortIdMap()
 const SHORT_TO_ID = {};
